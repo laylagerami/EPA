@@ -9,15 +9,15 @@ interactions_signed = subset(interactions,consensus_stimulation==1 | consensus_i
 op_g <- interaction_graph(interactions = interactions_signed) #4919 nodes, 20,292 edges
 
 # constrain network
-hepg2_prots = read.csv("E-PROT-20-query-results.tsv",sep="\t")
+hepg2_prots = read.csv("../Proteomics_Data/E-PROT-20-query-results.tsv",sep="\t")
 hepg2_prot_symbols = as.character(hepg2_prots$Gene.Name)
 
 interactions_signed_hepg2 = subset(interactions_signed,source_genesymbol %in% hepg2_prot_symbols | target_genesymbol %in% hepg2_prot_symbols)
 op_g_hepg2 <- interaction_graph(interactions = interactions_signed_hepg2) #4087 nodes, 14,259 edges
 
 # save graphs
-write.csv(interactions_signed,"omnipath_full.csv",row.names = F,quote = F)
-write.csv(interactions_signed_hepg2,"omnipath_hepg2.csv",row.names = F, quote=F)
+write.csv(interactions_signed,"../Network_Data/omnipath_full.csv",row.names = F,quote = F)
+write.csv(interactions_signed_hepg2,"../Network_Data/omnipath_hepg2.csv",row.names = F, quote=F)
 
 # now convert to proper direction etc
 all_rows = list()
@@ -44,7 +44,7 @@ rownames(all_omnipath_formatted) = NULL
 all_omnipath_formatted = data.frame(all_omnipath_formatted)
 colnames(all_omnipath_formatted) = c("source","interaction","target")
 
-write.csv(all_omnipath_formatted,"omnipath_full_formatted.csv",row.names = F,quote = F)
+write.csv(all_omnipath_formatted,"../Network_Data/omnipath_full_formatted.csv",row.names = F,quote = F)
 
 # do the same for constrained network
 # now convert to proper direction etc
@@ -72,4 +72,4 @@ rownames(all_omnipath_formatted) = NULL
 all_omnipath_formatted = data.frame(all_omnipath_formatted)
 colnames(all_omnipath_formatted) = c("source","interaction","target")
 
-write.csv(all_omnipath_formatted,"omnipath_full_formatted_hepg2.csv",row.names = F,quote = F)
+write.csv(all_omnipath_formatted,"../Network_Data/omnipath_full_formatted_hepg2.csv",row.names = F,quote = F)
