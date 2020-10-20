@@ -1,0 +1,3 @@
+Name	MOA	Target	Phase
+spiperone	dopamine receptor antagonist	ADRA1A, ADRA1B, ADRA1D, DRD1, DRD2, DRD3, DRD4, DRD5, HTR1A, HTR1D, HTR2A, HTR2B, HTR2C, HTR6, HTR7	Launched
+3'-fluorobenzylspiperone	dopamine receptor ligand	DRD2	Preclinical

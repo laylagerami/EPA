@@ -1,0 +1,14 @@
+
+Log started (V12.10.0.0) Tue Oct 20 09:55:38 2020
+
+CPLEX Error  1608: Line 87: Expected '+','-' or sense, found ':'.
+No file read.
+New value for mixed integer optimality gap tolerance: 0.05
+New value for relative objective gap: 0.0001
+New value for solution pool replacement strategy: 2
+New value for solutions limit for each populate call: 500
+New value for capacity of solution pool: 100
+New value for intensity for populating the MIP solution pool: 4
+New value for time limit in seconds: 600
+No problem exists.
+No problem exists.
