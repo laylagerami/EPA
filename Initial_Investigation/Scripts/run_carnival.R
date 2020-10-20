@@ -67,19 +67,27 @@ nethepg2 = "../Network_Data/omnipath_hepg2_carnival.sif"
 # get Targets
 targets = as.character(read.csv("../Metadata/spiperone_targets_RH.txt",sep="\t")$Target)
 targets = unlist(strsplit(targets,", "))
+targets = t(data.frame(targets))
+targets = data.frame(rbind(targets,rep(1,ncol(targets))))
+colnames(targets) = as.character(unlist(targets[1,]))
+targets = targets[-c(1),]
+rownames(targets) = NULL
 
 # List Dirs
 dirs = list.dirs("../Transcriptomics_Data/tf_progeny",full.names = T,recursive = T)
 dirs = dirs[2:8] # get rid of first dir (root dir)
 dirs = dirs[[1]]
-dir.create("../Results/Test")
+
 # Iterate over Dirs
 for(dir in dirs){
   # get both files
   files = list.files(dir,full.names = T)
-  
+
   # get cond
   cond = strsplit(strsplit(files[1],"/")[[1]][4],"_measurements")[[1]][1]
+  root_dir = paste0("../Results/CARNIVAL/",cond)
+  dir.create("../Results/CARNIVAL")
+  dir.create(root_dir)
   
   # extract tf and progeny file
   load(file=system.file("progenyMembers.RData",package="CARNIVAL"))
@@ -94,18 +102,50 @@ for(dir in dirs){
   # run CARNIVAL (Inv and normal with both networks)
   
   #INV, FULL
-  r1 = runCARNIVAL(inputObj=NULL, # no targets
+  dir_name = paste0(root_dir,"/inv_full")
+  dir.create(dir_name)
+ # r1 = runCARNIVAL(inputObj=NULL, # no targets
+#                   weightObj = progenylist$`1`,
+#                   measObj = measObj, 
+#                   netObj = netfilefull,
+#                   solverPath = "../../../ibm/ILOG/CPLEX_Studio1210/cplex/bin/x86-64_linux/cplex",
+#                   threads = 10,
+#                   solver="cplex", # need this for it to work
+#                   dir_name=dir_name)
+  
+  #INV, CONS
+  dir_name = paste0(root_dir,"/inv_cons")
+  dir.create(dir_name)
+ # r2 = runCARNIVAL(inputObj=NULL, # no targets
+  #                 weightObj = progenylist$`1`,
+   #                measObj = measObj, 
+    #               netObj = netfilehepg2,
+       #            threads = 10,
+     ##              solverPath = "../../../ibm/ILOG/CPLEX_Studio1210/cplex/bin/x86-64_linux/cplex",
+    #               solver="cplex", # need this for it to work
+    #               dir_name=dir_name)
+  
+  #NORMAL,FULL
+  dir_name = paste0(root_dir,"/std_full")
+  dir.create(dir_name)
+  r3 = runCARNIVAL(inputObj=targets, 
                    weightObj = progenylist$`1`,
                    measObj = measObj, 
                    netObj = netfilefull,
                    solverPath = "../../../ibm/ILOG/CPLEX_Studio1210/cplex/bin/x86-64_linux/cplex",
                    threads = 10,
                    solver="cplex", # need this for it to work
-                   dir_name="../Results/Test")
-  
-  #INV, CONS
-  
-  #NORMAL,FULL
+                   dir_name=dir_name)
   
   #NORMAL,CONS
+  dir_name = paste0(root_dir,"/std_cons")
+  dir.create(dir_name)
+#  r4 = runCARNIVAL(inputObj=targets, 
+  #                 weightObj = progenylist$`1`,
+   #                measObj = measObj, 
+   #                netObj = netfilehepg2,
+   #                solverPath = "../../../ibm/ILOG/CPLEX_Studio1210/cplex/bin/x86-64_linux/cplex",
+      #             threads = 10,
+      #             solver="cplex", # need this for it to work
+      #             dir_name=dir_name)
 }
