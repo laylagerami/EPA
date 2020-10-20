@@ -36,12 +36,9 @@ for(dir in dirs){
   cond = strsplit(strsplit(files[1],"/")[[1]][4],"_measurements")[[1]][1]
   
   # extract tf and progeny file
-  measObj = read.table(files[grepl("meas_",files)],header = T)
-  weightObj = read.table(files[grepl("scores_",files)],header=T)
-  
-  if (nrow(weightObj) != nrow(measObj)) {
-    print('hello')
-  }
+  measObj = read.table(files[grepl("meas_",files)])
+  weightObj = read.table(files[grepl("scores_",files)])
+
   # run CARNIVAL (Inv and normal with both networks)
   
   #INV, FULL
