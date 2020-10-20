@@ -100,6 +100,7 @@ for(dir in dirs){
                    netObj = netfilefull,
                    solverPath = "../../../ibm/ILOG/CPLEX_Studio1210/cplex/bin/x86-64_linux/cplex",
                    threads = 10,
+                   solver="cplex", # need this for it to work
                    dir_name="../Results/Test")
   
   #INV, CONS
