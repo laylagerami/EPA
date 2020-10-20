@@ -98,6 +98,8 @@ for(dir in dirs){
                    weightObj = progenylist$`1`,
                    measObj = measObj, 
                    netObj = netfilefull,
+                   solverPath = "../../../ibm/ILOG/CPLEX_Studio1210/cplex/bin/x86-64_linux/cplex",
+                   threads = 10,
                    dir_name="../Results/Test")
   
   #INV, CONS
