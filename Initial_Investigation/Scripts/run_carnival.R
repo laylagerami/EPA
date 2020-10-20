@@ -39,6 +39,9 @@ for(dir in dirs){
   measObj = read.table(files[grepl("meas_",files)],header = T)
   weightObj = read.table(files[grepl("scores_",files)],header=T)
   
+  if (nrow(weightObj) != nrow(measObj)) {
+    print('hello')
+  }
   # run CARNIVAL (Inv and normal with both networks)
   
   #INV, FULL
