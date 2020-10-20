@@ -4,8 +4,14 @@ library(CARNIVAL)
 # Get Network
 netfilehepg2 = read.csv("../Network_Data/omnipath_full_formatted_hepg2.csv")
 netfilefull = read.csv("../Network_Data/omnipath_full_formatted.csv")
+
 colnames(netfilefull) = c('source','Interaction','target')
 colnames(netfilehepg2) = c('source','Interaction','target')
+
+
+netfilehepg2$Interaction = ifelse(netfilehepg2$Interaction=="inhibits",-1,1)
+netfilefull$Interaction = ifelse(netfilefull$Interaction=="inhibits",-1,1)
+
 write.table(netfilefull,"../Network_Data/omnipath_full_carnival.sif",sep="\t",quote = F,row.names = F)
 write.table(netfilehepg2,"../Network_Data/omnipath_hepg2_carnival.sif",sep="\t",quote = F,row.names = F)
 
