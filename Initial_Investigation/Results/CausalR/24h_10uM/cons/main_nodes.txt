@@ -1,0 +1,10 @@
+t.data.frame.all_main_nodes..	main
+NA	1
+ABL1	1
+CBLB	1
+FOXO1	1
+KAT5	1
+NCOR2	1
+PTPN11	1
+PTPN2	1
+TRIM28	1

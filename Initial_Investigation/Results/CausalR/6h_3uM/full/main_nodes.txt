@@ -1,0 +1,8 @@
+t.data.frame.all_main_nodes..	main
+NA	1
+CTNNB1	1
+DAB2	1
+HDAC2	1
+PIN1	1
+STK11	1
+WNT1	1

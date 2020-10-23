@@ -1,0 +1,7 @@
+t.data.frame.all_main_nodes..	main
+NA	1
+CAMK2A	1
+CASP10	1
+MAPK11	1
+RACK1	1
+SMAD7	1

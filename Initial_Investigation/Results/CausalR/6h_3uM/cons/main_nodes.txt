@@ -1,0 +1,4 @@
+t.data.frame.all_main_nodes..	main
+NA	1
+MAPK10	1
+PPP2CA	1

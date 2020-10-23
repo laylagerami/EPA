@@ -1,0 +1,4 @@
+t.data.frame.all_main_nodes..	main
+NA	1
+MAPK1	1
+MAPK3	1

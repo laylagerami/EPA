@@ -1,0 +1,14 @@
+t.data.frame.all_main_nodes..	main
+NA	1
+AR	1
+CSNK1D	1
+FOXO1	1
+PDGFB	1
+PDGFRA	1
+PDGFRB	1
+PIAS2	1
+PRDX1	1
+PTPN2	1
+RAC1	1
+UBE2I	1
+VAV3	1

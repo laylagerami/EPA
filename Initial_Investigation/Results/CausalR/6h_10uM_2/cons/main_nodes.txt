@@ -1,0 +1,6 @@
+t.data.frame.all_main_nodes..	main
+NA	1
+AGTR1	1
+KAT5	1
+PTGER3	1
+WNT1	1

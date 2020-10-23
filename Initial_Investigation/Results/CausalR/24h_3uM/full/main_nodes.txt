@@ -1,0 +1,4 @@
+t.data.frame.all_main_nodes..	main
+NA	1
+ELAVL1	1
+HSPB1	1
