@@ -1,0 +1,10 @@
+AGTR1	Activates	GNAI1
+AGTR1	Activates	GNG12
+AKT2	Inhibits	FOXO1
+AKT2	Inhibits	FOXO4
+AKT2	Inhibits	GATA2
+GNAI1	Activates	SRC
+GNG12	Activates	AKT2
+GNG12	Inhibits	PRKACA
+PRKACA	Activates	ETV1
+SRC	Activates	STAT1

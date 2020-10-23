@@ -1,0 +1,8 @@
+EGFR	Activates	ESR1
+MAPK11	Activates	RPS6KA5
+MAPK11	Activates	SMAD2
+MAPK11	Activates	TP53
+MAPK11	Inhibits	EGFR
+RPS6KA5	Inhibits	MITF
+SMAD2	Activates	LEF1
+TP53	Inhibits	ETS1

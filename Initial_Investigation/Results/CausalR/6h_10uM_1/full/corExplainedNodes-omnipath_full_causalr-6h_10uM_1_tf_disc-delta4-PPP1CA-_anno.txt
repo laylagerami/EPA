@@ -1,0 +1,11 @@
+NodeID	Regulation
+AHR	1
+MAZ	1
+SREBF2	1
+TBP	1
+CEBPA	-1
+FLI1	-1
+FOXO3	-1
+MITF	-1
+TEAD1	-1
+WT1	-1

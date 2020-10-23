@@ -1,0 +1,5 @@
+NodeID	Regulation
+LEF1	1
+ESR1	-1
+ETS1	-1
+MITF	-1

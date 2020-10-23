@@ -1,0 +1,7 @@
+NodeID	Regulation
+FOXO1	1
+FOXO4	1
+JUN	-1
+MITF	-1
+MYOD1	-1
+PAX8	-1

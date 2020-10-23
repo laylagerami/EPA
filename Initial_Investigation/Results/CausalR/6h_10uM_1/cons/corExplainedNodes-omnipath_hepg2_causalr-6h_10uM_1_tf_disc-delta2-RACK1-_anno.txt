@@ -1,0 +1,3 @@
+NodeID	Regulation
+FOXO3	-1
+SPI1	-1

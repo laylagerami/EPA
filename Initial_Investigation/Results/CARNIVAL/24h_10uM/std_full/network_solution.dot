@@ -1,0 +1,225 @@
+digraph {
+
+MAPK14->MAPKAPK2 [penwidth=1, color=black, arrowhead="vee"]
+DAPK1->TP53 [penwidth=1, color=black, arrowhead="vee"]
+SMAD3->DAPK1 [penwidth=1, color=black, arrowhead="vee"]
+HIF1A->TP53 [penwidth=1, color=black, arrowhead="vee"]
+MYB->GATA3 [penwidth=1, color=black, arrowhead="vee"]
+EP300->MYB [penwidth=1, color=black, arrowhead="vee"]
+EP300->TP53 [penwidth=1, color=black, arrowhead="vee"]
+AR->FOXO3 [penwidth=1, color=black, arrowhead="tee"]
+MAPKAPK2->CREB1 [penwidth=1, color=black, arrowhead="vee"]
+STAT1->HIF1A [penwidth=1, color=black, arrowhead="tee"]
+EP300->HIF1A [penwidth=1, color=black, arrowhead="vee"]
+MDM4->TP53 [penwidth=1, color=black, arrowhead="tee"]
+CDK1->CSNK2A1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK1->CDK1 [penwidth=1, color=NA, arrowhead="tee"]
+E2F1->MYBL2 [penwidth=1, color=black, arrowhead="tee"]
+EGR1->TP53 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->MEF2C [penwidth=1, color=black, arrowhead="vee"]
+SMAD3->MEF2C [penwidth=1, color=black, arrowhead="vee"]
+CREB1->SMAD3 [penwidth=1, color=black, arrowhead="vee"]
+GSK3B->SMAD3 [penwidth=1, color=black, arrowhead="vee"]
+SMAD3->GATA3 [penwidth=1, color=black, arrowhead="vee"]
+STK11->GSK3B [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->SMAD3 [penwidth=1, color=black, arrowhead="vee"]
+HTR2A->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+ADRA1A->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+CREB1->TAF1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->CSNK2A1 [penwidth=1, color=black, arrowhead="vee"]
+EP300->RELA [penwidth=1, color=black, arrowhead="vee"]
+PPP2CA->ELF1 [penwidth=1, color=black, arrowhead="tee"]
+PPP2CA->RELA [penwidth=1, color=black, arrowhead="tee"]
+HTR1A->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+MAPK1->FOXO3 [penwidth=1, color=NA, arrowhead="tee"]
+CSNK2A1->TFAP2A [penwidth=1, color=black, arrowhead="vee"]
+MAPK1->MYB [penwidth=1, color=NA, arrowhead="tee"]
+RELA->EGR1 [penwidth=1, color=black, arrowhead="vee"]
+IKBKE->FOXO3 [penwidth=1, color=black, arrowhead="tee"]
+GSK3B->RELA [penwidth=1, color=black, arrowhead="vee"]
+MAPK1->STK11 [penwidth=1, color=NA, arrowhead="tee"]
+STK11->TP53 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->TP53 [penwidth=1, color=black, arrowhead="vee"]
+STAT1->RELA [penwidth=1, color=black, arrowhead="tee"]
+CDK1->TP53 [penwidth=1, color=black, arrowhead="vee"]
+EP300->FLI1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->GATA2 [penwidth=1, color=black, arrowhead="vee"]
+NFIB->NFIC [penwidth=1, color=black, arrowhead="tee"]
+GSK3B->MAF [penwidth=1, color=black, arrowhead="vee"]
+CDK2->SMAD3 [penwidth=1, color=black, arrowhead="tee"]
+CSNK2A1->RELA [penwidth=1, color=black, arrowhead="vee"]
+CDK2->FOXO3 [penwidth=1, color=black, arrowhead="tee"]
+MAPK1->CEBPA [penwidth=1, color=NA, arrowhead="tee"]
+EP300->SMAD3 [penwidth=1, color=black, arrowhead="vee"]
+ADRA1B->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+ADRA1D->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+CSNK2A1->TP53 [penwidth=1, color=black, arrowhead="vee"]
+DRD1->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+DRD5->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+EP300->MEF2C [penwidth=1, color=black, arrowhead="vee"]
+GNAQ->RHOA [penwidth=1, color=black, arrowhead="vee"]
+HTR2C->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+HTR6->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+HTR7->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+GSK3B->TP53 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->FOXO3 [penwidth=1, color=black, arrowhead="vee"]
+HTR2B->GNAQ [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->HNF4A [penwidth=1, color=black, arrowhead="vee"]
+MAPKAPK2->HSF1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->RELA [penwidth=1, color=black, arrowhead="vee"]
+GNAQ->MAPK14 [penwidth=1, color=black, arrowhead="vee"]
+STK11->ETV4 [penwidth=1, color=black, arrowhead="vee"]
+EP300->GATA3 [penwidth=1, color=black, arrowhead="vee"]
+CREB1->TP53 [penwidth=1, color=black, arrowhead="vee"]
+SMAD3->TFDP1 [penwidth=1, color=black, arrowhead="vee"]
+TP53->BHLHE40 [penwidth=1, color=black, arrowhead="vee"]
+MDM4->EP300 [penwidth=1, color=black, arrowhead="tee"]
+DAPK1->STX1A [penwidth=1, color=red, arrowhead="tee"]
+GSK3B->CTNNB1 [penwidth=1, color=red, arrowhead="tee"]
+MAPK1->CEBPB [penwidth=1, color=NA, arrowhead="vee"]
+SUMO1->CTCF [penwidth=1, color=red, arrowhead="vee"]
+MAPK14->MAPK1 [penwidth=1, color=red, arrowhead="tee"]
+CTNNB1->TCF7 [penwidth=1, color=red, arrowhead="vee"]
+JAK2->STAT1 [penwidth=1, color=red, arrowhead="vee"]
+PTPN1->JAK2 [penwidth=1, color=red, arrowhead="vee"]
+AR->ESR1 [penwidth=1, color=red, arrowhead="vee"]
+AR->CTNNB1 [penwidth=1, color=red, arrowhead="vee"]
+DDX58->IKBKE [penwidth=1, color=red, arrowhead="vee"]
+PPP2CA->CTNNB1 [penwidth=1, color=red, arrowhead="vee"]
+CDK2->ESR1 [penwidth=1, color=red, arrowhead="vee"]
+MAPK1->ESR1 [penwidth=1, color=NA, arrowhead="vee"]
+CDK2->CEBPB [penwidth=1, color=red, arrowhead="vee"]
+CDK2->FOXK2 [penwidth=1, color=red, arrowhead="vee"]
+SMAD3->FOXA1 [penwidth=1, color=red, arrowhead="tee"]
+STAT1->IRF2 [penwidth=1, color=red, arrowhead="vee"]
+CSNK2A1->MAX [penwidth=1, color=red, arrowhead="tee"]
+CDK5->AR [penwidth=1, color=red, arrowhead="vee"]
+CDK1->MDM4 [penwidth=1, color=red, arrowhead="tee"]
+CDK5->CLOCK [penwidth=1, color=red, arrowhead="vee"]
+CSNK2A1->DDX58 [penwidth=1, color=red, arrowhead="tee"]
+MAPK1->CDK2 [penwidth=1, color=NA, arrowhead="vee"]
+MAPK1->E2F1 [penwidth=1, color=NA, arrowhead="vee"]
+FOXA1->NFIB [penwidth=1, color=red, arrowhead="vee"]
+IKBKE->ESR1 [penwidth=1, color=red, arrowhead="vee"]
+IKBKE->REL [penwidth=1, color=red, arrowhead="vee"]
+IKBKE->STAT1 [penwidth=1, color=red, arrowhead="vee"]
+MAX->MXI1 [penwidth=1, color=red, arrowhead="vee"]
+CDK1->CUX1 [penwidth=1, color=red, arrowhead="tee"]
+RHOA->PTPN1 [penwidth=1, color=red, arrowhead="tee"]
+PTPN1->CTNNB1 [penwidth=1, color=red, arrowhead="vee"]
+MAPK1->STAT1 [penwidth=1, color=NA, arrowhead="vee"]
+RELA->AR [penwidth=1, color=red, arrowhead="tee"]
+HSF1->SUMO1 [penwidth=1, color=red, arrowhead="tee"]
+JAK2->PPP2CA [penwidth=1, color=red, arrowhead="vee"]
+GSK3B->AR [penwidth=1, color=red, arrowhead="tee"]
+EGR1->AR [penwidth=1, color=red, arrowhead="tee"]
+STX1A->CDK5 [penwidth=1, color=red, arrowhead="vee"]
+MAPK1->DAPK1 [penwidth=1, color=NA, arrowhead="vee"]
+MAPK1->HIF1A [penwidth=1, color=NA, arrowhead="vee"]
+MAPK1->SMAD3 [penwidth=1, color=NA, arrowhead="vee"]
+PPP2CA->MAPK1 [penwidth=1, color=black, arrowhead="tee"]
+MAPK3->MYB [penwidth=1, color=black, arrowhead="tee"]
+MAPK3->STK11 [penwidth=1, color=black, arrowhead="tee"]
+MAPK1->EP300 [penwidth=1, color=NA, arrowhead="vee"]
+MAPK1->GSK3B [penwidth=1, color=NA, arrowhead="vee"]
+MAPK1->CSNK2A1 [penwidth=1, color=NA, arrowhead="vee"]
+MAPK3->FOXO3 [penwidth=1, color=black, arrowhead="tee"]
+MAPK3->GSK3B [penwidth=1, color=black, arrowhead="tee"]
+MAPK3->HSF1 [penwidth=1, color=black, arrowhead="tee"]
+MAPK3->CEBPA [penwidth=1, color=black, arrowhead="tee"]
+MAPK1->RELA [penwidth=1, color=NA, arrowhead="vee"]
+MAPK1->TP53 [penwidth=1, color=NA, arrowhead="vee"]
+MAPK1->CREB1 [penwidth=1, color=NA, arrowhead="vee"]
+RHOA->MAPK1 [penwidth=1, color=black, arrowhead="vee"]
+PIN1->CDK1 [penwidth=1, color=black, arrowhead="tee"]
+MAPK1->GATA2 [penwidth=1, color=NA, arrowhead="vee"]
+MAPK3->CEBPB [penwidth=1, color=red, arrowhead="vee"]
+MAPK14->MAPK3 [penwidth=1, color=red, arrowhead="tee"]
+DAPK1->PIN1 [penwidth=1, color=red, arrowhead="tee"]
+MAPK3->ESR1 [penwidth=1, color=red, arrowhead="vee"]
+MAPK3->CDK2 [penwidth=1, color=red, arrowhead="vee"]
+MAPK3->E2F1 [penwidth=1, color=red, arrowhead="vee"]
+MAPK1->AR [penwidth=1, color=NA, arrowhead="tee"]
+PIN1->CTNNB1 [penwidth=1, color=red, arrowhead="vee"]
+ADRA1A [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+ADRA1B [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+ADRA1D [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+DRD1 [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+DRD2 [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+DRD3 [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+DRD4 [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+DRD5 [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+HTR1A [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+HTR1D [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+HTR2A [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+HTR2B [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+HTR2C [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+HTR6 [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+HTR7 [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+DRD2 [style=filled, color=black, fillcolor=lavender, shape=invhouse];
+MXI1 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+MYBL2 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+CTCF [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+MYB [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+CLOCK [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+FOXK2 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+FLI1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+GATA3 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+ELF1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+ESR1 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+HIF1A [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+GATA2 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+CEBPB [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+AR [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+CUX1 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+REL [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+E2F1 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+HNF4A [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+ETV4 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+IRF2 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+MAF [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+NFIC [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+EGR1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+TCF7 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+TAF1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+FOXO3 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+RELA [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+CEBPA [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+TFAP2A [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+BHLHE40 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+MEF2C [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+TFDP1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+MAPK14 [style=filled, fillcolor=lavender];
+DAPK1 [style=filled, fillcolor=lavender];
+SMAD3 [style=filled, fillcolor=lavender];
+EP300 [style=filled, fillcolor=lavender];
+MAPKAPK2 [style=filled, fillcolor=lavender];
+STAT1 [style=filled, fillcolor=mistyrose];
+MDM4 [style=filled, fillcolor=mistyrose];
+CDK1 [style=filled, fillcolor=lavender];
+CREB1 [style=filled, fillcolor=lavender];
+GSK3B [style=filled, fillcolor=lavender];
+STK11 [style=filled, fillcolor=lavender];
+PPP2CA [style=filled, fillcolor=mistyrose];
+CSNK2A1 [style=filled, fillcolor=lavender];
+IKBKE [style=filled, fillcolor=mistyrose];
+NFIB [style=filled, fillcolor=mistyrose];
+CDK2 [style=filled, fillcolor=mistyrose];
+GNAQ [style=filled, fillcolor=lavender];
+TP53 [style=filled, fillcolor=lavender];
+SUMO1 [style=filled, fillcolor=mistyrose];
+CTNNB1 [style=filled, fillcolor=mistyrose];
+JAK2 [style=filled, fillcolor=mistyrose];
+PTPN1 [style=filled, fillcolor=mistyrose];
+DDX58 [style=filled, fillcolor=mistyrose];
+CDK5 [style=filled, fillcolor=mistyrose];
+FOXA1 [style=filled, fillcolor=mistyrose];
+MAX [style=filled, fillcolor=mistyrose];
+RHOA [style=filled, fillcolor=lavender];
+HSF1 [style=filled, fillcolor=lavender];
+STX1A [style=filled, fillcolor=mistyrose];
+MAPK3 [style=filled, fillcolor=mistyrose];
+PIN1 [style=filled, fillcolor=mistyrose];
+
+
+}

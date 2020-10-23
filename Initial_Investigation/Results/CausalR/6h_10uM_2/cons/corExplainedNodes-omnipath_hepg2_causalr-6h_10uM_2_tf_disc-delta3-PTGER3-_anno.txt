@@ -1,0 +1,6 @@
+NodeID	Regulation
+ETV1	1
+FOXO1	1
+FOXO4	1
+GATA2	1
+STAT1	-1

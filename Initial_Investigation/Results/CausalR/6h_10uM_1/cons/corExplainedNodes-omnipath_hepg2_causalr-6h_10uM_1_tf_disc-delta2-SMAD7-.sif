@@ -1,0 +1,6 @@
+SMAD2	Activates	CREB1
+SMAD2	Activates	MEF2A
+SMAD3	Activates	ESR1
+SMAD3	Inhibits	FOXA1
+SMAD7	Activates	SMAD2
+SMAD7	Activates	SMAD3

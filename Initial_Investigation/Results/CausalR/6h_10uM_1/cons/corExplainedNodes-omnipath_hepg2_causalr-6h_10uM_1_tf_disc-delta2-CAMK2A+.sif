@@ -1,0 +1,8 @@
+CAMK2A	Inhibits	CREB1
+CAMK2A	Inhibits	EGFR
+CAMK2A	Inhibits	ETS1
+CAMK2A	Inhibits	PPP2R5C
+CAMK2A	Inhibits	SMAD2
+EGFR	Activates	ESR1
+PPP2R5C	Activates	ATF1
+SMAD2	Activates	MEF2A

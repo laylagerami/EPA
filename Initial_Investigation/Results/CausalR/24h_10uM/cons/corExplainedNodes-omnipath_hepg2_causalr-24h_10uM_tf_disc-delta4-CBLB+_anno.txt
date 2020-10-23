@@ -1,0 +1,12 @@
+NodeID	Regulation
+FLI1	1
+HNF4A	1
+MYBL2	1
+AR	-1
+CEBPB	-1
+CLOCK	-1
+E2F1	-1
+ESR1	-1
+IRF2	-1
+MXI1	-1
+TCF7	-1

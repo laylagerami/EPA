@@ -1,0 +1,4 @@
+PPP2CA	Activates	FOXO3
+RACK1	Activates	PPP2CA
+RACK1	Activates	STAT3
+STAT3	Activates	SPI1
