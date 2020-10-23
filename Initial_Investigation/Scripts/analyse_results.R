@@ -116,3 +116,33 @@ all_full_nodes = per_cond_nodes[grepl("full",names(per_cond_nodes))]
 all_cons_nodes = per_cond_nodes[grepl("cons",names(per_cond_nodes))]
 
 # get network nodes for full and constrained for enrichment background
+full_net = read.table("../Network_Data/omnipath_full_causalr.sif",sep="\t")
+cons_net = read.table("../Network_Data/omnipath_hepg2_causalr.sif",sep="\t")
+
+full_net_nodes =  unique(c(as.character(full_net$V1),as.character(full_net$V3)))
+cons_net_nodes =  unique(c(as.character(cons_net$V1),as.character(cons_net$V3)))
+
+# perform the clusterprofiler enrichment
+library(clusterProfiler)
+
+# first we need to change all gene symbols to entrez IDs
+library(org.Hs.eg.db)
+convert = function(symbols){
+  entrez = AnnotationDbi::select(org.Hs.eg.db,
+                                 keys = symbols,
+                                 columns= c("SYMBOL","ENTREZID"),
+                                 keytype="SYMBOL")
+  ids = unique(as.character(entrez$ENTREZID))
+  ids = ids[!is.na(ids)]
+  return(ids)
+}
+
+# convert networks
+full_net_nodes_entrez = convert(full_net_nodes)
+cons_net_nodes_entrez = convert(cons_net_nodes)
+
+# convert output nodes
+all_full_nodes_entrez = lapply(all_full_nodes, convert)
+all_cons_nodes_entrez = lapply(all_cons_nodes, convert)
+
+# do the enrichment
