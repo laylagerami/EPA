@@ -145,11 +145,18 @@ cons_net_nodes_entrez = convert(cons_net_nodes)
 all_full_nodes_entrez = lapply(all_full_nodes, convert)
 all_cons_nodes_entrez = lapply(all_cons_nodes, convert)
 
-# do the enrichment 
+# do the enrichment together, and then separately
 test <- compareCluster(geneCluster = all_full_nodes_entrez, fun = "enrichPathway",universe=full_net_nodes_entrez)
-
 library(enrichplot)
 dotplot(test)
 
 test2 <- compareCluster(geneCluster = all_cons_nodes_entrez, fun = "enrichPathway",universe=cons_net_nodes_entrez)
-dotplot(test2)
+
+# save
+p = dotplot(test2)
+p + theme(axis.text.x = element_text(angle = 45, hjust=1)) + ggtitle("HEPG2 Constrained Network")
+ggsave("../Results/CausalR/dotplot_constrained.png",width=11,height=7)
+
+p = dotplot(test)
+p + theme(axis.text.x = element_text(angle = 45, hjust=1)) + ggtitle("Full Network")
+ggsave("../Results/CausalR/dotplot_full.png",width=11,height=7)
