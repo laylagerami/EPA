@@ -157,6 +157,119 @@ p = dotplot(test2)
 p + theme(axis.text.x = element_text(angle = 45, hjust=1)) + ggtitle("HEPG2 Constrained Network")
 ggsave("../Results/CausalR/dotplot_constrained.png",width=11,height=7)
 
+e = emapplot(test2)
+ggsave("../Results/CausalR/emapplot_constrained.png",e,width=11,height=7)
+
 p = dotplot(test)
 p + theme(axis.text.x = element_text(angle = 45, hjust=1)) + ggtitle("Full Network")
 ggsave("../Results/CausalR/dotplot_full.png",width=11,height=7)
+e = emapplot(test)
+ggsave("../Results/CausalR/emapplot_full.png",e,width=11,height=7)
+# separate enrichment, save as .txt file, then plot the interesting ones?
+# full net
+for(i in (1:length(all_full_nodes_entrez))){
+  
+  # extract condition
+  condition = names(all_full_nodes_entrez[i])
+  
+  # get nodes
+  nodes_entrez = all_full_nodes_entrez[[i]]
+  
+  # perform enrichment
+  enrichment = enrichPathway(nodes_entrez,universe=full_net_nodes_entrez)
+  
+  # turn into table
+  tab = data.frame(enrichment)
+  
+  # save pathway table
+  fname = paste0("../Results/CausalR/per_condition_pathways/",condition,".txt")
+  write.table(tab,fname,sep="\t",quote=F,row.names=F)
+  
+  # do plots
+  # convert to gene symbol
+  edox <- setReadable(enrichment, 'org.Hs.eg.db', 'ENTREZID')
+  p = dotplot(edox,showCategory=20)
+  fname = paste0("../Results/CausalR/per_condition_plots/",condition,"_dotplot.png")
+  ggsave(fname,p,width=11,height=7)
+  
+  p2 <- cnetplot(edox, node_label="all")
+  fname = paste0("../Results/CausalR/per_condition_plots/",condition,"_cnetplot.png")
+  ggsave(fname,p2,width=11,height=7)
+  
+  p3 <- emapplot(edox)
+  fname = paste0("../Results/CausalR/per_condition_plots/",condition,"_emapplot.png")
+  ggsave(fname,p3,width=11,height=7)
+}
+
+#cons net
+for(i in (1:length(all_cons_nodes_entrez))){
+  
+  # extract condition
+  condition = names(all_cons_nodes_entrez[i])
+  
+  # get nodes
+  nodes_entrez = all_cons_nodes_entrez[[i]]
+  
+  # perform enrichment
+  enrichment = enrichPathway(nodes_entrez,universe=cons_net_nodes_entrez)
+  
+  # turn into table
+  tab = data.frame(enrichment)
+  
+  # save pathway table
+  fname = paste0("../Results/CausalR/per_condition_pathways/",condition,".txt")
+  write.table(tab,fname,sep="\t",quote=F,row.names=F)
+  
+  # do plots
+  # convert to gene symbol
+  edox <- setReadable(enrichment, 'org.Hs.eg.db', 'ENTREZID')
+  p = dotplot(edox,showCategory=20)
+  fname = paste0("../Results/CausalR/per_condition_plots/",condition,"_dotplot.png")
+  ggsave(fname,p,width=11,height=7)
+  
+  p2 <- cnetplot(edox, node_label="all")
+  fname = paste0("../Results/CausalR/per_condition_plots/",condition,"_cnetplot.png")
+  ggsave(fname,p2,width=11,height=7)
+  
+  p3 <- emapplot(edox)
+  fname = paste0("../Results/CausalR/per_condition_plots/",condition,"_emapplot.png")
+  ggsave(fname,p3,width=11,height=7)
+}
+
+# similarity between all networks (networks and pathways)
+# concatenate the conditions
+all_conds_nodes_entrez = c(all_full_nodes_entrez,all_cons_nodes_entrez)
+
+# create a function
+overlapcoefficient = function(i,j){
+  oc = length(intersect(i,j))/min(length(i),length(j))
+  return(oc)
+}
+
+# do the loop
+rows = data.frame()
+for(i in (1:length(all_conds_nodes_entrez))){
+  for(j in (1:length(all_conds_nodes_entrez))){
+    condi = names(all_conds_nodes_entrez[i])
+    condj = names(all_conds_nodes_entrez[j])
+    
+    nodesi = all_conds_nodes_entrez[[i]]
+    nodesj = all_conds_nodes_entrez[[j]]
+    
+    oc = overlapcoefficient(i=nodesi,j=nodesj)
+    
+    row = data.frame(t(data.frame(c(condi,condj,oc))))
+    rows = rbind(rows,row)
+  }
+}
+
+colnames(rows)= c("cond_1","cond_2","OC")
+rows$OC = as.numeric(as.character(rows$OC))
+ggplot(rows,aes(x=cond_1,y=cond_2,fill=OC)) +
+  geom_tile()+
+  geom_text(aes(label=round(OC,2)))+
+  theme(axis.text.x = element_text(angle = 45, hjust=1))
+ggsave("../Results/CausalR/network_overlap_coefficient.png",width=8,height=6)
+# time series/dose concordance?
+
+# replicate concordance?
