@@ -1,4 +1,6 @@
 # analyse causal reasoning results
+# also extract networks as .sif files with annotations for directionality and cuasl drivers
+# for later e.g. Cytoscape visualisation
 library(ReactomePA)
 
 # load CausalR
@@ -108,3 +110,9 @@ for(cond in conditions){
 # list of nodes for each condition
 conditions_etc = unname(unlist(conditions_etc))
 names(per_cond_nodes) = conditions_etc
+
+# split into full and constrained for the network analysis
+all_full_nodes = per_cond_nodes[grepl("full",names(per_cond_nodes))]
+all_cons_nodes = per_cond_nodes[grepl("cons",names(per_cond_nodes))]
+
+# get network nodes for full and constrained for enrichment background
