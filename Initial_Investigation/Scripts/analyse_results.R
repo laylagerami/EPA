@@ -145,4 +145,11 @@ cons_net_nodes_entrez = convert(cons_net_nodes)
 all_full_nodes_entrez = lapply(all_full_nodes, convert)
 all_cons_nodes_entrez = lapply(all_cons_nodes, convert)
 
-# do the enrichment
+# do the enrichment 
+test <- compareCluster(geneCluster = all_full_nodes_entrez, fun = "enrichPathway",universe=full_net_nodes_entrez)
+
+library(enrichplot)
+dotplot(test)
+
+test2 <- compareCluster(geneCluster = all_cons_nodes_entrez, fun = "enrichPathway",universe=cons_net_nodes_entrez)
+dotplot(test2)
