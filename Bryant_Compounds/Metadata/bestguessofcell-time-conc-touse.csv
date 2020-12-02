@@ -1,0 +1,929 @@
+samplecode,pert_iname,cell_type,timep,numbersamps,tissue,primarydisease,concseries
+DNA,irinotecan,HCC515,24,1,lung,lung cancer,0
+DNA,mitoxantrone,VCAP,24,1,prostate,prostate cancer,0
+DNA,gemcitabine,MDST8,6,1,large_intestine,colon cancer,0
+DNA,irinotecan,HT29,6,2,large_intestine,colon cancer,0
+DNA,gemcitabine,HCC515,24,1,lung,lung cancer,0
+DNA,temozolomide,NPC,24,1,central_nervous_system,normal stem cell sample,0
+DNA,mitomycin-c,HCC515,6,2,lung,lung cancer,0
+DNA,temozolomide,A549,24,2,lung,lung cancer,0
+DNA,temozolomide,VCAP,6,2,prostate,prostate cancer,0
+DNA,gemcitabine,EFO27,6,1,ovary,ovarian cancer,0
+DNA,melphalan,HA1E,24,2,kidney,normal kidney sample,0
+DNA,cytarabine,U937,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+DNA,vorinostat,NOMO1,24,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+DNA,mitomycin-c,HA1E,6,2,kidney,normal kidney sample,0
+DNA,camptothecin,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,paclitaxel,HT29,6,3,large_intestine,colon cancer,0
+DNA,benzo(a)pyrene,HA1E,24,1,kidney,normal kidney sample,0
+DNA,gemcitabine,NCIH1694,6,1,lung,lung cancer,0
+DNA,cyclophosphamide,A375,6,2,skin,skin cancer,0
+DNA,nocodazole,VCAP,6,1,prostate,prostate cancer,0
+DNA,cytarabine,HS27A,6,1,NA,NA,0
+DNA,gemcitabine,HT115,6,1,large_intestine,colon cancer,0
+DNA,etoposide,HCC515,6,1,lung,lung cancer,0
+DNA,olaparib,A375,6,4,skin,skin cancer,1
+DNA,temozolomide,HT29,6,2,large_intestine,colon cancer,0
+DNA,olaparib,NPC.TAK,24,12,NA,NA,1
+DNA,cyclophosphamide,MCF7,6,3,breast,breast cancer,0
+DNA,olaparib,NPC.TAK,6,3,NA,NA,0
+DNA,paclitaxel,U937,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+DNA,irinotecan,HCC515,6,1,lung,lung cancer,0
+DNA,etoposide,VCAP,6,5,prostate,prostate cancer,1
+DNA,cytarabine,HA1E,6,2,kidney,normal kidney sample,0
+DNA,gemcitabine,SW620,6,1,large_intestine,colon cancer,0
+DNA,ochratoxin-a,VCAP,6,1,prostate,prostate cancer,0
+DNA,olaparib,A549,24,13,lung,lung cancer,1
+DNA,azacitidine,ASC.C,24,6,NA,NA,1
+DNA,gemcitabine,HCT116,6,1,large_intestine,colon cancer,0
+DNA,mitoxantrone,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,temozolomide,HCC515,24,1,lung,lung cancer,0
+DNA,irinotecan,VCAP,24,2,prostate,prostate cancer,0
+DNA,nocodazole,FIBRNPC,24,1,NA,NA,0
+DNA,gemcitabine,NCIH508,6,1,large_intestine,colon cancer,0
+DNA,cyclophosphamide,PC3,6,3,prostate,prostate cancer,0
+DNA,olaparib,HS578T,24,4,breast,breast cancer,1
+DNA,mitomycin-c,HT29,24,6,large_intestine,colon cancer,1
+DNA,mitomycin-c,VCAP,6,2,prostate,prostate cancer,0
+DNA,nocodazole,A549,6,1,lung,lung cancer,0
+DNA,gemcitabine,SKLU1,6,1,lung,lung cancer,0
+DNA,cytarabine,VCAP,24,1,prostate,prostate cancer,0
+DNA,olaparib,PC3,24,19,prostate,prostate cancer,1
+DNA,nocodazole,PC3,6,1,prostate,prostate cancer,0
+DNA,gemcitabine,HCC15,6,1,lung,lung cancer,0
+DNA,irinotecan,HT29,24,6,large_intestine,colon cancer,1
+DNA,nocodazole,A375,6,2,skin,skin cancer,0
+DNA,olaparib,SKBR3,6,4,breast,breast cancer,1
+DNA,temozolomide,HT29,24,7,large_intestine,colon cancer,1
+DNA,temozolomide,T3M10,6,1,lung,lung cancer,0
+DNA,olaparib,HT29,24,19,large_intestine,colon cancer,1
+DNA,gemcitabine,VCAP,24,1,prostate,prostate cancer,0
+DNA,cyclophosphamide,HA1E,24,2,kidney,normal kidney sample,0
+DNA,gemcitabine,SNU1040,6,1,large_intestine,colon cancer,0
+DNA,mitomycin-c,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,gemcitabine,AGS,6,1,stomach,gastric cancer,0
+DNA,temozolomide,HEPG2,6,1,liver,liver cancer,0
+DNA,gemcitabine,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,temozolomide,FIBRNPC,6,1,NA,NA,0
+DNA,temozolomide,HT115,6,1,large_intestine,colon cancer,0
+DNA,vorinostat,MNEU.E,24,1,NA,NA,0
+DNA,temozolomide,TYKNU,6,1,ovary,ovarian cancer,0
+DNA,temozolomide,A375,24,7,skin,skin cancer,1
+DNA,azacitidine,HELA,24,6,cervix,cervical cancer,1
+DNA,paclitaxel,MCF7,6,13,breast,breast cancer,1
+DNA,olaparib,MDAMB231,6,4,breast,breast cancer,1
+DNA,irinotecan,A549,6,2,lung,lung cancer,0
+DNA,temozolomide,CORL23,6,1,lung,lung cancer,0
+DNA,gemcitabine,HT29,24,7,large_intestine,colon cancer,1
+DNA,mitomycin-c,PC3,6,2,prostate,prostate cancer,0
+DNA,gemcitabine,HT29,6,1,large_intestine,colon cancer,0
+DNA,nocodazole,MCF7,6,7,breast,breast cancer,1
+DNA,paclitaxel,A549,6,11,lung,lung cancer,1
+DNA,olaparib,HEPG2,24,12,liver,liver cancer,1
+DNA,olaparib,NPC.CAS9,24,12,NA,NA,1
+DNA,gemcitabine,SNUC4,6,1,large_intestine,colon cancer,0
+DNA,olaparib,SKBR3,24,4,breast,breast cancer,1
+DNA,olaparib,PL21,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+DNA,temozolomide,NPC,6,1,central_nervous_system,normal stem cell sample,0
+DNA,olaparib,MDAMB231,24,4,breast,breast cancer,1
+DNA,doxorubicin,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,hydroxyurea,HT29,24,6,large_intestine,colon cancer,1
+DNA,dimethylnitrosamine,HA1E,24,2,kidney,normal kidney sample,0
+DNA,melphalan,HA1E,6,1,kidney,normal kidney sample,0
+DNA,daunorubicin,PHH,24,2,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+DNA,temozolomide,HCT116,6,1,large_intestine,colon cancer,0
+DNA,temozolomide,HELA,24,6,cervix,cervical cancer,1
+DNA,azacitidine,HCC515,6,1,lung,lung cancer,0
+DNA,etoposide,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,etoposide,NEU,6,1,central_nervous_system,normal stem cell sample,0
+DNA,hydroxyurea,MCF7,24,6,breast,breast cancer,1
+DNA,nocodazole,HT29,6,2,large_intestine,colon cancer,0
+DNA,benzo(a)pyrene,VCAP,6,1,prostate,prostate cancer,0
+DNA,olaparib,HCC15,6,1,lung,lung cancer,0
+DNA,olaparib,SKM1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+DNA,ochratoxin-a,MCF7,24,1,breast,breast cancer,0
+DNA,benzo(a)pyrene,HCC515,24,1,lung,lung cancer,0
+DNA,gemcitabine,PL21,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+DNA,irinotecan,ASC,24,1,soft_tissue,normal soft tissue sample,0
+DNA,temozolomide,SKMEL28,6,1,skin,skin cancer,0
+DNA,hydroxyurea,A375,24,6,skin,skin cancer,1
+DNA,nocodazole,VCAP,24,1,prostate,prostate cancer,0
+DNA,irinotecan,HA1E,6,2,kidney,normal kidney sample,0
+DNA,DMBA,HA1E,24,2,kidney,normal kidney sample,0
+DNA,gemcitabine,SKM1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+DNA,temozolomide,SKM1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+DNA,olaparib,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,temozolomide,MDST8,6,1,large_intestine,colon cancer,0
+DNA,cyclophosphamide,VCAP,6,2,prostate,prostate cancer,0
+DNA,olaparib,SNUC4,6,1,large_intestine,colon cancer,0
+DNA,gemcitabine,SNUC5,6,1,large_intestine,colon cancer,0
+DNA,olaparib,MCF7,24,23,breast,breast cancer,1
+DNA,olaparib,MCF7,6,8,breast,breast cancer,1
+DNA,olaparib,NCIH1694,6,1,lung,lung cancer,0
+DNA,camptothecin,HELA,24,6,cervix,cervical cancer,1
+DNA,ochratoxin-a,A549,6,1,lung,lung cancer,0
+DNA,olaparib,MCF10A,24,4,breast,breast cancer,1
+DNA,gemcitabine,COV644,6,1,ovary,ovarian cancer,0
+DNA,hydroxyurea,HELA,24,6,cervix,cervical cancer,1
+DNA,paclitaxel,PC3,6,11,prostate,prostate cancer,1
+DNA,gemcitabine,NCIH2073,6,1,lung,lung cancer,0
+DNA,camptothecin,HT29,24,6,large_intestine,colon cancer,1
+DNA,azacitidine,A549,6,1,lung,lung cancer,0
+DNA,olaparib,SKL,24,11,soft_tissue,normal soft tissue sample,1
+DNA,temozolomide,NOMO1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+DNA,gemcitabine,A549,6,19,lung,lung cancer,1
+DNA,olaparib,THP1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+DNA,olaparib,AGS,6,1,stomach,gastric cancer,0
+DNA,temozolomide,WSUDLCL2,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+DNA,olaparib,HEPG2,6,1,liver,liver cancer,0
+DNA,gemcitabine,RKO,6,1,large_intestine,colon cancer,0
+DNA,mitomycin-c,SKB,24,1,NA,NA,0
+DNA,olaparib,HME1,24,12,breast,leukemia,1
+DNA,gemcitabine,PC3,6,11,prostate,prostate cancer,1
+DNA,olaparib,SKMEL1,6,1,skin,skin cancer,0
+DNA,gemcitabine,CL34,6,1,large_intestine,colon cancer,0
+DNA,gemcitabine,U937,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+DNA,mitomycin-c,HT29,6,3,large_intestine,colon cancer,0
+DNA,paclitaxel,A375,6,3,skin,skin cancer,0
+DNA,daunorubicin,HT29,24,6,large_intestine,colon cancer,1
+DNA,temozolomide,AGS,6,1,stomach,gastric cancer,0
+DNA,azacitidine,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,olaparib,HT29,6,1,large_intestine,colon cancer,0
+DNA,olaparib,A549,6,4,lung,lung cancer,1
+DNA,cytarabine,HT29,24,6,large_intestine,colon cancer,1
+DNA,temozolomide,SW620,6,1,large_intestine,colon cancer,0
+DNA,olaparib,BT20,6,4,breast,breast cancer,1
+DNA,azacitidine,A549,24,6,lung,lung cancer,1
+DNA,gemcitabine,SNGM,6,1,endometrium,endometrial cancer,0
+DNA,ochratoxin-a,HCC515,6,1,lung,lung cancer,0
+DNA,azacitidine,MCF7,6,2,breast,breast cancer,0
+DNA,temozolomide,VCAP,24,2,prostate,prostate cancer,0
+DNA,paclitaxel,HCC515,6,11,lung,lung cancer,1
+DNA,doxorubicin,HELA,24,6,cervix,cervical cancer,1
+DNA,gemcitabine,CORL23,6,1,lung,lung cancer,0
+DNA,cytarabine,HA1E,24,6,kidney,normal kidney sample,1
+DNA,irinotecan,VCAP,6,2,prostate,prostate cancer,0
+DNA,temozolomide,NCIH508,6,1,large_intestine,colon cancer,0
+DNA,gemcitabine,A375,6,1,skin,skin cancer,0
+DNA,temozolomide,PC3,24,18,prostate,prostate cancer,1
+DNA,irinotecan,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,nocodazole,NEU,6,1,central_nervous_system,normal stem cell sample,0
+DNA,gemcitabine,DV90,6,1,lung,lung cancer,0
+DNA,vorinostat,SKL,24,9,soft_tissue,normal soft tissue sample,1
+DNA,hydroxyurea,PC3,24,6,prostate,prostate cancer,1
+DNA,olaparib,HA1E,6,1,kidney,normal kidney sample,0
+DNA,olaparib,A375,24,19,skin,skin cancer,1
+DNA,irinotecan,PC3,6,3,prostate,prostate cancer,0
+DNA,cytarabine,MCF7,6,2,breast,breast cancer,0
+DNA,olaparib,U937,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+DNA,olaparib,MCF10A,6,4,breast,breast cancer,1
+DNA,vorinostat,NEU,6,4,central_nervous_system,normal stem cell sample,1
+DNA,daunorubicin,HELA,24,5,cervix,cervical cancer,1
+DNA,temozolomide,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,etoposide,HA1E,6,3,kidney,normal kidney sample,0
+DNA,olaparib,RKO,6,1,large_intestine,colon cancer,0
+DNA,nocodazole,NEU,24,1,central_nervous_system,normal stem cell sample,0
+DNA,olaparib,HELA,24,6,cervix,cervical cancer,1
+DNA,etoposide,NPC,6,1,central_nervous_system,normal stem cell sample,0
+DNA,mitoxantrone,HCC515,24,15,lung,lung cancer,1
+DNA,etoposide,PC3,6,5,prostate,prostate cancer,1
+DNA,olaparib,CD34,24,12,NA,NA,1
+DNA,olaparib,TYKNU,6,1,ovary,ovarian cancer,0
+DNA,olaparib,HUVEC,24,12,NA,NA,1
+DNA,temozolomide,RKO,6,1,large_intestine,colon cancer,0
+DNA,cytarabine,YAPC,24,6,pancreas,pancreatic cancer,1
+DNA,gemcitabine,OV7,6,1,ovary,ovarian cancer,0
+DNA,vorinostat,CD34,24,9,NA,NA,1
+DNA,ochratoxin-a,PHH,24,1,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+DNA,irinotecan,PC3,24,9,prostate,prostate cancer,1
+DNA,gemcitabine,HA1E,24,7,kidney,normal kidney sample,1
+DNA,camptothecin,SKB,24,1,NA,NA,0
+DNA,gemcitabine,HCC515,6,10,lung,lung cancer,1
+DNA,ochratoxin-a,ASC,24,1,soft_tissue,normal soft tissue sample,0
+DNA,mitoxantrone,MNEU.E,24,1,NA,NA,0
+DNA,temozolomide,HA1E,24,7,kidney,normal kidney sample,1
+DNA,azacitidine,SKL,24,6,soft_tissue,normal soft tissue sample,1
+DNA,azacitidine,HT29,24,12,large_intestine,colon cancer,1
+DNA,mitoxantrone,HELA,24,6,cervix,cervical cancer,1
+DNA,olaparib,SW948,6,1,large_intestine,colon cancer,0
+DNA,etoposide,A549,6,5,lung,lung cancer,1
+ERS,thapsigargin,HT29,24,2,large_intestine,colon cancer,0
+ERS,brefeldin-a,A375,24,1,skin,skin cancer,0
+ERS,brefeldin-a,NEU,24,2,central_nervous_system,normal stem cell sample,0
+ERS,brefeldin-a,VCAP,6,2,prostate,prostate cancer,0
+ERS,brefeldin-a,ASC,24,1,soft_tissue,normal soft tissue sample,0
+ERS,brefeldin-a,HT29,24,1,large_intestine,colon cancer,0
+ERS,brefeldin-a,NPC,6,1,central_nervous_system,normal stem cell sample,0
+ERS,tunicamycin,A549,6,1,lung,lung cancer,0
+ERS,thapsigargin,A375,24,2,skin,skin cancer,0
+ERS,tunicamycin,MCF7,24,1,breast,breast cancer,0
+ERS,brefeldin-a,A375,6,2,skin,skin cancer,0
+ERS,brefeldin-a,HCC515,6,2,lung,lung cancer,0
+ERS,spiperone,NPC,6,1,central_nervous_system,normal stem cell sample,0
+ERS,brefeldin-a,NOMO1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+ERS,brefeldin-a,HEPG2,6,2,liver,liver cancer,0
+ERS,brefeldin-a,OV7,6,1,ovary,ovarian cancer,0
+ERS,brefeldin-a,A549,6,2,lung,lung cancer,0
+ERS,tunicamycin,HA1E,6,1,kidney,normal kidney sample,0
+ERS,brefeldin-a,LOVO,6,1,large_intestine,colon cancer,0
+ERS,brefeldin-a,SKB,24,1,NA,NA,0
+ERS,brefeldin-a,FIBRNPC,24,1,NA,NA,0
+ERS,thapsigargin,A549,24,2,lung,lung cancer,0
+ERS,brefeldin-a,SKMEL28,6,1,skin,skin cancer,0
+ERS,brefeldin-a,EFO27,6,1,ovary,ovarian cancer,0
+ERS,brefeldin-a,HA1E,24,2,kidney,normal kidney sample,0
+ERS,thapsigargin,HA1E,24,2,kidney,normal kidney sample,0
+ERS,brefeldin-a,JHUEM2,6,1,endometrium,endometrial cancer,0
+ERS,brefeldin-a,PC3,24,2,prostate,prostate cancer,0
+ERS,brefeldin-a,MCF7,6,2,breast,breast cancer,0
+ERS,brefeldin-a,NCIH2073,6,1,lung,lung cancer,0
+ERS,tunicamycin,A375,6,1,skin,skin cancer,0
+ERS,brefeldin-a,HT29,6,2,large_intestine,colon cancer,0
+ERS,tunicamycin,PC3,6,1,prostate,prostate cancer,0
+ERS,brefeldin-a,VCAP,24,2,prostate,prostate cancer,0
+ERS,brefeldin-a,HA1E,6,2,kidney,normal kidney sample,0
+ERS,thapsigargin,NEU,24,1,central_nervous_system,normal stem cell sample,0
+ERS,brefeldin-a,SNUC5,6,1,large_intestine,colon cancer,0
+ERS,tunicamycin,VCAP,24,1,prostate,prostate cancer,0
+ERS,brefeldin-a,SW948,6,1,large_intestine,colon cancer,0
+ERS,brefeldin-a,NCIH1836,6,1,lung,lung cancer,0
+ERS,brefeldin-a,PC3,6,2,prostate,prostate cancer,0
+ERS,salubrinal,A375,24,1,skin,skin cancer,0
+ERS,spiperone,HUH7,6,2,liver,liver cancer,0
+ERS,brefeldin-a,FIBRNPC,6,1,NA,NA,0
+ERS,brefeldin-a,PL21,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+ERS,tunicamycin,FIBRNPC,24,1,NA,NA,0
+ERS,tunicamycin,NPC,6,1,central_nervous_system,normal stem cell sample,0
+ERS,brefeldin-a,NCIH508,6,1,large_intestine,colon cancer,0
+ERS,brefeldin-a,MDST8,6,1,large_intestine,colon cancer,0
+ERS,brefeldin-a,A549,24,2,lung,lung cancer,0
+ERS,tunicamycin,PC3,24,1,prostate,prostate cancer,0
+ERS,brefeldin-a,SKLU1,6,1,lung,lung cancer,0
+ERS,brefeldin-a,HEC108,6,1,endometrium,endometrial cancer,0
+ERS,spiperone,HUH7,24,2,liver,liver cancer,0
+ERS,brefeldin-a,CORL23,6,1,lung,lung cancer,0
+ERS,brefeldin-a,HCT116,6,1,large_intestine,colon cancer,0
+ERS,tunicamycin,HT29,6,1,large_intestine,colon cancer,0
+ERS,brefeldin-a,NPC,24,2,central_nervous_system,normal stem cell sample,0
+ERS,tunicamycin,A549,24,1,lung,lung cancer,0
+ERS,tunicamycin,NEU,6,1,central_nervous_system,normal stem cell sample,0
+ERS,tunicamycin,PHH,24,1,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+ERS,tunicamycin,SKB,24,1,NA,NA,0
+ERS,spiperone,PHH,6,2,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+ERS,spiperone,MCF7,24,2,breast,breast cancer,0
+ERS,tunicamycin,NEU,24,2,central_nervous_system,normal stem cell sample,0
+ERS,brefeldin-a,DV90,6,1,lung,lung cancer,0
+ERS,brefeldin-a,AGS,6,1,stomach,gastric cancer,0
+ERS,brefeldin-a,MCF7,24,2,breast,breast cancer,0
+ERS,brefeldin-a,T3M10,6,1,lung,lung cancer,0
+ERS,spiperone,SKB,24,1,NA,NA,0
+ERS,thapsigargin,FIBRNPC,24,1,NA,NA,0
+ERS,brefeldin-a,SKMEL1,6,1,skin,skin cancer,0
+ERS,salubrinal,HT29,24,1,large_intestine,colon cancer,0
+ERS,tunicamycin,FIBRNPC,6,1,NA,NA,0
+ERS,spiperone,PC3,6,1,prostate,prostate cancer,0
+ERS,brefeldin-a,TYKNU,6,1,ovary,ovarian cancer,0
+ERS,brefeldin-a,THP1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+ERS,salubrinal,HA1E,24,1,kidney,normal kidney sample,0
+ERS,tunicamycin,ASC,24,1,soft_tissue,normal soft tissue sample,0
+ERS,brefeldin-a,HCC515,24,2,lung,lung cancer,0
+ERS,brefeldin-a,SNUC4,6,1,large_intestine,colon cancer,0
+ERS,brefeldin-a,HT115,6,1,large_intestine,colon cancer,0
+ERS,brefeldin-a,RMGI,6,1,ovary,ovarian cancer,0
+ERS,brefeldin-a,RKO,6,1,large_intestine,colon cancer,0
+ERS,phenylbutyrate,FIBRNPC,6,1,NA,NA,0
+ERS,chloroquine,PC3,6,3,prostate,prostate cancer,0
+ERS,tunicamycin,NPC,24,2,central_nervous_system,normal stem cell sample,0
+ERS,brefeldin-a,CL34,6,1,large_intestine,colon cancer,0
+ERS,thapsigargin,HEPG2,6,1,liver,liver cancer,0
+ERS,brefeldin-a,RMUGS,6,1,ovary,ovarian cancer,0
+ERS,salubrinal,HCC515,6,1,lung,lung cancer,0
+ERS,chloroquine,OV7,6,1,ovary,ovarian cancer,0
+ERS,brefeldin-a,COV644,6,1,ovary,ovarian cancer,0
+ERS,thapsigargin,FIBRNPC,6,1,NA,NA,0
+ERS,chloroquine,MDST8,6,1,large_intestine,colon cancer,0
+ERS,thapsigargin,NEU,6,1,central_nervous_system,normal stem cell sample,0
+ERS,brefeldin-a,H1299,6,1,lung,lung cancer,0
+ERS,brefeldin-a,SW620,6,1,large_intestine,colon cancer,0
+ERS,salubrinal,A549,6,1,lung,lung cancer,0
+ERS,brefeldin-a,SNU1040,6,1,large_intestine,colon cancer,0
+ERS,spiperone,HEPG2,6,4,liver,liver cancer,1
+ERS,brefeldin-a,SW480,6,1,large_intestine,colon cancer,0
+ERS,thapsigargin,SNGM,6,1,endometrium,endometrial cancer,0
+ERS,salubrinal,VCAP,24,1,prostate,prostate cancer,0
+ERS,salubrinal,HA1E,6,1,kidney,normal kidney sample,0
+ERS,tunicamycin,MCF7,6,1,breast,breast cancer,0
+ERS,spiperone,MCF7,6,3,breast,breast cancer,0
+ERS,chloroquine,HCC515,6,2,lung,lung cancer,0
+ERS,brefeldin-a,NCIH596,6,1,lung,lung cancer,0
+ERS,salubrinal,A375,6,1,skin,skin cancer,0
+ERS,thapsigargin,SKMEL1,6,1,skin,skin cancer,0
+ERS,salubrinal,HT29,6,1,large_intestine,colon cancer,0
+ERS,spiperone,HEPG2,24,2,liver,liver cancer,0
+ERS,brefeldin-a,U937,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+ERS,brefeldin-a,SNGM,6,1,endometrium,endometrial cancer,0
+ERS,tunicamycin,HCC515,6,1,lung,lung cancer,0
+ERS,phenylbutyrate,NPC,6,1,central_nervous_system,normal stem cell sample,0
+ERS,chloroquine,HCC515,24,2,lung,lung cancer,0
+ERS,brefeldin-a,NEU,6,1,central_nervous_system,normal stem cell sample,0
+ERS,phenylbutyrate,VCAP,24,1,prostate,prostate cancer,0
+ERS,thapsigargin,COV644,6,1,ovary,ovarian cancer,0
+ERS,salubrinal,PC3,24,1,prostate,prostate cancer,0
+ERS,tunicamycin,VCAP,6,1,prostate,prostate cancer,0
+ERS,spiperone,HCC515,6,1,lung,lung cancer,0
+ERS,spiperone,VCAP,24,1,prostate,prostate cancer,0
+ERS,thapsigargin,A375,6,2,skin,skin cancer,0
+ERS,phenylbutyrate,FIBRNPC,24,1,NA,NA,0
+ERS,spiperone,HA1E,6,1,kidney,normal kidney sample,0
+ERS,brefeldin-a,WSUDLCL2,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+ERS,phenylbutyrate,HA1E,6,1,kidney,normal kidney sample,0
+ERS,chloroquine,SKLU1,6,1,lung,lung cancer,0
+ERS,chloroquine,EFO27,6,1,ovary,ovarian cancer,0
+ERS,thapsigargin,SNUC5,6,1,large_intestine,colon cancer,0
+ERS,spiperone,HT29,6,2,large_intestine,colon cancer,0
+ERS,salubrinal,PC3,6,1,prostate,prostate cancer,0
+ERS,brefeldin-a,A673,6,1,"bone, soft_tissue","bone cancer, soft tissue cancer",0
+ERS,spiperone,FIBRNPC,24,1,NA,NA,0
+ERS,brefeldin-a,NCIH1694,6,1,lung,lung cancer,0
+ERS,thapsigargin,MDST8,6,1,large_intestine,colon cancer,0
+ERS,spiperone,VCAP,6,1,prostate,prostate cancer,0
+ERS,chloroquine,FIBRNPC,6,1,NA,NA,0
+ERS,thapsigargin,U937,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+ERS,thapsigargin,HEC108,6,1,endometrium,endometrial cancer,0
+ERS,chloroquine,MCF7,24,18,breast,breast cancer,1
+ERS,thapsigargin,RKO,6,1,large_intestine,colon cancer,0
+ERS,phenylbutyrate,NPC,24,1,central_nervous_system,normal stem cell sample,0
+ERS,brefeldin-a,HCC15,6,1,lung,lung cancer,0
+ERS,chloroquine,NPC,6,1,central_nervous_system,normal stem cell sample,0
+ERS,spiperone,A549,6,1,lung,lung cancer,0
+ERS,dithiothreitol,NPC,6,1,central_nervous_system,normal stem cell sample,0
+ERS,spiperone,NEU,24,2,central_nervous_system,normal stem cell sample,0
+ERS,salubrinal,MCF7,24,1,breast,breast cancer,0
+ERS,thapsigargin,MCF7,24,2,breast,breast cancer,0
+ERS,chloroquine,CORL23,6,1,lung,lung cancer,0
+ERS,chloroquine,SKMEL28,6,1,skin,skin cancer,0
+ERS,chloroquine,SNUC4,6,1,large_intestine,colon cancer,0
+ERS,chloroquine,SKMEL1,6,1,skin,skin cancer,0
+ERS,chloroquine,HA1E,24,8,kidney,normal kidney sample,1
+ERS,chloroquine,A549,6,11,lung,lung cancer,1
+ERS,thapsigargin,SW948,6,1,large_intestine,colon cancer,0
+ERS,thapsigargin,CORL23,6,1,lung,lung cancer,0
+ERS,chloroquine,HA1E,6,2,kidney,normal kidney sample,0
+ERS,thapsigargin,NCIH1836,6,1,lung,lung cancer,0
+ERS,phenylbutyrate,HA1E,24,6,kidney,normal kidney sample,1
+ERS,phenylbutyrate,HELA,24,6,cervix,cervical cancer,1
+ERS,thapsigargin,HT29,6,2,large_intestine,colon cancer,0
+ERS,chloroquine,NPC,24,2,central_nervous_system,normal stem cell sample,0
+ERS,chloroquine,JHUEM2,6,1,endometrium,endometrial cancer,0
+ERS,thapsigargin,HT115,6,1,large_intestine,colon cancer,0
+ERS,thapsigargin,SNU1040,6,1,large_intestine,colon cancer,0
+ERS,thapsigargin,TYKNU,6,1,ovary,ovarian cancer,0
+ERS,spiperone,HCC515,24,1,lung,lung cancer,0
+ERS,chloroquine,ASC,24,1,soft_tissue,normal soft tissue sample,0
+ERS,chloroquine,H1299,6,1,lung,lung cancer,0
+ERS,spiperone,NEU,6,1,central_nervous_system,normal stem cell sample,0
+ERS,chloroquine,YAPC,24,6,pancreas,pancreatic cancer,1
+ERS,chloroquine,SKM1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+ERS,thapsigargin,SNUC4,6,1,large_intestine,colon cancer,0
+HTS,geldanamycin,HCC15,6,1,lung,lung cancer,0
+HTS,geldanamycin,SNUC4,6,1,large_intestine,colon cancer,0
+HTS,thiostrepton,VCAP,6,2,prostate,prostate cancer,0
+HTS,geldanamycin,NCIH2073,6,1,lung,lung cancer,0
+HTS,geldanamycin,SW480,6,1,large_intestine,colon cancer,0
+HTS,geldanamycin,H1299,6,1,lung,lung cancer,0
+HTS,geldanamycin,HT29,6,17,large_intestine,colon cancer,1
+HTS,bortezomib,RKO,6,1,large_intestine,colon cancer,0
+HTS,bortezomib,CORL23,6,1,lung,lung cancer,0
+HTS,geldanamycin,TYKNU,6,1,ovary,ovarian cancer,0
+HTS,geldanamycin,SKMEL1,6,1,skin,skin cancer,0
+HTS,geldanamycin,MCF7,6,78,breast,breast cancer,1
+HTS,geldanamycin,VCAP,6,66,prostate,prostate cancer,1
+HTS,geldanamycin,EFO27,6,1,ovary,ovarian cancer,0
+HTS,geldanamycin,HEPG2,6,13,liver,liver cancer,1
+HTS,tanespimycin,HCC515,6,1,lung,lung cancer,0
+HTS,tanespimycin,RMUGS,6,1,ovary,ovarian cancer,0
+HTS,geldanamycin,A375,6,21,skin,skin cancer,1
+HTS,radicicol,MCF10A,3,12,breast,breast cancer,1
+HTS,geldanamycin,SNU1040,6,1,large_intestine,colon cancer,0
+HTS,geldanamycin,LOVO,6,1,large_intestine,colon cancer,0
+HTS,tanespimycin,PL21,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,bortezomib,U937,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+HTS,geldanamycin,BT20,3,12,breast,breast cancer,1
+HTS,alvespimycin,MCF7,6,5,breast,breast cancer,1
+HTS,puromycin,A549,6,2,lung,lung cancer,0
+HTS,bortezomib,HCC515,24,1,lung,lung cancer,0
+HTS,radicicol,VCAP,6,4,prostate,prostate cancer,1
+HTS,tanespimycin,VCAP,6,4,prostate,prostate cancer,1
+HTS,bortezomib,SKMEL1,6,1,skin,skin cancer,0
+HTS,tanespimycin,CL34,6,1,large_intestine,colon cancer,0
+HTS,geldanamycin,DV90,6,1,lung,lung cancer,0
+HTS,parthenolide,HCT116,6,2,large_intestine,colon cancer,0
+HTS,geldanamycin,CORL23,6,1,lung,lung cancer,0
+HTS,thiostrepton,ASC,24,2,soft_tissue,normal soft tissue sample,0
+HTS,bortezomib,A673,6,1,"bone, soft_tissue","bone cancer, soft tissue cancer",0
+HTS,bortezomib,HCT116,6,1,large_intestine,colon cancer,0
+HTS,gedunin,PC3,24,1,prostate,prostate cancer,0
+HTS,thiostrepton,A549,6,2,lung,lung cancer,0
+HTS,geldanamycin,SNUC5,6,1,large_intestine,colon cancer,0
+HTS,tanespimycin,SKMEL28,6,1,skin,skin cancer,0
+HTS,bortezomib,THP1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,bortezomib,VCAP,6,1,prostate,prostate cancer,0
+HTS,thiostrepton,HT29,6,2,large_intestine,colon cancer,0
+HTS,geldanamycin,RKO,6,1,large_intestine,colon cancer,0
+HTS,tanespimycin,PC3,24,8,prostate,prostate cancer,1
+HTS,radicicol,MDAMB231,3,12,breast,breast cancer,1
+HTS,tanespimycin,T3M10,6,1,lung,lung cancer,0
+HTS,withaferin-a,PC3,6,10,prostate,prostate cancer,1
+HTS,alvespimycin,PC3,6,5,prostate,prostate cancer,1
+HTS,geldanamycin,MDST8,6,1,large_intestine,colon cancer,0
+HTS,bortezomib,A375,6,1,skin,skin cancer,0
+HTS,alvespimycin,PC3,24,11,prostate,prostate cancer,1
+HTS,bortezomib,HCC515,6,10,lung,lung cancer,1
+HTS,tanespimycin,HCC515,24,4,lung,lung cancer,1
+HTS,geldanamycin,PC3,24,90,prostate,prostate cancer,1
+HTS,bortezomib,RMUGS,6,1,ovary,ovarian cancer,0
+HTS,radicicol,SKBR3,24,12,breast,breast cancer,1
+HTS,geldanamycin,AGS,6,1,stomach,gastric cancer,0
+HTS,bortezomib,NCIH1836,6,1,lung,lung cancer,0
+HTS,geldanamycin,NPC.TAK,6,3,NA,NA,0
+HTS,alvespimycin,HCC515,6,1,lung,lung cancer,0
+HTS,geldanamycin,MCF7,3,12,breast,breast cancer,1
+HTS,geldanamycin,CD34,6,4,NA,NA,1
+HTS,geldanamycin,NPC,6,3,central_nervous_system,normal stem cell sample,0
+HTS,radicicol,HCC515,6,1,lung,lung cancer,0
+HTS,bortezomib,H1299,6,1,lung,lung cancer,0
+HTS,tanespimycin,DV90,6,1,lung,lung cancer,0
+HTS,hypericin,PC3,6,1,prostate,prostate cancer,0
+HTS,gedunin,A375,6,1,skin,skin cancer,0
+HTS,geldanamycin,SW620,6,1,large_intestine,colon cancer,0
+HTS,tanespimycin,SKL,24,3,soft_tissue,normal soft tissue sample,0
+HTS,geldanamycin,U937,6,5,haematopoietic_and_lymphoid_tissue,lymphoma,1
+HTS,bortezomib,A549,6,10,lung,lung cancer,1
+HTS,tanespimycin,COV644,6,1,ovary,ovarian cancer,0
+HTS,parthenolide,HS27A,6,1,NA,NA,0
+HTS,withaferin-a,VCAP,6,31,prostate,prostate cancer,1
+HTS,puromycin,HEPG2,6,2,liver,liver cancer,0
+HTS,bortezomib,SNUC5,6,1,large_intestine,colon cancer,0
+HTS,alvespimycin,VCAP,6,4,prostate,prostate cancer,1
+HTS,thiostrepton,A549,24,2,lung,lung cancer,0
+HTS,withaferin-a,VCAP,24,34,prostate,prostate cancer,1
+HTS,radicicol,HS578T,3,12,breast,breast cancer,1
+HTS,tanespimycin,TYKNU,6,1,ovary,ovarian cancer,0
+HTS,bortezomib,T3M10,6,1,lung,lung cancer,0
+HTS,radicicol,MDAMB231,24,12,breast,breast cancer,1
+HTS,geldanamycin,PHH,6,1,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+HTS,bortezomib,VCAP,24,1,prostate,prostate cancer,0
+HTS,geldanamycin,A549,6,56,lung,lung cancer,1
+HTS,parthenolide,SNGM,6,2,endometrium,endometrial cancer,0
+HTS,geldanamycin,HCC515,24,29,lung,lung cancer,1
+HTS,withaferin-a,SKBR3,24,12,breast,breast cancer,1
+HTS,tanespimycin,RKO,6,1,large_intestine,colon cancer,0
+HTS,tanespimycin,PC3,6,5,prostate,prostate cancer,1
+HTS,bortezomib,COV644,6,1,ovary,ovarian cancer,0
+HTS,gedunin,PC3,6,1,prostate,prostate cancer,0
+HTS,radicicol,HS578T,24,12,breast,breast cancer,1
+HTS,bortezomib,HT29,6,1,large_intestine,colon cancer,0
+HTS,tanespimycin,SNGM,6,1,endometrium,endometrial cancer,0
+HTS,tanespimycin,MCF7,24,35,breast,breast cancer,1
+HTS,withaferin-a,HS578T,24,12,breast,breast cancer,1
+HTS,geldanamycin,PL21,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,radicicol,ASC,24,1,soft_tissue,normal soft tissue sample,0
+HTS,gedunin,VCAP,6,1,prostate,prostate cancer,0
+HTS,tanespimycin,NCIH508,6,1,large_intestine,colon cancer,0
+HTS,bortezomib,HA1E,6,1,kidney,normal kidney sample,0
+HTS,geldanamycin,BT20,24,12,breast,breast cancer,1
+HTS,gedunin,HT29,6,1,large_intestine,colon cancer,0
+HTS,bortezomib,DV90,6,1,lung,lung cancer,0
+HTS,tanespimycin,VCAP,24,4,prostate,prostate cancer,1
+HTS,bortezomib,YAPC,24,336,pancreas,pancreatic cancer,1
+HTS,bortezomib,NOMO1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,tanespimycin,LOVO,6,1,large_intestine,colon cancer,0
+HTS,tanespimycin,H1299,6,1,lung,lung cancer,0
+HTS,radicicol,HT29,6,1,large_intestine,colon cancer,0
+HTS,puromycin,HT29,6,2,large_intestine,colon cancer,0
+HTS,geldanamycin,NCIH596,6,1,lung,lung cancer,0
+HTS,radicicol,SKBR3,3,12,breast,breast cancer,1
+HTS,tanespimycin,EFO27,6,1,ovary,ovarian cancer,0
+HTS,geldanamycin,MCF10A,3,12,breast,breast cancer,1
+HTS,radicicol,A375,6,1,skin,skin cancer,0
+HTS,tanespimycin,MDST8,6,1,large_intestine,colon cancer,0
+HTS,withaferin-a,HCC515,6,1,lung,lung cancer,0
+HTS,tanespimycin,HT29,24,4,large_intestine,colon cancer,1
+HTS,tanespimycin,JURKAT,24,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,geldanamycin,LNCAP,3,6,prostate,prostate cancer,1
+HTS,bortezomib,SKLU1,6,1,lung,lung cancer,0
+HTS,geldanamycin,HUH7,6,1,liver,liver cancer,0
+HTS,tanespimycin,NCIH1836,6,1,lung,lung cancer,0
+HTS,geldanamycin,RMUGS,6,1,ovary,ovarian cancer,0
+HTS,hypericin,ASC,24,1,soft_tissue,normal soft tissue sample,0
+HTS,radicicol,HCC515,24,12,lung,lung cancer,1
+HTS,hypericin,VCAP,6,1,prostate,prostate cancer,0
+HTS,geldanamycin,HME1,3,6,breast,leukemia,1
+HTS,tanespimycin,SKLU1,6,1,lung,lung cancer,0
+HTS,radicicol,VCAP,24,4,prostate,prostate cancer,1
+HTS,geldanamycin,MDAMB231,24,12,breast,breast cancer,1
+HTS,bortezomib,HEPG2,6,1,liver,liver cancer,0
+HTS,tanespimycin,SKM1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,geldanamycin,HL60,6,4,haematopoietic_and_lymphoid_tissue,leukemia,1
+HTS,parthenolide,VCAP,6,4,prostate,prostate cancer,1
+HTS,radicicol,BT20,24,12,breast,breast cancer,1
+HTS,alvespimycin,PHH,24,1,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+HTS,geldanamycin,FIBRNPC,6,3,NA,NA,0
+HTS,radicicol,PHH,24,1,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+HTS,bortezomib,A549,24,1,lung,lung cancer,0
+HTS,thiostrepton,SKB,24,2,NA,NA,0
+HTS,radicicol,PC3,24,22,prostate,prostate cancer,1
+HTS,tanespimycin,SNUC5,6,1,large_intestine,colon cancer,0
+HTS,geldanamycin,SKLU1,6,1,lung,lung cancer,0
+HTS,radicicol,HME1,3,6,breast,leukemia,1
+HTS,tanespimycin,NEU,24,4,central_nervous_system,normal stem cell sample,1
+HTS,tanespimycin,AGS,6,1,stomach,gastric cancer,0
+HTS,bortezomib,HEC108,6,1,endometrium,endometrial cancer,0
+HTS,radicicol,NEU,24,1,central_nervous_system,normal stem cell sample,0
+HTS,parthenolide,HT29,24,2,large_intestine,colon cancer,0
+HTS,radicicol,A375,24,12,skin,skin cancer,1
+HTS,geldanamycin,SW948,6,1,large_intestine,colon cancer,0
+HTS,thiostrepton,HCC515,6,2,lung,lung cancer,0
+HTS,radicicol,HEPG2,6,1,liver,liver cancer,0
+HTS,bortezomib,CL34,6,1,large_intestine,colon cancer,0
+HTS,alvespimycin,A375,24,6,skin,skin cancer,1
+HTS,radicicol,SKB,24,1,NA,NA,0
+HTS,tanespimycin,HCT116,6,1,large_intestine,colon cancer,0
+HTS,radicicol,MCF7,6,10,breast,breast cancer,1
+HTS,geldanamycin,NCIH1694,6,1,lung,lung cancer,0
+HTS,parthenolide,AGS,6,2,stomach,gastric cancer,0
+HTS,radicicol,HA1E,6,1,kidney,normal kidney sample,0
+HTS,bortezomib,PC3,24,351,prostate,prostate cancer,1
+HTS,puromycin,A375,6,2,skin,skin cancer,0
+HTS,radicicol,BT20,3,12,breast,breast cancer,1
+HTS,tanespimycin,HEPG2,6,1,liver,liver cancer,0
+HTS,radicicol,MCF7,24,22,breast,breast cancer,1
+HTS,geldanamycin,A673,6,1,"bone, soft_tissue","bone cancer, soft tissue cancer",0
+HTS,tanespimycin,WSUDLCL2,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+HTS,geldanamycin,SKMEL28,6,1,skin,skin cancer,0
+HTS,puromycin,A549,24,2,lung,lung cancer,0
+HTS,radicicol,HA1E,24,12,kidney,normal kidney sample,1
+HTS,alvespimycin,HA1E,6,1,kidney,normal kidney sample,0
+HTS,geldanamycin,HS578T,24,12,breast,breast cancer,1
+HTS,parthenolide,MCF7,6,9,breast,breast cancer,1
+HTS,tanespimycin,SNUC4,6,1,large_intestine,colon cancer,0
+HTS,geldanamycin,T3M10,6,1,lung,lung cancer,0
+HTS,hypericin,A375,6,2,skin,skin cancer,0
+HTS,geldanamycin,HUH7,24,1,liver,liver cancer,0
+HTS,geldanamycin,SKM1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,parthenolide,HCC515,6,4,lung,lung cancer,1
+HTS,tanespimycin,JHUEM2,6,1,endometrium,endometrial cancer,0
+HTS,parthenolide,CL34,6,2,large_intestine,colon cancer,0
+HTS,geldanamycin,RMGI,6,1,ovary,ovarian cancer,0
+HTS,puromycin,HA1E,6,2,kidney,normal kidney sample,0
+HTS,puromycin,VCAP,24,8,prostate,prostate cancer,1
+HTS,parthenolide,HA1E,24,3,kidney,normal kidney sample,0
+HTS,gedunin,HA1E,24,1,kidney,normal kidney sample,0
+HTS,radicicol,HT29,24,12,large_intestine,colon cancer,1
+HTS,withaferin-a,ASC,24,1,soft_tissue,normal soft tissue sample,0
+HTS,withaferin-a,BT20,24,12,breast,breast cancer,1
+HTS,bortezomib,SW480,6,1,large_intestine,colon cancer,0
+HTS,geldanamycin,A375,24,55,skin,skin cancer,1
+HTS,thiostrepton,HA1E,6,2,kidney,normal kidney sample,0
+HTS,withaferin-a,SKBR3,3,12,breast,breast cancer,1
+HTS,withaferin-a,MCF7,24,49,breast,breast cancer,1
+HTS,radicicol,HME1,24,6,breast,leukemia,1
+HTS,tanespimycin,SNU1040,6,1,large_intestine,colon cancer,0
+HTS,parthenolide,SKMEL28,6,2,skin,skin cancer,0
+HTS,geldanamycin,JHUEM2,6,1,endometrium,endometrial cancer,0
+HTS,geldanamycin,LNCAP,24,6,prostate,prostate cancer,1
+HTS,alvespimycin,HEPG2,6,1,liver,liver cancer,0
+HTS,geldanamycin,HT29,24,53,large_intestine,colon cancer,1
+HTS,tanespimycin,A549,24,31,lung,lung cancer,1
+HTS,tanespimycin,CORL23,6,1,lung,lung cancer,0
+HTS,withaferin-a,HT29,24,12,large_intestine,colon cancer,1
+HTS,tanespimycin,HA1E,24,4,kidney,normal kidney sample,1
+HTS,geldanamycin,A549,24,105,lung,lung cancer,1
+HTS,alvespimycin,HELA,24,6,cervix,cervical cancer,1
+HTS,geldanamycin,NPC,24,17,central_nervous_system,normal stem cell sample,1
+HTS,hypericin,HA1E,24,7,kidney,normal kidney sample,1
+HTS,geldanamycin,FIBRNPC,24,3,NA,NA,0
+HTS,tanespimycin,ASC,24,3,soft_tissue,normal soft tissue sample,0
+HTS,tanespimycin,NCIH2073,6,1,lung,lung cancer,0
+HTS,bortezomib,PC3,6,10,prostate,prostate cancer,1
+HTS,parthenolide,A673,6,2,"bone, soft_tissue","bone cancer, soft tissue cancer",0
+HTS,tanespimycin,SKL.C,24,3,NA,NA,0
+HTS,hypericin,VCAP,24,1,prostate,prostate cancer,0
+HTS,tanespimycin,NCIH1694,6,1,lung,lung cancer,0
+HTS,parthenolide,PC3,6,5,prostate,prostate cancer,1
+HTS,geldanamycin,HCC515,6,16,lung,lung cancer,1
+HTS,geldanamycin,OV7,6,1,ovary,ovarian cancer,0
+HTS,alvespimycin,A549,6,1,lung,lung cancer,0
+HTS,withaferin-a,HME1,24,6,breast,leukemia,1
+HTS,tanespimycin,NPC.CAS9,24,3,NA,NA,0
+HTS,parthenolide,RMUGS,6,2,ovary,ovarian cancer,0
+HTS,geldanamycin,HA1E,6,17,kidney,normal kidney sample,1
+HTS,bortezomib,NCIH508,6,1,large_intestine,colon cancer,0
+HTS,parthenolide,SKMEL1,6,2,skin,skin cancer,0
+HTS,alvespimycin,MCF7,24,11,breast,breast cancer,1
+HTS,radicicol,HEPG2,24,12,liver,liver cancer,1
+HTS,geldanamycin,HS578T,3,12,breast,breast cancer,1
+HTS,geldanamycin,MDAMB231,3,12,breast,breast cancer,1
+HTS,bortezomib,SNGM,6,1,endometrium,endometrial cancer,0
+HTS,bortezomib,AGS,6,1,stomach,gastric cancer,0
+HTS,parthenolide,SNUC4,6,2,large_intestine,colon cancer,0
+HTS,withaferin-a,MDAMB231,24,12,breast,breast cancer,1
+HTS,geldanamycin,SNGM,6,1,endometrium,endometrial cancer,0
+HTS,radicicol,PC3,6,10,prostate,prostate cancer,1
+HTS,parthenolide,SNUC5,6,2,large_intestine,colon cancer,0
+HTS,withaferin-a,MCF10A,24,12,breast,breast cancer,1
+HTS,bortezomib,SNUC4,6,1,large_intestine,colon cancer,0
+HTS,tanespimycin,A375,6,1,skin,skin cancer,0
+HTS,puromycin,PC3,24,2,prostate,prostate cancer,0
+HTS,parthenolide,TYKNU,6,2,ovary,ovarian cancer,0
+HTS,bortezomib,MCF7,24,356,breast,breast cancer,1
+HTS,alvespimycin,HT29,24,6,large_intestine,colon cancer,1
+HTS,thiostrepton,PC3,24,3,prostate,prostate cancer,0
+HTS,parthenolide,SNU1040,6,2,large_intestine,colon cancer,0
+HTS,bortezomib,HT115,6,1,large_intestine,colon cancer,0
+HTS,bortezomib,SKM1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,tanespimycin,A673,6,1,"bone, soft_tissue","bone cancer, soft tissue cancer",0
+HTS,withaferin-a,MCF7,6,37,breast,breast cancer,1
+HTS,geldanamycin,NOMO1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,bortezomib,SW948,6,1,large_intestine,colon cancer,0
+HTS,bortezomib,EFO27,6,1,ovary,ovarian cancer,0
+HTS,withaferin-a,HEPG2,24,12,liver,liver cancer,1
+HTS,parthenolide,HEPG2,6,4,liver,liver cancer,1
+HTS,tanespimycin,HT29,6,1,large_intestine,colon cancer,0
+HTS,tanespimycin,MCF7,6,32,breast,breast cancer,1
+HTS,thiostrepton,MCF7,24,7,breast,breast cancer,1
+HTS,bortezomib,SKMEL28,6,1,skin,skin cancer,0
+HTS,alvespimycin,HA1E,24,6,kidney,normal kidney sample,1
+HTS,bortezomib,SW620,6,1,large_intestine,colon cancer,0
+HTS,parthenolide,NKDBA,24,4,NA,NA,1
+HTS,geldanamycin,WSUDLCL2,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+HTS,withaferin-a,BT20,3,12,breast,breast cancer,1
+HTS,puromycin,NEU,24,1,central_nervous_system,normal stem cell sample,0
+HTS,parthenolide,NCIH2073,6,2,lung,lung cancer,0
+HTS,bortezomib,PL21,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,parthenolide,SW948,6,2,large_intestine,colon cancer,0
+HTS,geldanamycin,HCT116,6,1,large_intestine,colon cancer,0
+HTS,geldanamycin,SKBR3,3,12,breast,breast cancer,1
+HTS,geldanamycin,NCIH1836,6,1,lung,lung cancer,0
+HTS,bortezomib,OV7,6,1,ovary,ovarian cancer,0
+HTS,geldanamycin,PC3,6,49,prostate,prostate cancer,1
+HTS,geldanamycin,HEC108,6,1,endometrium,endometrial cancer,0
+HTS,tanespimycin,A549,6,28,lung,lung cancer,1
+HTS,alvespimycin,HT29,6,1,large_intestine,colon cancer,0
+HTS,alvespimycin,YAPC,24,6,pancreas,pancreatic cancer,1
+HTS,radicicol,A549,6,1,lung,lung cancer,0
+HTS,bortezomib,MCF7,6,14,breast,breast cancer,1
+HTS,gedunin,HEPG2,6,1,liver,liver cancer,0
+HTS,parthenolide,NCIH596,6,2,lung,lung cancer,0
+HTS,tanespimycin,HEPG2,24,3,liver,liver cancer,0
+HTS,puromycin,HCC515,24,2,lung,lung cancer,0
+HTS,withaferin-a,MDAMB231,3,12,breast,breast cancer,1
+HTS,withaferin-a,VCAP,48,2,prostate,prostate cancer,0
+HTS,parthenolide,CORL23,6,2,lung,lung cancer,0
+HTS,puromycin,NPC,24,1,central_nervous_system,normal stem cell sample,0
+HTS,withaferin-a,MCF10A,3,12,breast,breast cancer,1
+HTS,bortezomib,RMGI,6,1,ovary,ovarian cancer,0
+HTS,alvespimycin,SKB,24,1,NA,NA,0
+HTS,hypericin,NPC,24,1,central_nervous_system,normal stem cell sample,0
+HTS,parthenolide,NPC,24,2,central_nervous_system,normal stem cell sample,0
+HTS,tanespimycin,RMGI,6,1,ovary,ovarian cancer,0
+HTS,withaferin-a,A375,6,1,skin,skin cancer,0
+HTS,withaferin-a,HS578T,3,12,breast,breast cancer,1
+HTS,alvespimycin,A375,6,1,skin,skin cancer,0
+HTS,withaferin-a,PHH,24,1,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+HTS,gedunin,HCC515,24,1,lung,lung cancer,0
+HTS,withaferin-a,NPC,24,1,central_nervous_system,normal stem cell sample,0
+HTS,radicicol,LNCAP,24,6,prostate,prostate cancer,1
+HTS,parthenolide,HEC108,6,2,endometrium,endometrial cancer,0
+HTS,tanespimycin,THP1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,thiostrepton,VCAP,24,1,prostate,prostate cancer,0
+HTS,tanespimycin,HA1E,6,1,kidney,normal kidney sample,0
+HTS,withaferin-a,HCC515,24,12,lung,lung cancer,1
+HTS,geldanamycin,NCIH508,6,1,large_intestine,colon cancer,0
+HTS,geldanamycin,MCF7,24,122,breast,breast cancer,1
+HTS,tanespimycin,NOMO1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,geldanamycin,HEPG2,24,25,liver,liver cancer,1
+HTS,parthenolide,SKM1,6,3,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,bortezomib,LOVO,6,1,large_intestine,colon cancer,0
+HTS,puromycin,MCF7,24,1,breast,breast cancer,0
+HTS,thiostrepton,PHH,24,2,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+HTS,parthenolide,HCC515,24,3,lung,lung cancer,0
+HTS,parthenolide,THP1,6,2,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,geldanamycin,NEU,6,3,central_nervous_system,normal stem cell sample,0
+HTS,withaferin-a,HME1,3,6,breast,leukemia,1
+HTS,parthenolide,SW620,6,2,large_intestine,colon cancer,0
+HTS,geldanamycin,HT115,6,1,large_intestine,colon cancer,0
+HTS,tanespimycin,NPC.TAK,24,3,NA,NA,0
+HTS,puromycin,ASC,24,2,soft_tissue,normal soft tissue sample,0
+HTS,withaferin-a,PC3,24,22,prostate,prostate cancer,1
+HTS,hypericin,HT29,6,2,large_intestine,colon cancer,0
+HTS,parthenolide,A549,6,4,lung,lung cancer,1
+HTS,withaferin-a,HEPG2,6,1,liver,liver cancer,0
+HTS,hypericin,HEPG2,6,2,liver,liver cancer,0
+HTS,thiostrepton,A375,6,2,skin,skin cancer,0
+HTS,withaferin-a,LNCAP,24,6,prostate,prostate cancer,1
+HTS,geldanamycin,THP1,6,1,haematopoietic_and_lymphoid_tissue,leukemia,0
+HTS,hypericin,SKB,24,1,NA,NA,0
+HTS,parthenolide,T3M10,6,2,lung,lung cancer,0
+HTS,bortezomib,NCIH596,6,1,lung,lung cancer,0
+HTS,tanespimycin,SW480,6,1,large_intestine,colon cancer,0
+HTS,parthenolide,JHUEM2,6,2,endometrium,endometrial cancer,0
+HYP,VU-0418947-2,HCC515,6,1,lung,lung cancer,0
+HYP,VU-0418946-1,A375,6,2,skin,skin cancer,0
+HYP,VU-0418946-1,PC3,6,2,prostate,prostate cancer,0
+HYP,VU-0418946-1,MCF7,6,2,breast,breast cancer,0
+HYP,VU-0418946-1,HCC515,6,2,lung,lung cancer,0
+HYP,VU-0418947-2,HEPG2,6,1,liver,liver cancer,0
+HYP,VU-0418946-1,VCAP,6,2,prostate,prostate cancer,0
+HYP,VU-0418947-2,VCAP,6,1,prostate,prostate cancer,0
+HYP,VU-0418947-2,HT29,6,1,large_intestine,colon cancer,0
+HYP,VU-0418947-2,A375,6,1,skin,skin cancer,0
+HYP,VU-0418947-2,MCF7,6,1,breast,breast cancer,0
+HYP,VU-0418947-2,PC3,6,1,prostate,prostate cancer,0
+HYP,VU-0418946-1,ASC,24,1,soft_tissue,normal soft tissue sample,0
+HYP,VU-0418946-1,A549,6,2,lung,lung cancer,0
+HYP,VU-0418946-1,HEPG2,6,1,liver,liver cancer,0
+HYP,VU-0418946-1,MCF7,24,2,breast,breast cancer,0
+HYP,VU-0418946-1,NEU,24,1,central_nervous_system,normal stem cell sample,0
+HYP,VU-0418947-2,A375,24,1,skin,skin cancer,0
+HYP,VU-0418946-1,A549,24,1,lung,lung cancer,0
+HYP,VU-0418946-1,NPC,24,1,central_nervous_system,normal stem cell sample,0
+HYP,VU-0418946-1,VCAP,24,2,prostate,prostate cancer,0
+HYP,VU-0418946-1,SKB,24,1,NA,NA,0
+HYP,VU-0418947-2,MCF7,24,1,breast,breast cancer,0
+HYP,VU-0418947-2,PC3,24,1,prostate,prostate cancer,0
+HYP,VU-0418946-1,PC3,24,2,prostate,prostate cancer,0
+HYP,VU-0418946-1,PHH,24,1,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+HYP,VU-0418946-1,HA1E,6,1,kidney,normal kidney sample,0
+HYP,VU-0418947-2,VCAP,24,1,prostate,prostate cancer,0
+HYP,cobalt(II)-chloride,VCAP,6,1,prostate,prostate cancer,0
+HYP,CAY-10585,A375,6,1,skin,skin cancer,0
+HYP,VU-0418946-1,A375,24,1,skin,skin cancer,0
+HYP,VU-0418947-2,A549,6,1,lung,lung cancer,0
+HYP,cobalt(II)-chloride,A375,6,1,skin,skin cancer,0
+HYP,VU-0418946-1,HT29,6,2,large_intestine,colon cancer,0
+HYP,CAY-10585,PC3,6,1,prostate,prostate cancer,0
+HYP,cobalt(II)-chloride,HCC515,6,1,lung,lung cancer,0
+HYP,YC-1,PC3,6,1,prostate,prostate cancer,0
+HYP,YC-1,HT29,6,1,large_intestine,colon cancer,0
+HYP,CAY-10585,MCF7,6,1,breast,breast cancer,0
+HYP,CAY-10585,HCC515,6,1,lung,lung cancer,0
+HYP,YC-1,MCF7,6,1,breast,breast cancer,0
+HYP,hydralazine,A549,6,1,lung,lung cancer,0
+HYP,YC-1,HEPG2,6,3,liver,liver cancer,0
+HYP,YC-1,HCC515,24,1,lung,lung cancer,0
+HYP,YC-1,HA1E,24,1,kidney,normal kidney sample,0
+HYP,YC-1,PC3,24,1,prostate,prostate cancer,0
+HYP,YC-1,HA1E,6,1,kidney,normal kidney sample,0
+HYP,YC-1,A549,24,1,lung,lung cancer,0
+HYP,cobalt(II)-chloride,A549,6,1,lung,lung cancer,0
+HYP,YC-1,ASC,24,1,soft_tissue,normal soft tissue sample,0
+HYP,hydralazine,VCAP,6,1,prostate,prostate cancer,0
+HYP,CAY-10585,HEPG2,6,1,liver,liver cancer,0
+HYP,YC-1,HUH7,24,2,liver,liver cancer,0
+HYP,cobalt(II)-chloride,HA1E,6,1,kidney,normal kidney sample,0
+HYP,YC-1,HCC515,6,1,lung,lung cancer,0
+HYP,cobalt(II)-chloride,VCAP,24,1,prostate,prostate cancer,0
+HYP,YC-1,HUH7,6,2,liver,liver cancer,0
+HYP,hydralazine,PC3,24,2,prostate,prostate cancer,0
+HYP,hydralazine,HT29,6,1,large_intestine,colon cancer,0
+HYP,hydralazine,NEU,24,1,central_nervous_system,normal stem cell sample,0
+HYP,YC-1,A549,6,1,lung,lung cancer,0
+HYP,cobalt(II)-chloride,MCF7,6,1,breast,breast cancer,0
+HYP,acetazolamide,PC3,24,7,prostate,prostate cancer,1
+HYP,YC-1,A375,6,1,skin,skin cancer,0
+HYP,acetazolamide,MCF7,6,1,breast,breast cancer,0
+MTL,cadmium-chloride,HA1E,24,2,kidney,normal kidney sample,0
+MTL,cadmium-chloride,HA1E,6,1,kidney,normal kidney sample,0
+OXD,mepacrine,NCIH1694,6,1,lung,lung cancer,0
+OXD,hesperidin,VCAP,6,1,prostate,prostate cancer,0
+OXD,catechin,A375,6,1,skin,skin cancer,0
+OXD,buthionine-sulfoximine,ASC,24,1,soft_tissue,normal soft tissue sample,0
+OXD,"1,2-dichlorobenzene",SKB,24,1,NA,NA,0
+OXD,catechin,VCAP,6,2,prostate,prostate cancer,0
+OXD,mepacrine,U937,6,1,haematopoietic_and_lymphoid_tissue,lymphoma,0
+OXD,amodiaquine,ASC,24,1,soft_tissue,normal soft tissue sample,0
+OXD,mepacrine,NCIH1836,6,1,lung,lung cancer,0
+OXD,mepacrine,LOVO,6,1,large_intestine,colon cancer,0
+OXD,buthionine-sulfoximine,HCC515,6,1,lung,lung cancer,0
+OXD,linoleic-acid,HCC515,6,1,lung,lung cancer,0
+OXD,quercetin,HCC515,24,1,lung,lung cancer,0
+OXD,"1,2-dichlorobenzene",ASC,24,1,soft_tissue,normal soft tissue sample,0
+OXD,catechin,A549,24,1,lung,lung cancer,0
+OXD,quinine,MCF7,6,1,breast,breast cancer,0
+OXD,mepacrine,RMUGS,6,1,ovary,ovarian cancer,0
+OXD,mepacrine,HCT116,6,1,large_intestine,colon cancer,0
+OXD,linoleic-acid,A375,24,1,skin,skin cancer,0
+OXD,mefloquine,PC3,6,1,prostate,prostate cancer,0
+OXD,quinine,RKO,6,1,large_intestine,colon cancer,0
+OXD,mepacrine,EFO27,6,1,ovary,ovarian cancer,0
+OXD,quinine,LOVO,6,1,large_intestine,colon cancer,0
+OXD,amodiaquine,VCAP,24,1,prostate,prostate cancer,0
+OXD,quercetin,A375,24,6,skin,skin cancer,1
+OXD,4-hydroxy-2-nonenal,SKB,24,1,NA,NA,0
+OXD,curcumin,COV644,6,2,ovary,ovarian cancer,0
+OXD,quercetin,HEPG2,6,1,liver,liver cancer,0
+OXD,mefloquine,A549,6,1,lung,lung cancer,0
+OXD,mefloquine,MCF7,24,8,breast,breast cancer,1
+OXD,hesperidin,PHH,24,1,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+OXD,catechin,MCF7,24,1,breast,breast cancer,0
+OXD,mepacrine,PC3,6,2,prostate,prostate cancer,0
+OXD,mepacrine,JHUEM2,6,1,endometrium,endometrial cancer,0
+OXD,mepacrine,CL34,6,1,large_intestine,colon cancer,0
+OXD,quercetin,HA1E,6,1,kidney,normal kidney sample,0
+OXD,catechin,VCAP,24,2,prostate,prostate cancer,0
+OXD,curcumin,OV7,6,2,ovary,ovarian cancer,0
+OXD,quinine,HA1E,6,1,kidney,normal kidney sample,0
+OXD,quercetin,HT29,24,6,large_intestine,colon cancer,1
+OXD,buthionine-sulfoximine,A549,6,1,lung,lung cancer,0
+OXD,buthionine-sulfoximine,MCF7,24,1,breast,breast cancer,0
+OXD,linoleic-acid,A375,6,1,skin,skin cancer,0
+OXD,linoleic-acid,HA1E,24,1,kidney,normal kidney sample,0
+OXD,amodiaquine,HELA,24,6,cervix,cervical cancer,1
+OXD,curcumin,NCIH508,6,2,large_intestine,colon cancer,0
+OXD,quinine,EFO27,6,1,ovary,ovarian cancer,0
+OXD,buthionine-sulfoximine,PC3,6,1,prostate,prostate cancer,0
+OXD,linoleic-acid,MCF7,24,1,breast,breast cancer,0
+OXD,4-hydroxy-2-nonenal,A549,6,1,lung,lung cancer,0
+OXD,hesperidin,HA1E,6,1,kidney,normal kidney sample,0
+OXD,mepacrine,HEPG2,6,1,liver,liver cancer,0
+OXD,curcumin,H1299,6,2,lung,lung cancer,0
+OXD,mepacrine,NCIH596,6,1,lung,lung cancer,0
+OXD,quinine,HA1E,24,7,kidney,normal kidney sample,1
+OXD,quinine,A375,24,7,skin,skin cancer,1
+OXD,hesperidin,A549,24,1,lung,lung cancer,0
+OXD,clioquinol,HT29,6,1,large_intestine,colon cancer,0
+OXD,mepacrine,MDST8,6,1,large_intestine,colon cancer,0
+OXD,amodiaquine,NPC,24,1,central_nervous_system,normal stem cell sample,0
+OXD,tert-butylhydroquinone,JURKAT,6,7,haematopoietic_and_lymphoid_tissue,leukemia,1
+OXD,curcumin,FIBRNPC,24,1,NA,NA,0
+OXD,mefloquine,MCF7,6,2,breast,breast cancer,0
+OXD,catechin,MCF7,6,1,breast,breast cancer,0
+OXD,"1,2-dichlorobenzene",A549,6,1,lung,lung cancer,0
+OXD,quercetin,HCC515,6,1,lung,lung cancer,0
+OXD,quercetin,HT29,6,1,large_intestine,colon cancer,0
+OXD,clioquinol,A375,24,7,skin,skin cancer,1
+OXD,curcumin,WSUDLCL2,6,2,haematopoietic_and_lymphoid_tissue,lymphoma,0
+OXD,curcumin,EFO27,6,2,ovary,ovarian cancer,0
+OXD,mepacrine,HCC515,24,1,lung,lung cancer,0
+OXD,hesperidin,HA1E,24,7,kidney,normal kidney sample,1
+OXD,4-hydroxy-2-nonenal,MCF7,6,1,breast,breast cancer,0
+OXD,mefloquine,VCAP,24,1,prostate,prostate cancer,0
+OXD,quercetin,NPC,6,1,central_nervous_system,normal stem cell sample,0
+OXD,amodiaquine,YAPC,24,6,pancreas,pancreatic cancer,1
+OXD,mepacrine,A549,24,11,lung,lung cancer,1
+OXD,curcumin,LOVO,6,2,large_intestine,colon cancer,0
+OXD,curcumin,SW948,6,2,large_intestine,colon cancer,0
+OXD,oleanolic-acid,VCAP,6,1,prostate,prostate cancer,0
+OXD,mepacrine,NCIH508,6,1,large_intestine,colon cancer,0
+OXD,curcumin,JHUEM2,6,2,endometrium,endometrial cancer,0
+OXD,oleanolic-acid,HA1E,24,1,kidney,normal kidney sample,0
+OXD,curcumin,SW620,6,2,large_intestine,colon cancer,0
+OXD,clioquinol,YAPC,24,6,pancreas,pancreatic cancer,1
+OXD,quinine,A549,24,1,lung,lung cancer,0
+OXD,mepacrine,H1299,6,1,lung,lung cancer,0
+OXD,thioctic-acid,PC3,24,6,prostate,prostate cancer,1
+OXD,tert-butylhydroquinone,PC3,24,10,prostate,prostate cancer,1
+OXD,tert-butylhydroquinone,U266,24,4,NA,NA,1
+OXD,curcumin,SNUC5,6,2,large_intestine,colon cancer,0
+OXD,amodiaquine,HA1E,24,7,kidney,normal kidney sample,1
+OXD,"1,2-dichlorobenzene",A549,24,1,lung,lung cancer,0
+OXD,curcumin,MCF7,6,21,breast,breast cancer,1
+OXD,quercetin,MCF7,6,5,breast,breast cancer,1
+OXD,curcumin,NEU,6,1,central_nervous_system,normal stem cell sample,0
+OXD,quinine,A375,6,1,skin,skin cancer,0
+OXD,catechin,HA1E,6,2,kidney,normal kidney sample,0
+OXD,mepacrine,SW948,6,1,large_intestine,colon cancer,0
+OXD,curcumin,AGS,6,2,stomach,gastric cancer,0
+OXD,quinine,HEC108,6,1,endometrium,endometrial cancer,0
+OXD,oleanolic-acid,VCAP,24,1,prostate,prostate cancer,0
+OXD,quinine,HCC15,6,1,lung,lung cancer,0
+OXD,linoleic-acid,A549,24,1,lung,lung cancer,0
+OXD,mepacrine,NCIH2073,6,1,lung,lung cancer,0
+OXD,quercetin,HELA,24,6,cervix,cervical cancer,1
+OXD,curcumin,NCIH1836,6,2,lung,lung cancer,0
+OXD,4-hydroxy-2-nonenal,PHH,24,1,haematopoietic_and_lymphoid_tissue,normal blood sample,0
+OXD,clioquinol,HELA,24,6,cervix,cervical cancer,1
+OXD,quercetin,HA1E,24,7,kidney,normal kidney sample,1
+OXD,quinine,HCC515,24,1,lung,lung cancer,0
+OXD,thioctic-acid,HELA,24,6,cervix,cervical cancer,1
+OXD,curcumin,SNGM,6,2,endometrium,endometrial cancer,0
+OXD,clioquinol,HT29,24,7,large_intestine,colon cancer,1
+OXD,tert-butylhydroquinone,MCF7,24,10,breast,breast cancer,1
+OXD,"1,2-dichlorobenzene",HEPG2,6,1,liver,liver cancer,0
+OXD,mepacrine,MCF7,24,18,breast,breast cancer,1
+OXD,4-hydroxy-2-nonenal,A375,6,1,skin,skin cancer,0
+OXD,quercetin,VCAP,6,1,prostate,prostate cancer,0
+OXD,quinine,HEPG2,6,1,liver,liver cancer,0
+OXD,mepacrine,OV7,6,1,ovary,ovarian cancer,0
+OXD,quinine,VCAP,6,1,prostate,prostate cancer,0
+OXD,quinine,SW480,6,1,large_intestine,colon cancer,0
+OXD,curcumin,CL34,6,2,large_intestine,colon cancer,0
+OXD,amodiaquine,VCAP,6,1,prostate,prostate cancer,0
+OXD,mefloquine,HT29,6,1,large_intestine,colon cancer,0
+OXD,4-hydroxy-2-nonenal,A549,24,1,lung,lung cancer,0
+OXD,"1,2-dichlorobenzene",HT29,6,1,large_intestine,colon cancer,0
+OXD,mepacrine,RKO,6,1,large_intestine,colon cancer,0
+OXD,curcumin,HEC108,6,2,endometrium,endometrial cancer,0
+OXD,clioquinol,HA1E,24,7,kidney,normal kidney sample,1
+OXD,linoleic-acid,VCAP,6,1,prostate,prostate cancer,0
