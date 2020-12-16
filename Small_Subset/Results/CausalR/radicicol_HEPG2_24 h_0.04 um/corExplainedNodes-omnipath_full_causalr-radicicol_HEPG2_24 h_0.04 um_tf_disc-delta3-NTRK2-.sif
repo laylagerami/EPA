@@ -1,0 +1,14 @@
+CDK5	Activates	CLOCK
+CTNNB1	Activates	TCF7
+CTNNB1	Activates	TCF7L2
+CTNNB1	Inhibits	SOX2
+FYN	Activates	CDK5
+FYN	Activates	CTNNB1
+FYN	Activates	MAPK14
+FYN	Activates	PRKCD
+MAPK14	Activates	JUNB
+NTRK2	Activates	FYN
+NTRK2	Activates	PTK2
+PRKCD	Activates	KLF5
+PTK2	Activates	STAT1
+STAT1	Activates	ARNT

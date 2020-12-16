@@ -1,0 +1,16 @@
+CASP3	Activates	SREBF1
+E2F1	Activates	CASP3
+E2F1	Activates	HDAC1
+E2F1	Activates	RELA
+HDAC1	Activates	FLI1
+HDAC1	Inhibits	KLF1
+PHB	Activates	TP53
+PHB	Inhibits	E2F1
+RB1	Inhibits	SPI1
+RB1	Inhibits	YY1
+RELA	Activates	EGR1
+RPS6KA5	Activates	ELK1
+TP53	Activates	ATF3
+TP53	Activates	BHLHE40
+TP53	Activates	RB1
+TP53	Activates	RPS6KA5

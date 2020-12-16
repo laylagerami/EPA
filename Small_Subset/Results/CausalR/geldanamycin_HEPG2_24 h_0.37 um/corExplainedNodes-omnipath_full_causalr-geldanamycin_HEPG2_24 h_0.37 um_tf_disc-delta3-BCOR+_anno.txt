@@ -1,0 +1,12 @@
+NodeID	Regulation
+E2F1	1
+ETS1	1
+MYB	1
+NFYB	1
+STAT1	1
+ATF2	-1
+EGR1	-1
+KLF1	-1
+RUNX2	-1
+SMAD1	-1
+SP1	-1

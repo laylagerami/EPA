@@ -1,0 +1,17 @@
+CDK1	Activates	FOXM1
+CDK1	Activates	RUNX2
+CDK1	Activates	SP1
+CDK3	Activates	JUN
+CDKN1A	Inhibits	CDK1
+CDKN1A	Inhibits	CDK3
+CDKN1A	Inhibits	RB1
+CDKN1A	Inhibits	STAT3
+DDB1	Activates	E2F1
+DDB2	Inhibits	CDKN1A
+DDB2	Inhibits	DDB1
+E2F1	Activates	RELA
+RB1	Activates	ATF2
+RB1	Activates	JUN
+RB1	Activates	SP1
+STAT3	Activates	EGR1
+STAT3	Activates	TWIST1

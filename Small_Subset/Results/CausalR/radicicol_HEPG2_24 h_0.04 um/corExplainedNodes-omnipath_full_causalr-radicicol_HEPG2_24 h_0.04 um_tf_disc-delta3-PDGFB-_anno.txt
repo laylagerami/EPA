@@ -1,0 +1,8 @@
+NodeID	Regulation
+MYBL2	1
+POU2F1	1
+ARNT	-1
+CLOCK	-1
+CREM	-1
+JUNB	-1
+KLF5	-1

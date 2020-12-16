@@ -1,0 +1,15 @@
+GAB2	Activates	PIK3CA
+GAB2	Activates	PIK3R1
+MAPK8	Activates	JUN
+MAPK8	Activates	SMAD2
+MAPK8	Activates	TP53
+PIK3CA	Activates	PRKCD
+PIK3CA	Activates	RPS6KB1
+PIK3R1	Activates	MAPK8
+PIK3R1	Activates	RPS6KB1
+PIK3R1	Activates	STAT3
+PRKCD	Activates	TP53
+PRKCD	Inhibits	FLI1
+RPS6KB1	Activates	CREM
+STAT3	Activates	JUNB
+STAT3	Inhibits	MYOD1

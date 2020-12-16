@@ -1,0 +1,11 @@
+NodeID	Regulation
+FLI1	1
+KLF1	1
+MYOD1	1
+STAT5A	1
+VDR	1
+AR	-1
+CREM	-1
+HBP1	-1
+JUNB	-1
+SREBF2	-1

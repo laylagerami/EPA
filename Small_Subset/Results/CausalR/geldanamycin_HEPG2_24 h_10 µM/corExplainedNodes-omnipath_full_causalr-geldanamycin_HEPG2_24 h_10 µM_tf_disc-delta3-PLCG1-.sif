@@ -1,0 +1,17 @@
+CAMK2A	Inhibits	NCOR2
+CAMK2A	Inhibits	SMAD2
+CREB1	Activates	CREBBP
+CREB1	Activates	SMAD3
+CREB1	Activates	TP53
+CREB1	Inhibits	FOXO1
+CREB1	Inhibits	FOXO3
+CREBBP	Activates	KLF1
+NCOR2	Inhibits	ESR2
+PLCG1	Activates	CAMK2A
+PLCG1	Activates	CREB1
+PLCG1	Activates	STAT5A
+SMAD2	Activates	MEF2A
+SMAD2	Activates	SP1
+SMAD3	Inhibits	FOXA1
+TP53	Activates	ATF3
+TP53	Inhibits	NFYB

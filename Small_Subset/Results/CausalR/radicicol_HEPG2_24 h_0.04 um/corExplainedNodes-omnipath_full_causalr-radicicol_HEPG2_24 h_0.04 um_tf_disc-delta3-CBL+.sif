@@ -1,0 +1,12 @@
+CBL	Activates	MET
+CBL	Inhibits	ERBB2
+CBL	Inhibits	PIK3CA
+CDK1	Activates	FOXM1
+CTNNB1	Activates	TCF7
+CTNNB1	Activates	TCF7L2
+CTNNB1	Inhibits	SOX2
+ERBB2	Activates	CTNNB1
+ERBB2	Inhibits	CDK1
+MET	Inhibits	CTNNB1
+PIK3CA	Activates	PRKCD
+PRKCD	Activates	KLF5

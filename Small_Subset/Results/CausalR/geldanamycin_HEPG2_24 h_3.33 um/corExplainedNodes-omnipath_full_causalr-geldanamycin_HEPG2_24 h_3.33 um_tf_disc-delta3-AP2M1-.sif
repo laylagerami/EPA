@@ -1,0 +1,16 @@
+AP2M1	Activates	ARRB2
+AP2M1	Inhibits	EGFR
+ARRB2	Activates	MAPK10
+CTNNB1	Activates	TCF7L2
+E2F1	Activates	TP73
+EGFR	Activates	CTNNB1
+EGFR	Activates	E2F1
+EGFR	Activates	STAT3
+EGFR	Activates	VAV2
+MAPK10	Activates	MEF2A
+MAPK10	Inhibits	NFATC1
+STAT3	Activates	EGR1
+STAT3	Activates	PRDM1
+STAT3	Activates	SPI1
+STAT3	Activates	TWIST1
+VAV2	Activates	NFATC1

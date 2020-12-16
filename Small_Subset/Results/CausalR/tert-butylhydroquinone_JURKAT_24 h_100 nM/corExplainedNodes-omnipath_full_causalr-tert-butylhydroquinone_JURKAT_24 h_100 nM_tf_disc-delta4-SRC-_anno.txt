@@ -1,0 +1,14 @@
+NodeID	Regulation
+HNF4A	1
+ELK1	-1
+ETS1	-1
+ETS2	-1
+IRF2	-1
+JUNB	-1
+KLF5	-1
+LEF1	-1
+PRDM1	-1
+SPI1	-1
+SRF	-1
+TCF7	-1
+TCF7L2	-1

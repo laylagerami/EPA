@@ -1,0 +1,9 @@
+NodeID	Regulation
+IRF1	1
+IRF4	1
+TCF7	1
+CEBPB	-1
+MITF	-1
+SMAD3	-1
+TP53	-1
+WT1	-1

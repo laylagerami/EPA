@@ -1,0 +1,10 @@
+NodeID	Regulation
+ATF1	1
+KLF1	1
+MYOD1	1
+SMAD1	1
+SRF	1
+VDR	1
+CREM	-1
+SMAD2	-1
+SREBF2	-1

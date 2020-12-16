@@ -1,0 +1,16 @@
+ABL1	Activates	STAT5A
+BRCA1	Inhibits	ABL1
+BRCA1	Inhibits	ESR1
+CASP3	Activates	SREBF1
+E2F1	Activates	CASP3
+E2F1	Activates	HDAC1
+E2F1	Activates	RELA
+E2F1	Activates	SIRT1
+E2F1	Activates	TP73
+E2F6	Inhibits	BRCA1
+E2F6	Inhibits	E2F1
+ESR1	Activates	ESR2
+HDAC1	Inhibits	KLF1
+RELA	Activates	EGR1
+RELA	Activates	SP1
+SIRT1	Inhibits	STAT5A

@@ -1,0 +1,16 @@
+CAMK2A	Inhibits	ETS2
+CREB1	Activates	FOXO4
+GRB2	Activates	ELK1
+HRAS	Activates	MAPK8
+MAPK1	Activates	GATA2
+MAPK1	Inhibits	FOXO4
+MAPK1	Inhibits	MITF
+MAPK1	Inhibits	SMAD1
+MAPK8	Activates	FOXO4
+PLCG1	Activates	CAMK2A
+PLCG1	Activates	CREB1
+RASA1	Activates	GRB2
+RASA1	Activates	SHC1
+RASA1	Inhibits	HRAS
+RASA1	Inhibits	PLCG1
+SHC1	Activates	MAPK1

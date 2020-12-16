@@ -1,0 +1,16 @@
+CSK	Activates	NOTCH1
+CSK	Inhibits	ITCH
+CSK	Inhibits	SRC
+FKBP4	Activates	AR
+ITCH	Activates	SMAD2
+ITGA1	Activates	CSK
+ITGA1	Activates	PTPN2
+NOTCH1	Activates	LEF1
+NOTCH1	Activates	SMAD1
+PTPN2	Activates	STAT5A
+PTPN2	Inhibits	FKBP4
+PTPN2	Inhibits	SRC
+PTPN2	Inhibits	STAT3
+SRC	Activates	AR
+STAT3	Activates	JUNB
+STAT3	Inhibits	MYOD1

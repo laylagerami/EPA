@@ -1,0 +1,17 @@
+CTNNB1	Activates	TCF7
+E2F1	Inhibits	MYBL2
+EGFR	Activates	CTNNB1
+EGFR	Activates	E2F1
+EGFR	Activates	ESR1
+EGFR	Activates	MAP2K1
+EGFR	Activates	PRKDC
+EGFR	Activates	STAT1
+EGFR	Activates	STAT3
+EGFR	Activates	STAT5A
+HRAS	Activates	MAP2K1
+MAP2K1	Activates	FOXM1
+PRKDC	Activates	USF1
+RIN1	Activates	EGFR
+RIN1	Activates	HRAS
+STAT1	Activates	ARNT
+STAT3	Activates	KLF4

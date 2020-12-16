@@ -1,0 +1,12 @@
+NodeID	Regulation
+PPARG	1
+PRDM1	1
+RELB	1
+SMAD3	1
+TP73	1
+AR	-1
+CEBPA	-1
+ETV4	-1
+JUN	-1
+NFYB	-1
+SP1	-1

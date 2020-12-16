@@ -1,0 +1,15 @@
+CREB1	Activates	FOXO4
+CREB1	Inhibits	FOXO3
+CTBP1	Inhibits	TCF7L2
+HIPK2	Activates	CREB1
+HIPK2	Activates	CTBP1
+HIPK2	Activates	NLK
+HIPK2	Activates	TP53
+NLK	Inhibits	MYB
+NLK	Inhibits	TCF7L2
+PLCG1	Activates	STAT5A
+SIAH2	Inhibits	HIPK2
+SIAH2	Inhibits	VAV2
+TP53	Activates	ATF3
+TP53	Activates	BHLHE40
+VAV2	Activates	PLCG1

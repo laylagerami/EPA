@@ -1,0 +1,6 @@
+NodeID	Regulation
+FOXM1	1
+SOX2	1
+KLF5	-1
+TCF7	-1
+TCF7L2	-1

@@ -1,0 +1,12 @@
+DUSP2	Activates	MAPK1
+DUSP2	Activates	MAPK14
+DUSP2	Inhibits	MAPK3
+MAPK1	Activates	NR4A1
+MAPK1	Activates	PRKACA
+MAPK14	Activates	ETS2
+MAPK14	Activates	JUNB
+MAPK14	Activates	MEF2A
+MAPK3	Activates	MAZ
+MAPK3	Activates	RUNX2
+NR4A1	Activates	NR2F1
+PRKACA	Inhibits	WT1

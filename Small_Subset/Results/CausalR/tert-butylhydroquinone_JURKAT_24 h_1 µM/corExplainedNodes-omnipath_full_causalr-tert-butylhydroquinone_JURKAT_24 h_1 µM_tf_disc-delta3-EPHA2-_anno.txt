@@ -1,0 +1,10 @@
+NodeID	Regulation
+MYOD1	1
+SMAD1	1
+CREM	-1
+JUN	-1
+JUNB	-1
+SMAD2	-1
+SREBF1	-1
+SREBF2	-1
+TP53	-1

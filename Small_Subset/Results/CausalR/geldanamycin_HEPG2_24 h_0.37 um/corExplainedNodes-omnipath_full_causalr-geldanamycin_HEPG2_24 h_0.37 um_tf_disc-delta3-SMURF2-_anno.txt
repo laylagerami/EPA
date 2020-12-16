@@ -1,0 +1,8 @@
+NodeID	Regulation
+ATF3	1
+ETS1	1
+RUNX2	-1
+SMAD1	-1
+SP1	-1
+SRF	-1
+ZEB2	-1

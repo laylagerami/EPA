@@ -1,0 +1,9 @@
+NodeID	Regulation
+FOXO3	1
+LEF1	1
+MYOD1	1
+NR2F1	1
+SRF	1
+AR	-1
+JUN	-1
+TP53	-1

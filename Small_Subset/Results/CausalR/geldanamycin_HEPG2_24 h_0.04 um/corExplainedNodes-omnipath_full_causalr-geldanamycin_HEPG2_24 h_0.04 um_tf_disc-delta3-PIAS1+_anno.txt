@@ -1,0 +1,12 @@
+NodeID	Regulation
+E2F4	1
+ETV1	1
+FOXO4	1
+RARA	1
+TCF7	1
+ELK1	-1
+FOXA1	-1
+JUNB	-1
+NFYB	-1
+SRF	-1
+YY1	-1

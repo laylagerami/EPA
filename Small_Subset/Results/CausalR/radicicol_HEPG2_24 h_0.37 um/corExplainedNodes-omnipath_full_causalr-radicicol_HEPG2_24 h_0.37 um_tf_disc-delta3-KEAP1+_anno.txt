@@ -1,0 +1,12 @@
+NodeID	Regulation
+BCL6	1
+FOXO1	1
+MYB	1
+NFATC1	1
+ARNT	-1
+E2F1	-1
+ESR1	-1
+SP3	-1
+STAT5A	-1
+TCF7	-1
+TP63	-1

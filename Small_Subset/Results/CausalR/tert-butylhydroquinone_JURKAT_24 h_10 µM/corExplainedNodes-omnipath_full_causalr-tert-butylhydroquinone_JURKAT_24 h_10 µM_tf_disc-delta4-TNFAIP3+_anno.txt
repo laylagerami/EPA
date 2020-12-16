@@ -1,0 +1,14 @@
+NodeID	Regulation
+MYB	1
+WT1	1
+AHR	-1
+ARNT	-1
+ESR1	-1
+ETS2	-1
+JUN	-1
+MAX	-1
+NFKB1	-1
+RELA	-1
+SMAD2	-1
+TBP	-1
+USF1	-1

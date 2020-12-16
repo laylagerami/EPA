@@ -23,23 +23,23 @@ registerDoParallel(myCluster)
 
 # Load files for dorothea
 file.copy(from=system.file("dorothea_TF_mapping.csv",package="CARNIVAL"),to=getwd(),overwrite=TRUE)
-load(file = system.file("BEST_viperRegulon.rdata",package="CARNIVAL"))
+load(file = "BEST_viperRegulon.rdata")
 map<-read.csv("dorothea_TF_mapping.csv")
 
 #Open matrix 
-gexfile = "../Transcriptomics_Data/processed_signatures/speripone_matrix.csv"
+gexfile = "../Transcriptomics_Data/final_lincs_data.csv"
 gex_df = fread(gexfile,header=TRUE,sep=",") # First row is python header
 gex_df = as.data.frame(gex_df) # Change into df
 compound_names = names(gex_df) # Column names are compounds/conditions
-compound_names = compound_names[!compound_names %in% 'V1'] # Get rid of 'V1'
+compound_names = compound_names[!compound_names %in% 'Gene_Id'] # Get rid of 'gene_id'
 
 #Now change gene ids to gene symbols using metadata
 gene_info = fread('gene_info.csv',header=TRUE) # Import metadata
 gene_info = as.data.frame(gene_info) # Read as df
 
-converted = merge(gex_df,gene_info,by.x='V1',by.y='pr_gene_id') # Map to gene symbol
+converted = merge(gex_df,gene_info,by.x='Gene_Id',by.y='pr_gene_id') # Map to gene symbol
 converted_symbols = converted$pr_gene_symbol # Extract symbols 
-gex_df$V1 = converted_symbols # Make row names into symbols
+gex_df$Gene_Id = converted_symbols # Make row names into symbols
 
 # Run
 output <- 
@@ -88,11 +88,11 @@ file.copy(from=system.file("model_NatComm+14_human.csv",package="CARNIVAL"),to=g
 weight_matrix<-read.csv("model_NatComm+14_human.csv")
 
 #Open matrix 
-gexfile = "../Transcriptomics_Data/processed_signatures/speripone_matrix.csv"
+gexfile = "../Transcriptomics_Data/final_lincs_data.csv"
 gex_df = fread(gexfile,header=TRUE,sep=",") # First row is python header
 gex_df = as.data.frame(gex_df) # Change into df
 compound_names = names(gex_df) # Column names are compounds/conditions
-compound_names = compound_names[!compound_names %in% 'V1'] # Get rid of 'V1'
+compound_names = compound_names[!compound_names %in% 'Gene_Id'] # Get rid of 'V1'
 
 # test for e.g. 10 compounds
 # compound_names = compound_names[1:10]

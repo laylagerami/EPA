@@ -1,0 +1,17 @@
+CCNH	Activates	CDK1
+CCNH	Activates	RARA
+CCNH	Inhibits	CDK2
+CDK1	Activates	CSNK2A1
+CDK1	Activates	RUNX2
+CDK1	Activates	SIRT1
+CDK1	Inhibits	MAP2K1
+CDK2	Activates	MYBL2
+CDK2	Inhibits	SMAD3
+CSNK2A1	Activates	NFATC1
+CTNNB1	Activates	MITF
+CTNNB1	Activates	TCF4
+CTNNB1	Activates	TCF7
+MAP2K1	Activates	ELK1
+RARA	Activates	CTNNB1
+SIRT1	Inhibits	NR5A2
+SMAD3	Inhibits	FOXA1

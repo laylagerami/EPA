@@ -1,0 +1,12 @@
+NodeID	Regulation
+MYB	1
+NFATC1	1
+NFYB	1
+ATF2	-1
+EGR1	-1
+FOXM1	-1
+JUN	-1
+MAZ	-1
+SP1	-1
+SPI1	-1
+TWIST1	-1

@@ -1,0 +1,17 @@
+CTNNB1	Activates	TCF7L2
+E2F1	Activates	TP73
+EGFR	Activates	CTNNB1
+EGFR	Activates	E2F1
+EGFR	Activates	STAT3
+EGFR	Activates	VAV2
+JAK2	Activates	PPP2CA
+JAK2	Activates	STAT3
+PPP2CA	Activates	SP1
+PPP2CA	Inhibits	ELF1
+SH3KBP1	Activates	EGFR
+SH3KBP1	Activates	JAK2
+STAT3	Activates	EGR1
+STAT3	Activates	PRDM1
+STAT3	Activates	SPI1
+STAT3	Activates	TWIST1
+VAV2	Activates	NFATC1

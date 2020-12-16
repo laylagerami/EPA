@@ -1,0 +1,8 @@
+NodeID	Regulation
+LEF1	1
+MYOD1	1
+SMAD1	1
+STAT5A	1
+AR	-1
+JUNB	-1
+SMAD2	-1

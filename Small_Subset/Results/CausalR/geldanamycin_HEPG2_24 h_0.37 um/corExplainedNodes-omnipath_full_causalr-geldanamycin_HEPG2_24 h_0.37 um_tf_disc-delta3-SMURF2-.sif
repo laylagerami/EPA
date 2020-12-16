@@ -1,0 +1,13 @@
+ATF2	Activates	ATF3
+CTNNB1	Activates	TCF7
+FOS	Activates	ETS1
+SMAD1	Activates	RUNX2
+SMAD2	Activates	SP1
+SMAD2	Activates	ZEB2
+SMAD4	Activates	ATF2
+SMAD4	Activates	FOS
+SMURF2	Activates	CTNNB1
+SMURF2	Activates	SMAD1
+SMURF2	Activates	SMAD2
+SMURF2	Inhibits	SMAD4
+TCF7	Activates	SRF

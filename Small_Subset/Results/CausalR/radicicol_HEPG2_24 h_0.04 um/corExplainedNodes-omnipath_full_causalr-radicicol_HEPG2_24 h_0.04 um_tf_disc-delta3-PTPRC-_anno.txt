@@ -1,0 +1,8 @@
+NodeID	Regulation
+SOX2	1
+CLOCK	-1
+KLF5	-1
+RUNX2	-1
+TCF7	-1
+TCF7L2	-1
+TFDP1	-1

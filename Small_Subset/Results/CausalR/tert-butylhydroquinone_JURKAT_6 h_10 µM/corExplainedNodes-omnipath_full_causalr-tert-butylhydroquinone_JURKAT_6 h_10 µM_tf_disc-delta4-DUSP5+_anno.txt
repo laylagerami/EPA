@@ -1,0 +1,8 @@
+NodeID	Regulation
+MAZ	1
+RUNX2	1
+WT1	1
+ETS2	-1
+JUNB	-1
+MEF2A	-1
+NR2F1	-1

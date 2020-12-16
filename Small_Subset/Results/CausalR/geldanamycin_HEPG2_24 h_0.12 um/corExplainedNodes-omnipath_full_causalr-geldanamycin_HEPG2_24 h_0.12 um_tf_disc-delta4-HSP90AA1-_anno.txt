@@ -1,0 +1,11 @@
+NodeID	Regulation
+ATF3	1
+BHLHE40	1
+SPIB	1
+VDR	1
+AHR	-1
+EGR1	-1
+ELF1	-1
+ETS2	-1
+SMAD4	-1
+STAT3	-1
