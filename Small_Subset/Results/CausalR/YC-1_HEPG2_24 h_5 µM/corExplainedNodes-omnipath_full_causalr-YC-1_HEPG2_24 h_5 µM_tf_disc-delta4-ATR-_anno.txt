@@ -1,0 +1,11 @@
+NodeID	Regulation
+GATA2	1
+MYBL2	1
+TBP	1
+YY1	1
+BCL6	-1
+FLI1	-1
+KMT2A	-1
+PRDM1	-1
+SMAD1	-1
+SP1	-1
