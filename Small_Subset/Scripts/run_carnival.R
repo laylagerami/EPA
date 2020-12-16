@@ -1,6 +1,12 @@
 # Script to run CARNIVAL
 library(CARNIVAL)
+library(foreach)
+library(doParallel)
 
+# Initialise cluster
+n = 20 # change to number of cores needed
+myCluster <- makeCluster(n, type="FORK",outfile="") 
+registerDoParallel(myCluster)
 
 assignPROGENyScores <- function (progeny = progeny, progenyMembers = progenyMembers, 
                                  id = "gene", access_idx = 1) 
@@ -66,7 +72,10 @@ dirs = list.dirs("../Transcriptomics_Data/tf_progeny",full.names = T,recursive =
 dirs = dirs[2:50] # get rid of first dir (root dir)
 
 # Iterate over Dirs
-for(dir in dirs){
+output <-
+  foreach(i = dirs) %dopar% {
+    
+  dir = i
   # get both files
   files = list.files(dir,full.names = T)
 
