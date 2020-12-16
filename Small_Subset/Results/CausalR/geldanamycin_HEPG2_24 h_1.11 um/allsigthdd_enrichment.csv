@@ -1,0 +1,37 @@
+"","Gene set","Overlap","pValue","pAdj"
+"1","DNA_thresholded_050","","1",1
+"2","DNA_thresholded_100","","1",1
+"3","DNA_thresholded_200","","1",1
+"4","DNA_thresholded_300","YY1","0.982858811317731",1
+"5","DNA_thresholded_400","YY1","0.995516706812129",1
+"6","DNA_thresholded_477","YY1","0.998396821549598",1
+"7","ERS_thresholded_050","","1",1
+"8","ERS_thresholded_100","ATF3","0.741976223388246",1
+"9","ERS_thresholded_200","ATF3","0.931825176263892",1
+"10","ERS_thresholded_300","ATF3, CEBPB, EP300","0.74876795237614",1
+"11","ERS_thresholded_400","ATF3, CEBPB, EP300","0.889897901409996",1
+"12","ERS_thresholded_477","ATF3, CEBPB, EP300","0.944743876077059",1
+"13","HTS_thresholded_050","","1",1
+"14","HTS_thresholded_100","GSK3B","0.743062573762133",1
+"15","HTS_thresholded_200","GSK3B, CDKN1A, MAPK1, MAPK3","0.266269447414889",1
+"16","HTS_thresholded_300","GSK3B, CDKN1A, MAPK1, MAPK3","0.545886768405329",1
+"17","HTS_thresholded_400","GSK3B, CDKN1A, MAPK1, MAPK3, EP300","0.577327117754551",1
+"18","HTS_thresholded_477","GSK3B, CDKN1A, MAPK1, MAPK3, EP300, PPARGC1A, PRKAA1","0.382846422596425",1
+"19","HYP_thresholded_050","SIAH2","0.493385464555274",1
+"20","HYP_thresholded_100","SIAH2, BHLHE40","0.387313446783851",1
+"21","HYP_thresholded_200","SIAH2, BHLHE40","0.74779395952886",1
+"22","HYP_thresholded_300","SIAH2, BHLHE40","0.908956907192258",1
+"23","HYP_thresholded_400","SIAH2, BHLHE40, ELF3, HBP1","0.761347822728804",1
+"24","HYP_thresholded_477","SIAH2, BHLHE40, ELF3, HBP1, CDKN1A","0.730273755563447",1
+"25","MTL_thresholded_050","","1",1
+"26","MTL_thresholded_100","","1",1
+"27","MTL_thresholded_200","","1",1
+"28","MTL_thresholded_300","","1",1
+"29","MTL_thresholded_400","","1",1
+"30","MTL_thresholded_477","","1",1
+"31","OXD_thresholded_050","MYB","0.493190313025213",1
+"32","OXD_thresholded_100","MYB","0.742074892688592",1
+"33","OXD_thresholded_200","MYB, SMAD3","0.74695822433182",1
+"34","OXD_thresholded_300","MYB, SMAD3","0.907802423316615",1
+"35","OXD_thresholded_400","MYB, SMAD3","0.967520559495629",1
+"36","OXD_thresholded_477","MYB, SMAD3","0.985685084707847",1

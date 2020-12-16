@@ -1,0 +1,109 @@
+"","Gene set","Overlap","pValue","pAdj"
+"1","#upgenes.DNA_0","CCNE1, E2F4","0.999159941428014",1
+"2","#upgenes.ERS_0","SHC1, PTPN2","0.790554144333029",1
+"3","#upgenes.HTS_0","FKBP4","0.996957178238634",1
+"4","#upgenes.HYP_0","BHLHE40, CDK1, CDKN1A, FKBP4, HDAC1, HIF1A, JUN, MXI1, NR3C1, PDGFB, RELA, TP53","0.0587786093298003",1
+"5","#upgenes.MTL_0","CDK5","0.99372537584668",1
+"6","#upgenes.OXD_0","MYB, PDGFRB, SRC, RHOA, SMAD3, TGFBR2, CRK, FER, FYN","0.0639687416941209",1
+"7","#upgenes.DNA_0.25","CCNE1, E2F4","0.998716663924491",1
+"8","#upgenes.ERS_0.25","SHC1, PTPN2","0.747447752113121",1
+"9","#upgenes.HTS_0.25","FKBP4","0.993718652429622",1
+"10","#upgenes.HYP_0.25","BHLHE40, CDK1, CDKN1A, FKBP4, HDAC1, JUN, MXI1, NR3C1, PDGFB, RELA, TP53","0.0670424760362935",1
+"11","#upgenes.MTL_0.25","CDK5","0.991021543178862",1
+"12","#upgenes.OXD_0.25","PDGFRB, SRC, RHOA, SMAD3, CRK, FER, FYN","0.175134996313944",1
+"13","#upgenes.DNA_0.45","CCNE1, E2F4","0.997008464625199",1
+"14","#upgenes.ERS_0.45","SHC1, PTPN2","0.600389214015216",1
+"15","#upgenes.HTS_0.45","FKBP4","0.985576646732841",1
+"16","#upgenes.HYP_0.45","BHLHE40, CDKN1A, FKBP4, JUN, MXI1, NR3C1, PDGFB, RELA","0.235941992607031",1
+"17","#upgenes.MTL_0.45","CDK5","0.945746701739294",1
+"18","#upgenes.OXD_0.45","SRC, RHOA, SMAD3, CRK, FER, FYN","0.194198254928917",1
+"19","#upgenes.DNA_0.5","CCNE1, E2F4","0.997008464625199",1
+"20","#upgenes.ERS_0.5","SHC1, PTPN2","0.600389214015216",1
+"21","#upgenes.HTS_0.5","FKBP4","0.985576646732841",1
+"22","#upgenes.HYP_0.5","BHLHE40, CDKN1A, FKBP4, JUN, MXI1, NR3C1, PDGFB, RELA","0.235941992607031",1
+"23","#upgenes.MTL_0.5","CDK5","0.945746701739294",1
+"24","#upgenes.OXD_0.5","SRC, RHOA, SMAD3, CRK, FER, FYN","0.194198254928917",1
+"25","#upgenes.DNA_0.65","CCNE1","0.997686613741008",1
+"26","#upgenes.ERS_0.65","PTPN2","0.821032262001866",1
+"27","#upgenes.HTS_0.65","","1",1
+"28","#upgenes.HYP_0.65","BHLHE40, CDKN1A, FKBP4, JUN, MXI1, NR3C1, PDGFB, RELA","0.128845407833586",1
+"29","#upgenes.MTL_0.65","CDK5","0.945746701739294",1
+"30","#upgenes.OXD_0.65","SMAD3, CRK, FYN","0.431000467699234",1
+"31","#upgenes.DNA_0.75","CCNE1","0.997686613741008",1
+"32","#upgenes.ERS_0.75","","1",1
+"33","#upgenes.HTS_0.75","","1",1
+"34","#upgenes.HYP_0.75","BHLHE40, CDKN1A, JUN, MXI1","0.43313260859643",1
+"35","#upgenes.MTL_0.75","","1",1
+"36","#upgenes.OXD_0.75","SMAD3, CRK, FYN","0.431000467699234",1
+"37","#upgenes.DNA_0.85","","1",1
+"38","#upgenes.ERS_0.85","","1",1
+"39","#upgenes.HTS_0.85","","1",1
+"40","#upgenes.HYP_0.85","BHLHE40, CDKN1A, JUN, MXI1","0.13211663836017",1
+"41","#upgenes.MTL_0.85","","1",1
+"42","#upgenes.OXD_0.85","","1",1
+"43","#upgenes.DNA_0.95","","1",1
+"44","#upgenes.ERS_0.95","","1",1
+"45","#upgenes.HTS_0.95","","1",1
+"46","#upgenes.HYP_0.95","BHLHE40, CDKN1A, JUN, MXI1","0.13211663836017",1
+"47","#upgenes.MTL_0.95","","1",1
+"48","#upgenes.OXD_0.95","","1",1
+"49","#upgenes.DNA_1","","1",1
+"50","#upgenes.ERS_1","","1",1
+"51","#upgenes.HTS_1","","1",1
+"52","#upgenes.HYP_1","BHLHE40, CDKN1A, JUN, MXI1","0.13211663836017",1
+"53","#upgenes.MTL_1","","1",1
+"54","#upgenes.OXD_1","","1",1
+"55","#dngenes.DNA_0","CCNE1, E2F4","0.999159941428014",1
+"56","#dngenes.ERS_0","SHC1, PTPN2","0.790554144333029",1
+"57","#dngenes.HTS_0","FKBP4","0.996957178238634",1
+"58","#dngenes.HYP_0","BHLHE40, CDK1, CDKN1A, FKBP4, HDAC1, HIF1A, JUN, MXI1, NR3C1, PDGFB, RELA, TP53","0.0587786093298003",1
+"59","#dngenes.MTL_0","CDK5","0.99372537584668",1
+"60","#dngenes.OXD_0","MYB, PDGFRB, SRC, RHOA, SMAD3, TGFBR2, CRK, FER, FYN","0.0639687416941209",1
+"61","#dngenes.DNA_0.25","CCNE1, E2F4","0.982757790497278",1
+"62","#dngenes.ERS_0.25","SHC1, PTPN2","0.447736418707628",1
+"63","#dngenes.HTS_0.25","FKBP4","0.97505838314108",1
+"64","#dngenes.HYP_0.25","CDK1, FKBP4, HDAC1, HIF1A, NR3C1, PDGFB, RELA, TP53","0.0477164618897026",1
+"65","#dngenes.MTL_0.25","CDK5","0.984614761257299",1
+"66","#dngenes.OXD_0.25","MYB, PDGFRB, SRC, RHOA, SMAD3, TGFBR2, CRK, FER, FYN","0.031688728263294",1
+"67","#dngenes.DNA_0.45","E2F4","0.964495620779725",1
+"68","#dngenes.ERS_0.45","","1",1
+"69","#dngenes.HTS_0.45","FKBP4","0.942352898628422",1
+"70","#dngenes.HYP_0.45","CDK1, HDAC1, HIF1A, TP53","0.208023840694463",1
+"71","#dngenes.MTL_0.45","","1",1
+"72","#dngenes.OXD_0.45","MYB, PDGFRB, SRC, RHOA, TGFBR2, FER","0.0522668341178001",1
+"73","#dngenes.DNA_0.5","E2F4","0.964495620779725",1
+"74","#dngenes.ERS_0.5","","1",1
+"75","#dngenes.HTS_0.5","FKBP4","0.942352898628422",1
+"76","#dngenes.HYP_0.5","CDK1, HDAC1, HIF1A, TP53","0.208023840694463",1
+"77","#dngenes.MTL_0.5","","1",1
+"78","#dngenes.OXD_0.5","MYB, PDGFRB, SRC, RHOA, TGFBR2, FER","0.0522668341178001",1
+"79","#dngenes.DNA_0.65","","1",1
+"80","#dngenes.ERS_0.65","","1",1
+"81","#dngenes.HTS_0.65","","1",1
+"82","#dngenes.HYP_0.65","CDK1, HDAC1, HIF1A, TP53","0.057162786432401",1
+"83","#dngenes.MTL_0.65","","1",1
+"84","#dngenes.OXD_0.65","MYB, PDGFRB, TGFBR2","0.112995994349643",1
+"85","#dngenes.DNA_0.75","","1",1
+"86","#dngenes.ERS_0.75","","1",1
+"87","#dngenes.HTS_0.75","","1",1
+"88","#dngenes.HYP_0.75","HIF1A","0.501687922199782",1
+"89","#dngenes.MTL_0.75","","1",1
+"90","#dngenes.OXD_0.75","MYB, PDGFRB, TGFBR2","0.112995994349643",1
+"91","#dngenes.DNA_0.85","","1",1
+"92","#dngenes.ERS_0.85","","1",1
+"93","#dngenes.HTS_0.85","","1",1
+"94","#dngenes.HYP_0.85","","1",1
+"95","#dngenes.MTL_0.85","","1",1
+"96","#dngenes.OXD_0.85","MYB, TGFBR2","0.0773543761626492",1
+"97","#dngenes.DNA_0.95","","1",1
+"98","#dngenes.ERS_0.95","","1",1
+"99","#dngenes.HTS_0.95","","1",1
+"100","#dngenes.HYP_0.95","","1",1
+"101","#dngenes.MTL_0.95","","1",1
+"102","#dngenes.OXD_0.95","MYB, TGFBR2","0.0773543761626492",1
+"103","#dngenes.DNA_1","","1",1
+"104","#dngenes.ERS_1","","1",1
+"105","#dngenes.HTS_1","","1",1
+"106","#dngenes.HYP_1","","1",1
+"107","#dngenes.MTL_1","","1",1
+"108","#dngenes.OXD_1","MYB, TGFBR2","0.0773543761626492",1

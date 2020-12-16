@@ -1,0 +1,37 @@
+"","Gene set","Overlap","pValue","pAdj"
+"1","DNA_thresholded_050","","1",1
+"2","DNA_thresholded_100","FOXM1","0.82937904135337",1
+"3","DNA_thresholded_200","FOXM1","0.970437962679397",1
+"4","DNA_thresholded_300","FOXM1, CDK2","0.966229080670302",1
+"5","DNA_thresholded_400","FOXM1, CDK2, E2F4","0.967356146841578",1
+"6","DNA_thresholded_477","FOXM1, CDK2, E2F4","0.988065272086763",1
+"7","ERS_thresholded_050","","1",1
+"8","ERS_thresholded_100","","1",1
+"9","ERS_thresholded_200","","1",1
+"10","ERS_thresholded_300","EP300","0.994456184533598",1
+"11","ERS_thresholded_400","EP300, CDC25A","0.991394264434092",1
+"12","ERS_thresholded_477","EP300, CDC25A","0.997218378312204",1
+"13","HTS_thresholded_050","","1",1
+"14","HTS_thresholded_100","GSK3B","0.828002825520094",1
+"15","HTS_thresholded_200","GSK3B, CREBBP, MAPK1, MAPK3","0.443074902517942",1
+"16","HTS_thresholded_300","GSK3B, CREBBP, MAPK1, MAPK3, PPARG","0.565112983533201",1
+"17","HTS_thresholded_400","GSK3B, CREBBP, MAPK1, MAPK3, PPARG, EP300","0.646793221224703",1
+"18","HTS_thresholded_477","GSK3B, CREBBP, MAPK1, MAPK3, PPARG, EP300, AKT1, FOXO1, PPARGC1A","0.358740369980442",1
+"19","HYP_thresholded_050","","1",1
+"20","HYP_thresholded_100","BHLHE40","0.828518733019239",1
+"21","HYP_thresholded_200","BHLHE40","0.970349197976736",1
+"22","HYP_thresholded_300","BHLHE40","0.994780169950818",1
+"23","HYP_thresholded_400","BHLHE40","0.999066675978792",1
+"24","HYP_thresholded_477","BHLHE40","0.999754106220339",1
+"25","MTL_thresholded_050","","1",1
+"26","MTL_thresholded_100","","1",1
+"27","MTL_thresholded_200","","1",1
+"28","MTL_thresholded_300","","1",1
+"29","MTL_thresholded_400","","1",1
+"30","MTL_thresholded_477","ATF1","0.999668852506592",1
+"31","OXD_thresholded_050","SRC","0.585359837756834",1
+"32","OXD_thresholded_100","SRC","0.827143449249304",1
+"33","OXD_thresholded_200","SRC, SMAD3","0.861416376677872",1
+"34","OXD_thresholded_300","SRC, SMAD3, STAT1","0.885967085202434",1
+"35","OXD_thresholded_400","SRC, SMAD3, STAT1","0.964682811161298",1
+"36","OXD_thresholded_477","SRC, SMAD3, STAT1","0.986300376948947",1

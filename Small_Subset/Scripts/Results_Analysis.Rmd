@@ -1,0 +1,229 @@
+---
+title: "Analysis of Initial Small Subset of Cell Stress Compounds"
+output: html_notebook
+---
+
+This Notebook serves as a way to follow the analysis steps and decide what to take forward to the full investigation.
+
+#### Load Packages
+```{r}
+library(ggplot2)
+library(ComplexHeatmap)
+library(org.Hs.eg.db)
+library(ReactomePA)
+library(qusage)
+library(dendextend)
+library(gplots)
+```
+
+#### Analysis of input data
+First we do some simple clustering of the input data to see if there are any underlying patterns in the transcriptomics data (for example, do they cluster based on cell stress or MoA?)
+```{r}
+# Load gene expression matrix
+gex_matrix = read.csv("../Transcriptomics_Data/final_lincs_data.csv",row.names = 1)
+head(gex_matrix)
+```
+As shown above, we have 978 landmark genes and 50 signatures. This is what we are basing our clustering on.
+
+Clustering:
+```{r}
+# Scale
+heat <- t(scale(t(gex_matrix)))
+
+# Plot - seems to split nicely into roughly 6 clusters
+Heatmap(heat, name = "heat",show_row_names=F, column_names_gp = grid::gpar(fontsize = 8),column_split=6)
+```
+Based on this simple and fast clustering we can see that the data can be roughly split into 6 clusters. Starting from the left hand side of the plot (cluster 1), it can be seen that the Geldanamycin response in HEPG2 produces a relatively stable response at different concentrations. Geldanamycin signatures are also present in cluster 2, which is almost identical to cluster 1 apart from the set of overexpressed genes towards the bottom of the plot.These are clustering to radicicol signatures in HEPG2 at 24h, which makes sense as both drugs are HSP90 inhibitors. Clusters 3 and 4 are roughly similar and contain a large amount of compounds, which could indicate a cell stress response rather than a separation due to differing MoAs. Interestingly, Mitomycin HCC515 at 24h and 10uM, and YC-1 in HEPG2 at 24h and 20 and 5 uM have particularly strong responses which is indicated by the darker colours. 
+
+It will be interesting to compare how the compounds cluster on the signalling-protein level and see if this relates to the gene-expression level.
+
+#### Analysis of CausalR results
+
+CausalR results are subnetworks which we can use to perform enrichment and similarity analyses.
+
+First we can perform enrichment analyses to see which pathways or cell stress mechanisms are inferred to be differentially regulated based on the dysregulated signalling proteins reasoned using a PPI network and the above gene expression data.
+
+I first create a simple function to perform enrichment of an input gmt file
+```{r}
+enrichGMT = function(gmt_file,inferred_proteins,net_proteins){
+
+  gmt_read = read.gmt(gmt_file)
+ 
+  all_results = list()
+  for(i in 1:length(gmt_read)){
+    gene_set_name = names(gmt_read[i])
+    gene_set = gmt_read[[i]]
+  
+    
+    a = intersect(gene_set,inferred_proteins)
+    b = setdiff(gene_set,inferred_proteins)
+    c = setdiff(inferred_proteins,gene_set)
+    d = setdiff(net_proteins,c(a,b,c))
+    
+    mat = matrix(data=c(length(a),length(b),length(c),length(d)),nrow=2,ncol=2)
+    
+    enrich = fisher.test(mat,alternative="greater")$p.value
+    
+    res = c(gene_set_name,paste0(a,collapse=", "),enrich)
+    
+    all_results[[i]] = t(data.frame(res))
+  }
+  
+  results_df = data.frame(do.call("rbind",all_results))
+  rownames(results_df) = NULL
+  colnames(results_df) = c("Gene set", "Overlap", "pValue")
+  results_df$pAdj = p.adjust(as.numeric(as.character(results_df$pValue)))
+  
+  return(results_df)
+}
+```
+
+```{r}
+# Get full network for background enrichment
+net = read.csv("../Network_Data/omnipath_full_formatted.csv")
+net_proteins = unique(c(as.character(net$source)),as.character(net$target))
+universe = AnnotationDbi::select(keys=net_proteins,
+                        org.Hs.eg.db,
+                        columns=c("SYMBOL","ENTREZID"),
+                        keytype="SYMBOL"
+                        )$ENTREZID
+  
+# List directories
+causalr_res_dirs = list.dirs("../Results/CausalR",full.names = T)
+causalr_res_dirs = causalr_res_dirs[2:50] # get rid of root dir
+
+# Loop over dirs
+for(dir in causalr_res_dirs){
+  
+  # Network is contained in .sif files
+  sif_files = list.files(path=dir,pattern=".sif",full.names = T)
+  
+  # Combine to make one network and save for visualisation later on
+  net_full <- do.call("rbind", lapply(sif_files, FUN = function(file) {
+    read.table(file, header=F, sep="\t")
+  }))
+  
+  # Save network
+  fname = paste0(dir,"/full_net.siff") # 2 fs so we don't combine it again and again!
+  write.table(net_full,fname,quote = F,sep = "\t",row.names = F, col.names = F)
+  
+  # Extract signalling proteins
+  inferred_proteins = unique(c(as.character(net_full$V1),as.character(net_full$V3)))
+  
+  # Convert to Entrez id
+  conversion = AnnotationDbi::select(keys=inferred_proteins,
+                        org.Hs.eg.db,
+                        columns=c("SYMBOL","ENTREZID"),
+                        keytype="SYMBOL"
+                        )$ENTREZID
+  
+  # Do the enrichment of Reactome pathways
+  enrichment = enrichPathway(conversion,
+                organism="human",
+                universe=universe,
+                readable=T)
+  
+  # Save table
+  fname = paste0(dir,"/reactome_enrichment.csv")
+  write.csv(enrichment@result,fname)
+  
+  # Do the enrichment of the curated gene sets
+  gmt_file = "../../gmt/allsigthdd_10282020.gmt"
+  allsigthdd_res = enrichGMT(gmt_file,inferred_proteins,net_proteins)
+  fname = paste0(dir,"/allsigthdd_enrichment.csv")
+  write.csv(allsigthdd_res,fname)
+  
+  gmt_file = "../../gmt/EXPERIMENTAL_directional_consensus_signatures_V1_EXPERIMENTAL.gmt"
+  experimental_res = enrichGMT(gmt_file,inferred_proteins,net_proteins)
+  fname = paste0(dir,"/experimental_enrichment.csv")
+  write.csv(experimental_res,fname)
+  
+  gmt_file = "../../gmt/nondirectional_consensus_signatures_V1_20200807.gmt"
+  nondirectional_res = enrichGMT(gmt_file,inferred_proteins,net_proteins)
+  fname = paste0(dir,"/nondirectional_enrichment.csv")
+  write.csv(nondirectional_res,fname)
+}
+```
+Now that we have the enrichment results we can compare the output networks based on
+(a) enrichment
+(b) presence of nodes
+In theory, compounds which induce similar cell stress responses will have similar enriched pathways and nodes in the networks.
+
+First we can perform a Jaccard coefficient analysis of networks, where higher Jaccard coefficient = more similar networks, and can thus be inferred to induce a similar response in cellular signalling pathways.
+
+```{r}
+# List directories
+causalr_res_dirs = list.dirs("../Results/CausalR",full.names = T)
+causalr_res_dirs = causalr_res_dirs[2:50] # get rid of root dir
+
+# Pairwise loop over dirs
+jc_results = data.frame()
+for(dir1 in causalr_res_dirs){
+  for(dir2 in causalr_res_dirs){
+    
+    if(dir1==dir2){ # if same then jc = 1 (diagonal)
+      jc = 1
+      exp1 = strsplit(dir1,"/")[[1]][4]
+      exp2 = strsplit(dir2,"/")[[1]][4]
+      # Create row
+      row = t(data.frame(c(exp1,exp2,jc)))
+      jc_results = rbind(jc_results,row)
+      next
+    }
+    
+    # Network is contained in .sif files
+    net_full_1 = read.table(paste0(dir1,"/full_net.siff"),sep="\t")
+    # Extract signalling proteins
+    inferred_proteins_1 = unique(c(as.character(net_full_1$V1),as.character(net_full_1$V3)))
+    
+    # Network is contained in .sif files
+    net_full_2 = read.table(paste0(dir2,"/full_net.siff"),sep="\t")
+    # Extract signalling proteins
+    inferred_proteins_2 = unique(c(as.character(net_full_2$V1),as.character(net_full_2$V3)))
+    
+    # Compute jc
+    jc = length(intersect(inferred_proteins_1,inferred_proteins_2))/length(union(inferred_proteins_1,inferred_proteins_2))
+    
+    # Get experimental conditions
+    exp1 = strsplit(dir1,"/")[[1]][4]
+    exp2 = strsplit(dir2,"/")[[1]][4]
+    
+    # Create row
+    row = t(data.frame(c(exp1,exp2,jc)))
+    jc_results = rbind(jc_results,row)
+  }
+}
+
+# Tidy and save
+rownames(jc_results) = NULL
+colnames(jc_results) = c("exp1","exp2","Jc")
+jc_results$Jc = as.numeric(as.character(jc_results$Jc))
+write.csv(jc_results,"../Results/CausalR/network_jaccards.csv")
+
+# Now do the corr mat
+# Reshape
+jc_results_wide = reshape(jc_results, idvar = "exp1", timevar = "exp2", direction = "wide")
+rownames(jc_results_wide) = jc_results_wide$exp1
+jc_results_wide$exp1 = NULL
+jc_results_wide = as.matrix.data.frame(jc_results_wide)
+
+# Cluster and plot
+jc.dist <- as.dist(1 - jc_results_wide) # turn into dissimilarity matrix
+tree <- hclust(jc.dist, method="complete") # cluster
+dend = as.dendrogram(tree)
+color.scheme <- (brewer.pal(10,"Reds")) # generate the color scheme to use
+heatmap.2(jc_results_wide, 
+          Rowv = ladderize(dend), 
+          Colv = ladderize(dend), 
+          dendrogram = "both", 
+          revC = TRUE,  # rev column order of dendrogram so conforms to natural representation
+          trace = "none", 
+          density.info = "none",
+          col = color.scheme, key = T,
+          margins=c(14,14))
+```
+
+
+
+
+

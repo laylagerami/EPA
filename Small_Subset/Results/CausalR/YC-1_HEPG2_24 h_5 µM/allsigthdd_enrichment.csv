@@ -1,0 +1,37 @@
+"","Gene set","Overlap","pValue","pAdj"
+"1","DNA_thresholded_050","PRKDC","0.662098323506837",1
+"2","DNA_thresholded_100","PRKDC, KAT5","0.631763820055785",1
+"3","DNA_thresholded_200","PRKDC, KAT5","0.927006630991158",1
+"4","DNA_thresholded_300","PRKDC, KAT5, YY1","0.95214501723765",1
+"5","DNA_thresholded_400","PRKDC, KAT5, YY1","0.990408058144993",1
+"6","DNA_thresholded_477","PRKDC, KAT5, YY1, TFDP1, TOPBP1","0.969031242344745",1
+"7","ERS_thresholded_050","","1",1
+"8","ERS_thresholded_100","","1",1
+"9","ERS_thresholded_200","","1",1
+"10","ERS_thresholded_300","EP300, CSNK2B","0.986846527749525",1
+"11","ERS_thresholded_400","EP300, CSNK2B","0.997830521299597",1
+"12","ERS_thresholded_477","EP300, CSNK2B, CSNK2A1","0.996913495119341",1
+"13","HTS_thresholded_050","","1",1
+"14","HTS_thresholded_100","","1",1
+"15","HTS_thresholded_200","ATM, CREBBP, MAPK1, MAPK3","0.604595198841677",1
+"16","HTS_thresholded_300","ATM, CREBBP, MAPK1, MAPK3, CSNK2B, PPARG","0.579735978697393",1
+"17","HTS_thresholded_400","ATM, CREBBP, MAPK1, MAPK3, CSNK2B, PPARG, ATR, CSNK2A1, EP300","0.40370712950982",1
+"18","HTS_thresholded_477","ATM, CREBBP, MAPK1, MAPK3, CSNK2B, PPARG, ATR, CSNK2A1, EP300, AKT1","0.469454425458581",1
+"19","HYP_thresholded_050","MXI1","0.660844052772885",1
+"20","HYP_thresholded_100","MXI1, NFKB1, EGR1","0.354174238482761",1
+"21","HYP_thresholded_200","MXI1, NFKB1, EGR1","0.794939068452894",1
+"22","HYP_thresholded_300","MXI1, NFKB1, EGR1, MYBL2","0.872793264751568",1
+"23","HYP_thresholded_400","MXI1, NFKB1, EGR1, MYBL2, HDAC1","0.915863432670161",1
+"24","HYP_thresholded_477","MXI1, NFKB1, EGR1, MYBL2, HDAC1, NOTCH1, MYOD1","0.851524934855307",1
+"25","MTL_thresholded_050","","1",1
+"26","MTL_thresholded_100","","1",1
+"27","MTL_thresholded_200","","1",1
+"28","MTL_thresholded_300","","1",1
+"29","MTL_thresholded_400","","1",1
+"30","MTL_thresholded_477","","1",1
+"31","OXD_thresholded_050","","1",1
+"32","OXD_thresholded_100","GATA6","0.884065282437761",1
+"33","OXD_thresholded_200","GATA6, SMAD3","0.926429445416048",1
+"34","OXD_thresholded_300","GATA6, SMAD3, MAP3K5, STAT1","0.870870529859362",1
+"35","OXD_thresholded_400","GATA6, SMAD3, MAP3K5, STAT1","0.964579229452639",1
+"36","OXD_thresholded_477","GATA6, SMAD3, MAP3K5, STAT1","0.987852957961366",1
