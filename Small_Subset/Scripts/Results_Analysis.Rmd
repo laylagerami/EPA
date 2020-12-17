@@ -14,6 +14,11 @@ library(ReactomePA)
 library(qusage)
 library(dendextend)
 library(gplots)
+library(tidyverse)
+library(corrr)
+library(igraph)
+library(ggraph)
+library(tidygraph)
 ```
 
 #### Analysis of input data
@@ -157,6 +162,7 @@ causalr_res_dirs = list.dirs("../Results/CausalR",full.names = T)
 causalr_res_dirs = causalr_res_dirs[2:50] # get rid of root dir
 
 # Pairwise loop over dirs
+# NB loop is not very time-efficient but it doesn't take too long
 jc_results = data.frame()
 for(dir1 in causalr_res_dirs){
   for(dir2 in causalr_res_dirs){
@@ -222,8 +228,79 @@ heatmap.2(jc_results_wide,
           col = color.scheme, key = T,
           margins=c(14,14))
 ```
+Now let's compare the enrichment results. We will use the custom gene sets rather than the Reactome results, as we mostly care about the cell stress mechanism. We use the same principle as above but instead of computing Jaccard coefficients between two experiment's network nodes, we are computing correlation coefficients between cell stress mechanism gene sets. 
+
+```{r}
+# List directories
+causalr_res_dirs = list.dirs("../Results/CausalR",full.names = T)
+causalr_res_dirs = causalr_res_dirs[2:50] # get rid of root dir
+
+# Pairwise loop over dirs
+# NB loop is not very time-efficient but it doesn't take too long
+cor_results = data.frame()
+for(dir1 in causalr_res_dirs){
+  for(dir2 in causalr_res_dirs){
+    
+    if(dir1==dir2){ # if same then jc = 1 (diagonal)
+      cor_coef = 1
+      exp1 = strsplit(dir1,"/")[[1]][4]
+      exp2 = strsplit(dir2,"/")[[1]][4]
+      # Create row
+      row = t(data.frame(c(exp1,exp2,cor_coef)))
+      cor_results = rbind(cor_results,row)
+      next
+    }
+    
+    # Get the enrichment results - start w experimental enrichment as there are more entries there
+    enrich_1 = read.table(paste0(dir1,"/experimental_enrichment.csv"),sep=",",header = T,row.names = 1)
+    # Extract p value 
+    enrich_1_p = enrich_1$pValue
+    
+    enrich_2 = read.table(paste0(dir2,"/experimental_enrichment.csv"),sep=",",header = T,row.names = 1)
+    # Extract p value 
+    enrich_2_p = enrich_2$pValue
+    
+    # Compute corr_coef
+    cor_coef = cor(enrich_1_p,enrich_2_p,method="pearson")
+    
+    # Get experimental conditions
+    exp1 = strsplit(dir1,"/")[[1]][4]
+    exp2 = strsplit(dir2,"/")[[1]][4]
+    
+    # Create row
+    row = t(data.frame(c(exp1,exp2,cor_coef)))
+    cor_results = rbind(cor_results,row)
+  }
+}
+
+# Tidy and save
+rownames(cor_results) = NULL
+colnames(cor_results) = c("exp1","exp2","cor_coef")
+cor_results$cor_coef = as.numeric(as.character(cor_results$cor_coef))
+write.csv(cor_results,"../Results/CausalR/network_enrichment_correlations.csv")
+
+# Now do the corr mat
+# Reshape
+cor_results_wide = reshape(cor_results, idvar = "exp1", timevar = "exp2", direction = "wide")
+rownames(cor_results_wide) = cor_results_wide$exp1
+cor_results_wide$exp1 = NULL
+cor_results_wide = as.matrix.data.frame(cor_results_wide)
+
+# Cluster and plot
+cor.dist <- as.dist(1 - cor_results_wide) # turn into dissimilarity matrix
+tree <- hclust(cor.dist, method="complete") # cluster
+dend = as.dendrogram(tree)
+color.scheme <- (brewer.pal(10,"Reds")) # generate the color scheme to use
+heatmap.2(cor_results_wide, 
+          Rowv = ladderize(dend), 
+          Colv = ladderize(dend), 
+          dendrogram = "both", 
+          revC = TRUE,  # rev column order of dendrogram so conforms to natural representation
+          trace = "none", 
+          density.info = "none",
+          col = color.scheme, key = T,
+          margins=c(14,14))
+```
 
 
-
-
-
+Other analysis can be done as well e.g. time or dose analysis, examining if any particular protein drivers are over-represented in certain cell stress classes, etc.
