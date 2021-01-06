@@ -1,0 +1,327 @@
+digraph {
+
+AKT1->FOXO1 [penwidth=1, color=black, arrowhead="tee"]
+CSNK2A1->CTNNB1 [penwidth=1, color=black, arrowhead="vee"]
+STAT3->PRDM1 [penwidth=1, color=black, arrowhead="vee"]
+CTNNB1->FOXO1 [penwidth=1, color=black, arrowhead="vee"]
+CTNNB1->FOXO3 [penwidth=1, color=black, arrowhead="vee"]
+CEBPB->FOXO1 [penwidth=1, color=black, arrowhead="vee"]
+CTNNB1->TCF7L2 [penwidth=1, color=black, arrowhead="vee"]
+SMAD2->TCF7L2 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->FOS [penwidth=1, color=black, arrowhead="vee"]
+CEBPB->STAT3 [penwidth=1, color=black, arrowhead="vee"]
+STAT3->SPI1 [penwidth=1, color=black, arrowhead="vee"]
+PAK1->CTNNB1 [penwidth=1, color=black, arrowhead="vee"]
+CDK5->PAK1 [penwidth=1, color=black, arrowhead="tee"]
+MAPK14->MEF2C [penwidth=1, color=black, arrowhead="vee"]
+RPS6KA5->ATF1 [penwidth=1, color=black, arrowhead="vee"]
+PPP2CA->SMAD2 [penwidth=1, color=black, arrowhead="vee"]
+CTNNB1->TCF4 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->STAT3 [penwidth=1, color=black, arrowhead="vee"]
+AKT1->FOXO3 [penwidth=1, color=black, arrowhead="tee"]
+MAPK14->RPS6KA5 [penwidth=1, color=black, arrowhead="vee"]
+GSK3A->CTNNB1 [penwidth=1, color=black, arrowhead="tee"]
+GSK3A->NFATC1 [penwidth=1, color=black, arrowhead="tee"]
+MAPK14->CSNK2A1 [penwidth=1, color=black, arrowhead="vee"]
+PPP2CA->CTNNB1 [penwidth=1, color=black, arrowhead="vee"]
+PPP2CA->FOXO3 [penwidth=1, color=black, arrowhead="vee"]
+PPP2CA->FOXO1 [penwidth=1, color=black, arrowhead="vee"]
+CSNK2A1->TWIST1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK1->FOXO1 [penwidth=1, color=black, arrowhead="tee"]
+MAPK1->FOXO3 [penwidth=1, color=black, arrowhead="tee"]
+GSK3A->GATA6 [penwidth=1, color=black, arrowhead="tee"]
+MAPK1->MYB [penwidth=1, color=black, arrowhead="tee"]
+CSNK2A1->ATF1 [penwidth=1, color=black, arrowhead="vee"]
+DUSP9->MAPK14 [penwidth=1, color=black, arrowhead="tee"]
+MAPK1->PPARG [penwidth=1, color=black, arrowhead="tee"]
+RPS6KA5->STAT3 [penwidth=1, color=black, arrowhead="vee"]
+RPS6KA5->ETV1 [penwidth=1, color=black, arrowhead="vee"]
+RPS6KA5->FOS [penwidth=1, color=black, arrowhead="vee"]
+MAPK1->STK11 [penwidth=1, color=black, arrowhead="tee"]
+MAPK14->TWIST1 [penwidth=1, color=black, arrowhead="vee"]
+TLX1->PPP2CA [penwidth=1, color=black, arrowhead="tee"]
+CSNK2A1->HDAC1 [penwidth=1, color=black, arrowhead="vee"]
+CSNK2A1->YY1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->FOXO3 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->FOXO1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->HBP1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK1->BCL6 [penwidth=1, color=black, arrowhead="tee"]
+MAPK1->POU5F1 [penwidth=1, color=black, arrowhead="tee"]
+PAK1->ELF3 [penwidth=1, color=black, arrowhead="vee"]
+AMER1->WT1 [penwidth=1, color=black, arrowhead="vee"]
+CSNK2A1->NFATC1 [penwidth=1, color=black, arrowhead="vee"]
+STK11->ETV4 [penwidth=1, color=black, arrowhead="vee"]
+STAT3->TWIST1 [penwidth=1, color=black, arrowhead="vee"]
+SMAD2->MEF2C [penwidth=1, color=black, arrowhead="vee"]
+STAT3->FOXO1 [penwidth=1, color=black, arrowhead="vee"]
+NR2C2AP->NR2C2 [penwidth=1, color=black, arrowhead="tee"]
+MYB->CEBPB [penwidth=1, color=black, arrowhead="vee"]
+Perturbation->AMER1 [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->E2F7 [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->MEIS2 [penwidth=1, color=red, arrowhead="tee"]
+MAPK1->GABPA [penwidth=1, color=red, arrowhead="vee"]
+E2F7->SP1 [penwidth=1, color=red, arrowhead="tee"]
+SP1->TBX21 [penwidth=1, color=red, arrowhead="vee"]
+MAPK14->MAPK1 [penwidth=1, color=red, arrowhead="tee"]
+ATF2->ATF3 [penwidth=1, color=red, arrowhead="vee"]
+AKT1->NRF1 [penwidth=1, color=red, arrowhead="vee"]
+DUSP9->MAPK1 [penwidth=1, color=red, arrowhead="vee"]
+NR0B2->ESRRA [penwidth=1, color=red, arrowhead="vee"]
+PPP2CA->AKT1 [penwidth=1, color=red, arrowhead="tee"]
+PPP2CA->ELF1 [penwidth=1, color=red, arrowhead="tee"]
+PPP2CA->MAPK1 [penwidth=1, color=red, arrowhead="tee"]
+HDAC1->MYOD1 [penwidth=1, color=red, arrowhead="tee"]
+CSNK2A1->SP1 [penwidth=1, color=red, arrowhead="tee"]
+CSNK2A1->SPIB [penwidth=1, color=red, arrowhead="tee"]
+CAPN1->GSK3A [penwidth=1, color=red, arrowhead="vee"]
+CDK5->CLOCK [penwidth=1, color=red, arrowhead="vee"]
+MAPK1->SP1 [penwidth=1, color=red, arrowhead="vee"]
+MAPK1->ATF2 [penwidth=1, color=red, arrowhead="vee"]
+MAPK1->CAPN1 [penwidth=1, color=red, arrowhead="vee"]
+CSNK1D->CDK5 [penwidth=1, color=red, arrowhead="vee"]
+HDAC1->KLF1 [penwidth=1, color=red, arrowhead="tee"]
+STAT3->MYOD1 [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->CSNK1D [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->DUSP9 [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->NR0B2 [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->NR2C2AP [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->TLX1 [penwidth=1, color=red, arrowhead="vee"]
+MAPK3->CEBPB [penwidth=1, color=black, arrowhead="vee"]
+MAPK3->STAT3 [penwidth=1, color=black, arrowhead="vee"]
+MAPK3->SMAD2 [penwidth=1, color=black, arrowhead="vee"]
+MAPK11->SMAD2 [penwidth=1, color=black, arrowhead="vee"]
+MAPK3->FOS [penwidth=1, color=black, arrowhead="vee"]
+MAPK3->RPS6KA2 [penwidth=1, color=black, arrowhead="vee"]
+RPS6KA2->ETV1 [penwidth=1, color=black, arrowhead="vee"]
+RPS6KA2->FOS [penwidth=1, color=black, arrowhead="vee"]
+MAPK3->CSNK2A1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK3->PPARG [penwidth=1, color=black, arrowhead="vee"]
+MAPK3->TWIST1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK11->HBP1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK11->TWIST1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK3->MED1 [penwidth=1, color=black, arrowhead="vee"]
+DUSP8->MAPK3 [penwidth=1, color=black, arrowhead="tee"]
+DUSP8->MAPK11 [penwidth=1, color=black, arrowhead="tee"]
+MAPK11->MEF2C [penwidth=1, color=black, arrowhead="vee"]
+MED1->GATA6 [penwidth=1, color=black, arrowhead="vee"]
+Perturbation->DUSP8 [penwidth=1, color=red, arrowhead="vee"]
+AKT2->TWIST1 [penwidth=1, color=black, arrowhead="vee"]
+AKT2->CTNNB1 [penwidth=1, color=black, arrowhead="vee"]
+AKT2->POU5F1 [penwidth=1, color=black, arrowhead="vee"]
+CSNK2A1->AKT2 [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->AKT2 [penwidth=1, color=black, arrowhead="vee"]
+DUSP26->MAPK14 [penwidth=1, color=black, arrowhead="tee"]
+AKT1->AKT2 [penwidth=1, color=black, arrowhead="tee"]
+Perturbation->AMER1 [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->E2F7 [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->MEIS2 [penwidth=1, color=red, arrowhead="vee"]
+AKT2->GSK3A [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->CSNK1D [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->DUSP26 [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->NR0B2 [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->NR2C2AP [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->TLX1 [penwidth=1, color=red, arrowhead="tee"]
+DUSP16->MAPK3 [penwidth=1, color=black, arrowhead="tee"]
+DUSP16->MAPK11 [penwidth=1, color=black, arrowhead="tee"]
+MAPK1->DUSP16 [penwidth=1, color=red, arrowhead="vee"]
+RPS6KA4->FOS [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->RPS6KA4 [penwidth=1, color=black, arrowhead="vee"]
+RPS6KA4->ATF1 [penwidth=1, color=black, arrowhead="vee"]
+DUSP10->MAPK14 [penwidth=1, color=black, arrowhead="tee"]
+RPS6KA4->ETV1 [penwidth=1, color=black, arrowhead="vee"]
+JAZF1->NR2C2 [penwidth=1, color=black, arrowhead="tee"]
+PAWR->WT1 [penwidth=1, color=black, arrowhead="tee"]
+Perturbation->DUSP10 [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->JAZF1 [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->PAWR [penwidth=1, color=red, arrowhead="tee"]
+AKT3->CTNNB1 [penwidth=1, color=black, arrowhead="vee"]
+AKT3->TWIST1 [penwidth=1, color=black, arrowhead="vee"]
+CSNK2A1->AKT3 [penwidth=1, color=black, arrowhead="vee"]
+AKT3->POU5F1 [penwidth=1, color=black, arrowhead="vee"]
+AKT3->GSK3A [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->PAWR [penwidth=1, color=red, arrowhead="vee"]
+SET->PPP2CB [penwidth=1, color=black, arrowhead="tee"]
+DUSP14->MAPK3 [penwidth=1, color=black, arrowhead="tee"]
+DUSP14->MAPK14 [penwidth=1, color=black, arrowhead="tee"]
+PPP2CB->AKT1 [penwidth=1, color=red, arrowhead="tee"]
+PPP2CB->ELF1 [penwidth=1, color=red, arrowhead="tee"]
+CSNK2A1->SET [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->DUSP14 [penwidth=1, color=red, arrowhead="tee"]
+MAPK3->RPS6KA1 [penwidth=1, color=black, arrowhead="vee"]
+RPS6KA1->FOS [penwidth=1, color=black, arrowhead="vee"]
+RPS6KA1->ETV1 [penwidth=1, color=black, arrowhead="vee"]
+PCSK7->PPP2CA [penwidth=1, color=black, arrowhead="vee"]
+Perturbation->PCSK7 [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->PCSK7 [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->DUSP8 [penwidth=1, color=red, arrowhead="tee"]
+SRC->STAT3 [penwidth=1, color=red, arrowhead="vee"]
+TIPRL->PPP2CA [penwidth=1, color=black, arrowhead="tee"]
+SRC->PPARG [penwidth=1, color=red, arrowhead="vee"]
+MAPK3->MYB [penwidth=1, color=red, arrowhead="tee"]
+RPS6KA3->ETV1 [penwidth=1, color=black, arrowhead="vee"]
+RPS6KA3->FOS [penwidth=1, color=black, arrowhead="vee"]
+MAPK3->STK11 [penwidth=1, color=red, arrowhead="tee"]
+SRC->RPS6KA3 [penwidth=1, color=red, arrowhead="vee"]
+SRC->CTNNB1 [penwidth=1, color=red, arrowhead="vee"]
+MAPK3->BCL6 [penwidth=1, color=red, arrowhead="tee"]
+MAPK3->FOXO3 [penwidth=1, color=red, arrowhead="tee"]
+MAPK3->PAK1 [penwidth=1, color=red, arrowhead="tee"]
+MAPK3->POU5F1 [penwidth=1, color=red, arrowhead="tee"]
+MAPK3->FOXO1 [penwidth=1, color=red, arrowhead="tee"]
+MAPK3->NFATC1 [penwidth=1, color=red, arrowhead="tee"]
+PTPN13->SRC [penwidth=1, color=black, arrowhead="vee"]
+SRC->MAPK14 [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->PTPN13 [penwidth=1, color=red, arrowhead="vee"]
+MAPK3->GABPA [penwidth=1, color=black, arrowhead="vee"]
+MAPK14->MAPK3 [penwidth=1, color=red, arrowhead="tee"]
+PPP2CA->MAPK3 [penwidth=1, color=red, arrowhead="tee"]
+RPS6KA3->GSK3A [penwidth=1, color=red, arrowhead="tee"]
+MAPK3->SP1 [penwidth=1, color=black, arrowhead="vee"]
+MAPK3->ATF2 [penwidth=1, color=black, arrowhead="vee"]
+Perturbation->TIPRL [penwidth=1, color=red, arrowhead="tee"]
+SRC->PPP2CA [penwidth=1, color=black, arrowhead="tee"]
+GRK2->MAPK14 [penwidth=1, color=black, arrowhead="tee"]
+Perturbation->PRKCH [penwidth=1, color=red, arrowhead="tee"]
+SRC->GRK2 [penwidth=1, color=red, arrowhead="vee"]
+SRC->AKT1 [penwidth=1, color=red, arrowhead="vee"]
+CDK5->SRC [penwidth=1, color=red, arrowhead="vee"]
+PRKCH->GSK3A [penwidth=1, color=red, arrowhead="tee"]
+SRC->MAPK1 [penwidth=1, color=red, arrowhead="vee"]
+PRKCH->SRC [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->JAZF1 [penwidth=1, color=red, arrowhead="vee"]
+MAPK1->CAPN2 [penwidth=1, color=red, arrowhead="vee"]
+CAPN2->GSK3A [penwidth=1, color=red, arrowhead="vee"]
+CSNK1D->AXIN1 [penwidth=1, color=red, arrowhead="vee"]
+AXIN1->GSK3A [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->TIPRL [penwidth=1, color=red, arrowhead="vee"]
+DUSP7->MAPK14 [penwidth=1, color=black, arrowhead="tee"]
+DUSP7->MAPK3 [penwidth=1, color=black, arrowhead="tee"]
+Perturbation->DUSP7 [penwidth=1, color=red, arrowhead="vee"]
+MAPK14->MAPKAPK2 [penwidth=1, color=black, arrowhead="vee"]
+PPP2R1B->PPP2CA [penwidth=1, color=black, arrowhead="vee"]
+MAPKAPK2->ETV1 [penwidth=1, color=black, arrowhead="vee"]
+Perturbation->PPP2R1B [penwidth=1, color=red, arrowhead="vee"]
+IGBP1->PPP2CA [penwidth=1, color=black, arrowhead="vee"]
+Perturbation->IGBP1 [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->DUSP10 [penwidth=1, color=red, arrowhead="vee"]
+DUSP8->MAPK14 [penwidth=1, color=red, arrowhead="vee"]
+DUSP8->MAPK1 [penwidth=1, color=black, arrowhead="tee"]
+PPP2R2C->SRC [penwidth=1, color=black, arrowhead="tee"]
+Perturbation->PPP2R2C [penwidth=1, color=red, arrowhead="tee"]
+Perturbation->PPP2R2C [penwidth=1, color=red, arrowhead="vee"]
+MAPK3->RPS6KA4 [penwidth=1, color=black, arrowhead="vee"]
+TLX1->PPP2CB [penwidth=1, color=black, arrowhead="tee"]
+Perturbation->DUSP9 [penwidth=1, color=red, arrowhead="tee"]
+DUSP10->MAPK3 [penwidth=1, color=black, arrowhead="tee"]
+Perturbation->PRKCH [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->DUSP14 [penwidth=1, color=red, arrowhead="vee"]
+MAPK3->RPS6KA5 [penwidth=1, color=black, arrowhead="vee"]
+Perturbation->DUSP7 [penwidth=1, color=red, arrowhead="tee"]
+DUSP2->MAPK14 [penwidth=1, color=black, arrowhead="vee"]
+Perturbation->DUSP2 [penwidth=1, color=red, arrowhead="vee"]
+MAPK3->RPS6KA3 [penwidth=1, color=black, arrowhead="vee"]
+FLT4->RPS6KA3 [penwidth=1, color=black, arrowhead="tee"]
+SRC->FLT4 [penwidth=1, color=red, arrowhead="vee"]
+MAPK11->RPS6KA5 [penwidth=1, color=black, arrowhead="vee"]
+Perturbation->IGBP1 [penwidth=1, color=red, arrowhead="vee"]
+Perturbation->PPP2R1B [penwidth=1, color=red, arrowhead="tee"]
+PTPN21->SRC [penwidth=1, color=black, arrowhead="vee"]
+Perturbation->PTPN21 [penwidth=1, color=red, arrowhead="tee"]
+DUSP10->MAPK11 [penwidth=1, color=black, arrowhead="tee"]
+Perturbation [style=filled, color=black, fillcolor=white, shape=invhouse];
+FOS [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+ATF3 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+KLF1 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+MEF2C [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+FOXO3 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+TCF4 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+TWIST1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+NR2C2 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+ELF3 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+WT1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+MYB [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+HBP1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+ESRRA [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+GATA6 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+GABPA [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+MYOD1 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+MEIS2 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+FOXO1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+SMAD2 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+YY1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+NRF1 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+ATF1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+PPARG [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+CEBPB [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+NFATC1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+SPIB [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+ETV1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+ETV4 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+TBX21 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+BCL6 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+SPI1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+TCF7L2 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+PRDM1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+CLOCK [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+POU5F1 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+ELF1 [style=filled, color=red, fillcolor=mistyrose, shape=doublecircle];
+E2F7 [style=filled, color=black, fillcolor=lavender, shape=doublecircle];
+AKT1 [style=filled, fillcolor=mistyrose];
+CSNK2A1 [style=filled, fillcolor=lavender];
+STAT3 [style=filled, fillcolor=lavender];
+CTNNB1 [style=filled, fillcolor=lavender];
+MAPK14 [style=filled, fillcolor=lavender];
+PAK1 [style=filled, fillcolor=lavender];
+CDK5 [style=filled, fillcolor=mistyrose];
+RPS6KA5 [style=filled, fillcolor=lavender];
+PPP2CA [style=filled, fillcolor=lavender];
+GSK3A [style=filled, fillcolor=mistyrose];
+MAPK1 [style=filled, fillcolor=mistyrose];
+DUSP9 [style=filled, fillcolor=mistyrose];
+TLX1 [style=filled, fillcolor=mistyrose];
+AMER1 [style=filled, fillcolor=lavender];
+STK11 [style=filled, fillcolor=lavender];
+NR2C2AP [style=filled, fillcolor=mistyrose];
+SP1 [style=filled, fillcolor=mistyrose];
+ATF2 [style=filled, fillcolor=mistyrose];
+NR0B2 [style=filled, fillcolor=mistyrose];
+HDAC1 [style=filled, fillcolor=lavender];
+CAPN1 [style=filled, fillcolor=mistyrose];
+CSNK1D [style=filled, fillcolor=mistyrose];
+MAPK3 [style=filled, fillcolor=lavender];
+MAPK11 [style=filled, fillcolor=lavender];
+RPS6KA2 [style=filled, fillcolor=lavender];
+DUSP8 [style=filled, fillcolor=mistyrose];
+MED1 [style=filled, fillcolor=lavender];
+AKT2 [style=filled, fillcolor=lavender];
+DUSP26 [style=filled, fillcolor=mistyrose];
+DUSP16 [style=filled, fillcolor=mistyrose];
+RPS6KA4 [style=filled, fillcolor=lavender];
+DUSP10 [style=filled, fillcolor=mistyrose];
+JAZF1 [style=filled, fillcolor=mistyrose];
+PAWR [style=filled, fillcolor=mistyrose];
+AKT3 [style=filled, fillcolor=lavender];
+SET [style=filled, fillcolor=mistyrose];
+DUSP14 [style=filled, fillcolor=mistyrose];
+PPP2CB [style=filled, fillcolor=lavender];
+RPS6KA1 [style=filled, fillcolor=lavender];
+PCSK7 [style=filled, fillcolor=lavender];
+SRC [style=filled, fillcolor=mistyrose];
+TIPRL [style=filled, fillcolor=mistyrose];
+RPS6KA3 [style=filled, fillcolor=lavender];
+PTPN13 [style=filled, fillcolor=lavender];
+GRK2 [style=filled, fillcolor=mistyrose];
+PRKCH [style=filled, fillcolor=lavender];
+CAPN2 [style=filled, fillcolor=mistyrose];
+AXIN1 [style=filled, fillcolor=mistyrose];
+DUSP7 [style=filled, fillcolor=mistyrose];
+PPP2R1B [style=filled, fillcolor=lavender];
+MAPKAPK2 [style=filled, fillcolor=lavender];
+IGBP1 [style=filled, fillcolor=lavender];
+PPP2R2C [style=filled, fillcolor=mistyrose];
+DUSP2 [style=filled, fillcolor=lavender];
+FLT4 [style=filled, fillcolor=mistyrose];
+PTPN21 [style=filled, fillcolor=lavender];
+
+
+}
