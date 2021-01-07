@@ -1,6 +1,6 @@
 This folder contains the current results for the small subset of data. 
 Each signature was run through CausalR and CARNIVAL
-CARNIVAL results are pending...
+
 
 Cytoscape_Nets.pptx -> Tutorial showing how to visualise networks 
 Metadata -> Compound metadata e.g. sig id to pert id mapping
@@ -15,3 +15,5 @@ Results -> CausalR -> Contains several things:
 	d. ResultsTable* -> Ranked list of nodes output from CausalR
 4. Scripts -> Various scripts, most important is the Results_Analysis.Rmd which contains some preliminary analysis
 5. Transcriptomics_Data -> Raw and processed LINCS data
+
+Corresponding results for CARNIVAL can be found in Results/CARNIVAL
