@@ -16,4 +16,4 @@ Results -> CausalR -> Contains several things:
 4. Scripts -> Various scripts, most important is the Results_Analysis.Rmd which contains some preliminary analysis
 5. Transcriptomics_Data -> Raw and processed LINCS data
 
-Corresponding results for CARNIVAL can be found in Results/CARNIVAL
+Corresponding results for CARNIVAL can be found in Results/CARNIVAL. Note that the output is not in the same format as CausalR, instead the subnetworks are in the form of a .dot file which can be opened directly for visualisation in GraphViz https://graphviz.org/
