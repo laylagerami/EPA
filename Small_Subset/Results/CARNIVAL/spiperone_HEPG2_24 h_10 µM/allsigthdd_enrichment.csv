@@ -1,0 +1,37 @@
+"","Gene set","Overlap","pValue","pAdj"
+"1","DNA_thresholded_050","","1",1
+"2","DNA_thresholded_100","","1",1
+"3","DNA_thresholded_200","","1",1
+"4","DNA_thresholded_300","CDK2","0.99989300135198",1
+"5","DNA_thresholded_400","CDK2","0.999994755724753",1
+"6","DNA_thresholded_477","CDK2","0.999999480732574",1
+"7","ERS_thresholded_050","GSK3A","0.782760361976675",1
+"8","ERS_thresholded_100","GSK3A","0.952450172327153",1
+"9","ERS_thresholded_200","GSK3A","0.997616325281425",1
+"10","ERS_thresholded_300","GSK3A","0.999878919123334",1
+"11","ERS_thresholded_400","GSK3A","0.999993465456269",1
+"12","ERS_thresholded_477","GSK3A, CSNK2A1","0.999988644024277",1
+"13","HTS_thresholded_050","","1",1
+"14","HTS_thresholded_100","","1",1
+"15","HTS_thresholded_200","MAPK1","0.997776150493003",1
+"16","HTS_thresholded_300","MAPK1","0.999887701584281",1
+"17","HTS_thresholded_400","MAPK1, CSNK2A1, SUMO1","0.99943345278197",1
+"18","HTS_thresholded_477","MAPK1, CSNK2A1, SUMO1, AKT1","0.999563269713254",1
+"19","HYP_thresholded_050","","1",1
+"20","HYP_thresholded_100","EGR1","0.953136610405344",1
+"21","HYP_thresholded_200","EGR1","0.997772340556404",1
+"22","HYP_thresholded_300","EGR1","0.999890794227269",1
+"23","HYP_thresholded_400","EGR1","0.999994501519157",1
+"24","HYP_thresholded_477","EGR1","0.99999945724665",1
+"25","MTL_thresholded_050","","1",1
+"26","MTL_thresholded_100","","1",1
+"27","MTL_thresholded_200","CDK5","0.997519295488617",1
+"28","MTL_thresholded_300","CDK5","0.999863765754858",1
+"29","MTL_thresholded_400","CDK5","0.999991818652328",1
+"30","MTL_thresholded_477","CDK5","0.999999095747405",1
+"31","OXD_thresholded_050","MYB, SRC","0.444037912625288",1
+"32","OXD_thresholded_100","MYB, SRC","0.803425603792712",1
+"33","OXD_thresholded_200","MYB, SRC, SMAD3","0.938431433314554",1
+"34","OXD_thresholded_300","MYB, SRC, SMAD3, STAT1","0.977437850269551",1
+"35","OXD_thresholded_400","MYB, SRC, SMAD3, STAT1","0.997244294740194",1
+"36","OXD_thresholded_477","MYB, SRC, SMAD3, STAT1","0.999493579835723",1

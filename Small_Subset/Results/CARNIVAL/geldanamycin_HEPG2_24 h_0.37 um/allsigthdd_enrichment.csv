@@ -1,0 +1,37 @@
+"","Gene set","Overlap","pValue","pAdj"
+"1","DNA_thresholded_050","CHEK1","0.751745784577935",1
+"2","DNA_thresholded_100","CHEK1","0.938378350537718",1
+"3","DNA_thresholded_200","CHEK1","0.996110914544738",1
+"4","DNA_thresholded_300","CHEK1, CDK2","0.997572011767126",1
+"5","DNA_thresholded_400","CHEK1, CDK2","0.999793748496863",1
+"6","DNA_thresholded_477","CHEK1, CDK2","0.999969999378124",1
+"7","ERS_thresholded_050","GSK3A","0.749995854343449",1
+"8","ERS_thresholded_100","GSK3A","0.937069180239197",1
+"9","ERS_thresholded_200","GSK3A","0.995845123098865",1
+"10","ERS_thresholded_300","GSK3A","0.999722377308879",1
+"11","ERS_thresholded_400","GSK3A","0.999980400933231",1
+"12","ERS_thresholded_477","GSK3A, CSNK2A1","0.999961800782608",1
+"13","HTS_thresholded_050","","1",1
+"14","HTS_thresholded_100","PRKACA","0.937603473662496",1
+"15","HTS_thresholded_200","PRKACA, MAPK3","0.973526105810265",1
+"16","HTS_thresholded_300","PRKACA, MAPK3","0.99747582221638",1
+"17","HTS_thresholded_400","PRKACA, MAPK3, CSNK2A1","0.998567624145368",1
+"18","HTS_thresholded_477","PRKACA, MAPK3, CSNK2A1, AKT1","0.998757953271418",1
+"19","HYP_thresholded_050","","1",1
+"20","HYP_thresholded_100","EGR1","0.937894370680538",1
+"21","HYP_thresholded_200","EGR1","0.996092733722961",1
+"22","HYP_thresholded_300","EGR1","0.999747208724653",1
+"23","HYP_thresholded_400","EGR1, HDAC1","0.999785521744683",1
+"24","HYP_thresholded_477","EGR1, HDAC1","0.99996886683636",1
+"25","MTL_thresholded_050","","1",1
+"26","MTL_thresholded_100","","1",1
+"27","MTL_thresholded_200","CDK5","0.99569188625534",1
+"28","MTL_thresholded_300","CDK5","0.999691013055714",1
+"29","MTL_thresholded_400","CDK5","0.999975965317735",1
+"30","MTL_thresholded_477","CDK5","0.999996746896309",1
+"31","OXD_thresholded_050","","1",1
+"32","OXD_thresholded_100","","1",1
+"33","OXD_thresholded_200","SMAD3, FYN","0.973283664778947",1
+"34","OXD_thresholded_300","SMAD3, FYN","0.997460390334098",1
+"35","OXD_thresholded_400","SMAD3, FYN","0.999759926420718",1
+"36","OXD_thresholded_477","SMAD3, FYN","0.999961177588654",1

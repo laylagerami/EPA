@@ -1,0 +1,37 @@
+"","Gene set","Overlap","pValue","pAdj"
+"1","DNA_thresholded_050","","1",1
+"2","DNA_thresholded_100","","1",1
+"3","DNA_thresholded_200","","1",1
+"4","DNA_thresholded_300","","1",1
+"5","DNA_thresholded_400","","1",1
+"6","DNA_thresholded_477","TP73","0.999981365847015",1
+"7","ERS_thresholded_050","","1",1
+"8","ERS_thresholded_100","","1",1
+"9","ERS_thresholded_200","","1",1
+"10","ERS_thresholded_300","CEBPB","0.998872285600628",1
+"11","ERS_thresholded_400","CEBPB","0.999874673894506",1
+"12","ERS_thresholded_477","CEBPB, CSNK2A1","0.999709746959912",1
+"13","HTS_thresholded_050","","1",1
+"14","HTS_thresholded_100","GSK3B","0.899683472756824",1
+"15","HTS_thresholded_200","GSK3B, MAPK1, MAPK3","0.828345787317797",1
+"16","HTS_thresholded_300","GSK3B, MAPK1, MAPK3","0.9638841361154",1
+"17","HTS_thresholded_400","GSK3B, MAPK1, MAPK3, CSNK2A1","0.976623043725017",1
+"18","HTS_thresholded_477","GSK3B, MAPK1, MAPK3, CSNK2A1","0.9931833666134",1
+"19","HYP_thresholded_050","","1",1
+"20","HYP_thresholded_100","NFKB1","0.900071521303064",1
+"21","HYP_thresholded_200","NFKB1","0.989906725143901",1
+"22","HYP_thresholded_300","NFKB1","0.9989566042203",1
+"23","HYP_thresholded_400","NFKB1, NR4A1","0.998816267208128",1
+"24","HYP_thresholded_477","NFKB1, NR4A1","0.999754379158596",1
+"25","MTL_thresholded_050","","1",1
+"26","MTL_thresholded_100","","1",1
+"27","MTL_thresholded_200","","1",1
+"28","MTL_thresholded_300","","1",1
+"29","MTL_thresholded_400","","1",1
+"30","MTL_thresholded_477","","1",1
+"31","OXD_thresholded_050","MYB","0.683356384494591",1
+"32","OXD_thresholded_100","MYB","0.899036292268427",1
+"33","OXD_thresholded_200","MYB, SMAD3","0.941266076257579",1
+"34","OXD_thresholded_300","MYB, SMAD3","0.991194973000857",1
+"35","OXD_thresholded_400","MYB, SMAD3","0.998702464774736",1
+"36","OXD_thresholded_477","MYB, SMAD3","0.999705887918597",1

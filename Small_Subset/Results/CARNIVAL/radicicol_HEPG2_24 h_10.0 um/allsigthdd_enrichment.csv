@@ -1,0 +1,37 @@
+"","Gene set","Overlap","pValue","pAdj"
+"1","DNA_thresholded_050","","1",1
+"2","DNA_thresholded_100","","1",1
+"3","DNA_thresholded_200","","1",1
+"4","DNA_thresholded_300","SFN","0.99999902162459",1
+"5","DNA_thresholded_400","SFN","0.999999989807108",1
+"6","DNA_thresholded_477","SFN","0.999999999692173",1
+"7","ERS_thresholded_050","GSK3A","0.900810802075013",1
+"8","ERS_thresholded_100","GSK3A","0.990048725836894",1
+"9","ERS_thresholded_200","GSK3A","0.999892727646294",1
+"10","ERS_thresholded_300","GSK3A","0.999998820306208",1
+"11","ERS_thresholded_400","GSK3A","0.999999985780995",1
+"12","ERS_thresholded_477","GSK3A, EIF2S1, CSNK2A1","0.999999858121459",1
+"13","HTS_thresholded_050","","1",1
+"14","HTS_thresholded_100","PRKACA, GSK3B","0.943090439062139",1
+"15","HTS_thresholded_200","PRKACA, GSK3B, MAPK1, MAPK3","0.98007527751085",1
+"16","HTS_thresholded_300","PRKACA, GSK3B, MAPK1, MAPK3","0.99932939403738",1
+"17","HTS_thresholded_400","PRKACA, GSK3B, MAPK1, MAPK3, EIF2S1, CSNK2A1","0.999633860653526",1
+"18","HTS_thresholded_477","PRKACA, GSK3B, MAPK1, MAPK3, EIF2S1, CSNK2A1, AKT1, FOS","0.999627644525674",1
+"19","HYP_thresholded_050","","1",1
+"20","HYP_thresholded_100","","1",1
+"21","HYP_thresholded_200","","1",1
+"22","HYP_thresholded_300","","1",1
+"23","HYP_thresholded_400","HDAC1","0.999999989050152",1
+"24","HYP_thresholded_477","HDAC1","0.99999999967086",1
+"25","MTL_thresholded_050","","1",1
+"26","MTL_thresholded_100","","1",1
+"27","MTL_thresholded_200","CDK5","0.999886050735902",1
+"28","MTL_thresholded_300","CDK5","0.999998589834834",1
+"29","MTL_thresholded_400","CDK5","0.999999980020326",1
+"30","MTL_thresholded_477","CDK5","0.999999999287352",1
+"31","OXD_thresholded_050","SRC","0.901003402073086",1
+"32","OXD_thresholded_100","SRC","0.990061541872507",1
+"33","OXD_thresholded_200","SRC, SMAD3","0.998946048748578",1
+"34","OXD_thresholded_300","SRC, SMAD3, PAWR","0.999869540979619",1
+"35","OXD_thresholded_400","SRC, SMAD3, PAWR","0.999997154204908",1
+"36","OXD_thresholded_477","SRC, SMAD3, PAWR","0.99999985432264",1

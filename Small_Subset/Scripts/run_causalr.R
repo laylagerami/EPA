@@ -6,7 +6,7 @@ library(foreach)
 library(doParallel)
 
 # Initialise cluster
-n = 2 # change to number of cores needed
+n = 20 # change to number of cores needed
 myCluster <- makeCluster(n, type="FORK",outfile="") 
 registerDoParallel(myCluster)
 

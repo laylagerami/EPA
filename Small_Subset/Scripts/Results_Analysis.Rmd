@@ -40,6 +40,8 @@ Heatmap(heat, name = "heat",show_row_names=F, column_names_gp = grid::gpar(fonts
 ```
 Based on this simple and fast clustering we can see that the data can be roughly split into 6 clusters. Starting from the left hand side of the plot (cluster 1), it can be seen that the Geldanamycin response in HEPG2 produces a relatively stable response at different concentrations. Geldanamycin signatures are also present in cluster 2, which is almost identical to cluster 1 apart from the set of overexpressed genes towards the bottom of the plot.These are clustering to radicicol signatures in HEPG2 at 24h, which makes sense as both drugs are HSP90 inhibitors. Clusters 3 and 4 are roughly similar and contain a large amount of compounds, which could indicate a cell stress response rather than a separation due to differing MoAs. Interestingly, Mitomycin HCC515 at 24h and 10uM, and YC-1 in HEPG2 at 24h and 20 and 5 uM have particularly strong responses which is indicated by the darker colours. 
 
+Note that there are replicates at this stage which were combined for the purpose of Causal Reasoning analysis. 
+
 It will be interesting to compare how the compounds cluster on the signalling-protein level and see if this relates to the gene-expression level.
 
 #### Analysis of CausalR results

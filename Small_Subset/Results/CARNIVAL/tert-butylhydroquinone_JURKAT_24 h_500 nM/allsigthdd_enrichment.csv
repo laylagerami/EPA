@@ -1,0 +1,37 @@
+"","Gene set","Overlap","pValue","pAdj"
+"1","DNA_thresholded_050","BRCA1","0.825177266514757",1
+"2","DNA_thresholded_100","BRCA1","0.969442285206969",1
+"3","DNA_thresholded_200","BRCA1","0.999037883748515",1
+"4","DNA_thresholded_300","BRCA1","0.999969290086141",1
+"5","DNA_thresholded_400","BRCA1","0.999999002841263",1
+"6","DNA_thresholded_477","BRCA1","0.999999927998165",1
+"7","ERS_thresholded_050","GSK3A","0.823634394836922",1
+"8","ERS_thresholded_100","GSK3A","0.968628033314923",1
+"9","ERS_thresholded_200","GSK3A","0.998954937639864",1
+"10","ERS_thresholded_300","GSK3A, EP300","0.999580275236886",1
+"11","ERS_thresholded_400","GSK3A, EP300","0.999980034812904",1
+"12","ERS_thresholded_477","GSK3A, EP300, CSNK2A1","0.999982964367934",1
+"13","HTS_thresholded_050","","1",1
+"14","HTS_thresholded_100","","1",1
+"15","HTS_thresholded_200","MAPK1","0.99903413331605",1
+"16","HTS_thresholded_300","MAPK1","0.999967557208892",1
+"17","HTS_thresholded_400","MAPK1, SIRT1, CSNK2A1, EP300","0.999276396229366",1
+"18","HTS_thresholded_477","MAPK1, SIRT1, CSNK2A1, EP300, AKT1, FOXO1","0.998500083896363",1
+"19","HYP_thresholded_050","","1",1
+"20","HYP_thresholded_100","NFKB1, EGR1","0.85835947609259",1
+"21","HYP_thresholded_200","NFKB1, EGR1","0.992000289428928",1
+"22","HYP_thresholded_300","NFKB1, EGR1","0.999622549249517",1
+"23","HYP_thresholded_400","NFKB1, EGR1","0.999983350019744",1
+"24","HYP_thresholded_477","NFKB1, EGR1, ARNT","0.999986632559517",1
+"25","MTL_thresholded_050","","1",1
+"26","MTL_thresholded_100","","1",1
+"27","MTL_thresholded_200","","1",1
+"28","MTL_thresholded_300","","1",1
+"29","MTL_thresholded_400","","1",1
+"30","MTL_thresholded_477","","1",1
+"31","OXD_thresholded_050","","1",1
+"32","OXD_thresholded_100","","1",1
+"33","OXD_thresholded_200","ROCK2, SMAD3","0.991919122039431",1
+"34","OXD_thresholded_300","ROCK2, SMAD3, PAWR, STAT1","0.990726161184235",1
+"35","OXD_thresholded_400","ROCK2, SMAD3, PAWR, STAT1","0.999228084672939",1
+"36","OXD_thresholded_477","ROCK2, SMAD3, PAWR, STAT1, SIRT1, ARNT","0.998262820748649",1

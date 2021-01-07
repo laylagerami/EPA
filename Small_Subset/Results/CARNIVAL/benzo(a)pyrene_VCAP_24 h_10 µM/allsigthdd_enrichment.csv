@@ -1,0 +1,37 @@
+"","Gene set","Overlap","pValue","pAdj"
+"1","DNA_thresholded_050","BRCA1","0.820275702907882",1
+"2","DNA_thresholded_100","BRCA1","0.967704664873307",1
+"3","DNA_thresholded_200","BRCA1","0.998925855168172",1
+"4","DNA_thresholded_300","BRCA1","0.999963789269914",1
+"5","DNA_thresholded_400","BRCA1","0.999998758547788",1
+"6","DNA_thresholded_477","BRCA1","0.999999906542868",1
+"7","ERS_thresholded_050","","1",1
+"8","ERS_thresholded_100","","1",1
+"9","ERS_thresholded_200","","1",1
+"10","ERS_thresholded_300","EP300","0.999958422457567",1
+"11","ERS_thresholded_400","EP300","0.99999841250817",1
+"12","ERS_thresholded_477","EP300, CSNK2A1","0.999997646065987",1
+"13","HTS_thresholded_050","","1",1
+"14","HTS_thresholded_100","","1",1
+"15","HTS_thresholded_200","MAPK1","0.998921733425784",1
+"16","HTS_thresholded_300","MAPK1","0.999961778717948",1
+"17","HTS_thresholded_400","MAPK1, CSNK2A1, EP300, SUMO1","0.999140917115469",1
+"18","HTS_thresholded_477","MAPK1, CSNK2A1, EP300, SUMO1, FOS","0.99950136752333",1
+"19","HYP_thresholded_050","","1",1
+"20","HYP_thresholded_100","","1",1
+"21","HYP_thresholded_200","TRAF6","0.998919668365983",1
+"22","HYP_thresholded_300","TRAF6","0.999962953355811",1
+"23","HYP_thresholded_400","TRAF6","0.999998691094446",1
+"24","HYP_thresholded_477","TRAF6, NOTCH1","0.999998176987797",1
+"25","MTL_thresholded_050","","1",1
+"26","MTL_thresholded_100","","1",1
+"27","MTL_thresholded_200","","1",1
+"28","MTL_thresholded_300","","1",1
+"29","MTL_thresholded_400","","1",1
+"30","MTL_thresholded_477","","1",1
+"31","OXD_thresholded_050","","1",1
+"32","OXD_thresholded_100","","1",1
+"33","OXD_thresholded_200","ROCK2, SMAD3","0.991108491444659",1
+"34","OXD_thresholded_300","ROCK2, SMAD3, PAWR, PCGF2, STAT1","0.969303738499296",1
+"35","OXD_thresholded_400","ROCK2, SMAD3, PAWR, PCGF2, STAT1","0.996523053042137",1
+"36","OXD_thresholded_477","ROCK2, SMAD3, PAWR, PCGF2, STAT1","0.999416816941147",1
